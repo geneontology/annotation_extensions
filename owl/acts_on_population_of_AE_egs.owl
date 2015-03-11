@@ -1,0 +1,19 @@
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/dosumis/ontologies/2015/2/acts_on_population_of_AE_egs.owl>
+Import(<http://purl.obolibrary.org/obo/go/extensions/go-plus.owl>)
+Import(<http://purl.obolibrary.org/obo/go/extensions/gorel.owl>)
+Import(<http://purl.obolibrary.org/obo/cl/cl-simple.owl>)
+
+
+
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0005025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_2ac9d189_44c9_4852_8a03_e5de120eb0ad>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_2ac9d189_44c9_4852_8a03_e5de120eb0ad> "Example 1")
+EquivalentClasses(<http://purl.obolibrary.org/obo/scratch_2ac9d189_44c9_4852_8a03_e5de120eb0ad> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/GOREL_0001006> <http://purl.obolibrary.org/obo/CL_0005025>) <http://purl.obolibrary.org/obo/GO_0008045>))
+)
