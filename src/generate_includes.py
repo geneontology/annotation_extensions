@@ -16,7 +16,7 @@ relations = [ "GOREL_0001006" ]
 for r in relations:
     label = gorel.getLabel(r)
     usage = gorel.getAnnotation(r, "usage")
-    usage_md = open(label + "_usage.md", "w")
+    usage_md = open("../.gitdown/" + label + "_usage.md", "w")
     usage_md.write(usage)
     usage_md.close()
 
