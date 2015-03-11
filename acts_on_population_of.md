@@ -1,4 +1,4 @@
-Definition
+Usage
 ----------
 
 The relationship that links an entity with a process in which the process has more than one participant that is of the same entity type.
