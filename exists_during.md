@@ -1,4 +1,4 @@
-Definition
+Usage
 ----------
 
 Identifies a process or stage during which a cellular component is present.
