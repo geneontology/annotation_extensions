@@ -1,6 +1,8 @@
 var gulp = require('gulp'),
     Gitdown = require('gitdown');
 
+// TODO: edit to iterate of AE files
+
 gulp.task('gitdown', function () {
     return Gitdown
         .read('.gitdown/README.md')
