@@ -1,26 +1,14 @@
-Usage
+Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
+
+Definition
 ----------
 
 The relationship that links an entity with a process in which the process has more than one participant that is of the same entity type.
-
-{"gitdown": "include", "file": "USAGE_acts_on_population_of.md"}
-
 
 Child terms
 -----------
 
 -   None.
-
-Scope of use
-------------
-
-### Domain
-
-<GO:0003674> (molecular\_function) or <GO:0008150> (biological\_process)
-
-### Range
-
-CL:0000000 (cell) or <GO:0005575> (cellular component) or WBbt:0004017 (cell)
 
 Annotation Extension Usage Examples
 -----------------------------------
@@ -35,8 +23,8 @@ Statement from paper:
 |------------------------------------------------|--------------------------------------------------------------------------|-------------------|------------------|------------------------------------------------------------------------------------------|
 | O08665 <span style="color:green">Sema3a</span> | <GO:0008045> <span style="color:green">motor neuron axon guidance</span> | <PMID:18804103>   | IMP              | acts\_on\_population of(CL:0005025 <span style="color:green">visceromotor neuron</span>) |
 
-Using example (from above) to demonstrate [Folding\_and\_Unfolding][] using the relationship acts\_on\_population\_of
----------------------------------------------------------------------------------------------------------------------
+Using example (from above) to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "wikilink") using the relationship acts\_on\_population\_of
+-----------------------------------------------------------------------------------------------------------------------------------------------------
 
 **1. SEMA3A signals through NRP1 and PLXNA4 to guide the axons of facial visceromotor neurons:**
 
@@ -47,10 +35,6 @@ Using example (from above) to demonstrate [Folding\_and\_Unfolding][] using the 
 
 ------------------------------------------------------------------------
 
-Back to [Annotation usage examples for each annotation extension relation][]
+Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-<Category:relations> [Category:annotation extension][]
-
-  [Annotation usage examples for each annotation extension relation]: http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation
-  [Folding\_and\_Unfolding]: Folding_and_Unfolding "wikilink"
-  [Category:annotation extension]: Category:annotation extension "wikilink"
+<Category:relations> [Category:annotation extension](Category:annotation extension "wikilink")

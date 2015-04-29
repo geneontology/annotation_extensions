@@ -1,0 +1,18 @@
+{
+    "BFO:0000007": "BFO:0000007",
+    "CHEBI:24431": "chemical entity",
+    "CHEBI:33697": "ribonucleic acid",
+    "CL:0000000": "cell",
+    "GO:0003674": "molecular_function",
+    "GO:0005575": "cellular_component",
+    "GO:0032991": "macromolecular complex",
+    "GO:0051716": "cellular response to stimulus",
+    "MI:0315": "protein complex",
+    "PO:0025131": "plant anatomical entity",
+    "PR:000000001": "PR:000000001",
+    "SO:0000673": "transcript",
+    "SO:0000704": "gene",
+    "UBERON:0001062": "anatomical entity",
+    "WBbt:0004017": "Cell",
+    "WBbt:0005766": "Anatomy"
+}
