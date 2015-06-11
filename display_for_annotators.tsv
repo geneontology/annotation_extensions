@@ -17,7 +17,12 @@ in_presence_of	in_presence_of	GOREL:0000027	chemical, display_for_curators, sequ
 inhibited_by	inhibited_by	GOREL:0000508	chemical, display_for_curators
 occurs_at	occurs at	GOREL:0000501	GO:cellular_component, display_for_curators, sequence_feature
 occurs_in	occurs in		GO:cellular_component, cell_or_anatomical, display_for_curators
+part_of	part of		GO:biological_process, GO:cellular_component, cell_or_anatomical, developmental_stages, display_for_curators, valid_for_annotation
+regulates_activity_of	regulates activity of	GOREL:0098702	display_for_curators, sequence_or_complex
 regulates_expression_of	regulates expression of	GOREL:0098789	display_for_curators, sequence_feature
+regulates_o_has_agent	regulates_o_has_agent	GOREL:0001011	display_for_curators, not_for_annotation_extension
+regulates_o_has_input	regulates_o_has_input	GOREL:0001030	display_for_curators, not_for_annotation_extension
+regulates_o_has_participant	regulates_o_has_participant	GOREL:0001016	display_for_curators, not_for_annotation_extension
 regulates_o_occurs_in	regulates process that occurs in	GOREL:0001004	display_for_curators
 regulates_o_results_in_acquisition_of_features_of	regulates acquisition of features of	GOREL:0001010	display_for_curators
 regulates_o_results_in_commitment_to	regulates commitment to	GOREL:0001022	display_for_curators
