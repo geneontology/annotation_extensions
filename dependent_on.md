@@ -12,7 +12,8 @@ Considerable guidance is required in order to ensure edits follow consistent app
 SOURCE| ANNOTATED| GO_ID | GO_NAME | ANNOTATION EXTENSIONS | EVIDENCE | PUB TYPE | PUB ACC |
 ------|----------|-------|---------|-----------------------|----------|----------|---------|
 SGD | P25632 | GO:0015616 | DNA translocase activity | dependent_on(CHEBI:15422: ATP | IDA | PMID | 17918861
-wide range of BP and MFs with ChEBI IDs. Possible activated_by or has_input?  							
+
+wide range of BP and MFs with ChEBI IDs. Possible activated\_by or has\_input?  							
 							
 ## GO ID
 SOURCE| ANNOTATED| GO_ID | GO_NAME | ANNOTATION EXTENSIONS | EVIDENCE | PUB TYPE | PUB ACC |
@@ -23,16 +24,18 @@ SWIS | Q7TS55 | GO:0045785 | positive regulation of cell adhesion | dependent_on
 SWIS | P07108 | GO:0046983 | protein dimerization activity | dependent_on(GO:0036042) long-chain fatty acyl-CoA binding  | IDA | PMID | 21079819
 BHFL | O43474 | GO:0045944 | positive regulation of transcription from RNA polymerase II promoter | dependent_on(GO:0000165 MAPK cascade | IGI | PMID | 20551324
 
-all BP and MF annotations C16 dependent_on GO IDs, consider changing to part_of, or reversing extension and using causally_upstream_of	
+all BP and MF annotations C16 dependent_on GO IDs, consider changing to part\_of, or reversing extension and using causally\_upstream\_of	
 
 SOURCE| ANNOTATED| GO_ID | GO_NAME | ANNOTATION EXTENSIONS | EVIDENCE | PUB TYPE | PUB ACC |
 ------|----------|-------|---------|-----------------------|----------|----------|---------|					
 SWIS | Q60855 | GO:0097527 | necroptotic signaling pathway | dependent_on(GO:0004672) protein kinase activity | IMP | PMID | 21876153
-would this one work in reverse, stating protein kinase activity part of necroptotic signaling pathway?							
+would this one work in reverse, stating protein kinase activity part of necroptotic signaling pathway?				
+
 SOURCE| ANNOTATED| GO_ID | GO_NAME | ANNOTATION EXTENSIONS | EVIDENCE | PUB TYPE | PUB ACC |
 ------|----------|-------|---------|-----------------------|----------|----------|---------|					
 SWIS | Q15485 | GO:0001867 | complement activation, lectin pathway | dependent_on(GO:0003823 antigen binding | IDA | PMID | 14707097
-would this one work in reverse, stating antigen binding part of complement activation, lectin pathway?							
+would this one work in reverse, stating antigen binding part of complement activation, lectin pathway?				
+
 SOURCE| ANNOTATED| GO_ID | GO_NAME | ANNOTATION EXTENSIONS | EVIDENCE | PUB TYPE | PUB ACC |
 ------|----------|-------|---------|-----------------------|----------|----------|---------|
 SGD | P04147 | GO:0010494 | cytoplasmic stress granule | dependent_on(GO:0034605) cellular response to heat | IDA | PMID | 24291094
