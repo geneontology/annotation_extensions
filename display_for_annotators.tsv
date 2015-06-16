@@ -1,50 +1,58 @@
-obo id / shorthand	label	RO/GOREL ID	subsets
-activated_by	activated_by	GOREL:0000507	chemical, display_for_curators
-acts_on_population_of	acts_on_population_of	GOREL:0001006	cell_or_anatomical, display_for_curators
-adjacent_to	adjacent to	RO:0002220	GO:cellular_component, cell_or_anatomical, display_for_curators
-causally_upstream_of	causally upstream of	RO:0002411	GO:biological_process, GO:molecular_function, display_for_curators
-coincident_with	coincident with	RO:0002008	GO:cellular_component, display_for_curators, ro-eco
-dependent_on	dependent_on	GOREL:0000004	GO:biological_process, GO:molecular_function, chemical, display_for_curators, sequence_feature, sequence_or_complex
-exists_during	exists_during	GOREL:0000032	GO:biological_process, developmental_stages, display_for_curators
-happens_during	happens during	GOREL:0000001	GO:biological_process, developmental_stages, display_for_curators, ro-eco
-has_agent	has active participant	RO:0002218	GO:cellular_component, cell_or_anatomical, display_for_curators, ro-eco
-has_direct_input	has_direct_input	GOREL:0000752	chemical, display_for_curators, sequence_or_complex
-has_input	has input	RO:0002233	chemical, display_for_curators, ro-eco, sequence_or_complex
-has_output	has output	RO:0002234	chemical, display_for_curators, ro-eco, sequence_or_complex
-has_participant	has participant	RO:0000057	display_for_curators, not_for_annotation_extension
-has_regulation_target	has_regulation_target	GOREL:0000015	display_for_curators, sequence_or_complex
-in_presence_of	in_presence_of	GOREL:0000027	chemical, display_for_curators, sequence_or_complex
-inhibited_by	inhibited_by	GOREL:0000508	chemical, display_for_curators
-occurs_at	occurs at	GOREL:0000501	GO:cellular_component, display_for_curators, sequence_feature
-occurs_in	occurs in		GO:cellular_component, cell_or_anatomical, display_for_curators
-part_of	part of		GO:biological_process, GO:cellular_component, cell_or_anatomical, developmental_stages, display_for_curators, valid_for_annotation
-regulates_activity_of	regulates activity of	GOREL:0098702	display_for_curators, sequence_or_complex
-regulates_expression_of	regulates expression of	GOREL:0098789	display_for_curators, sequence_feature
-regulates_o_has_agent	regulates_o_has_agent	GOREL:0001011	display_for_curators, not_for_annotation_extension
-regulates_o_has_input	regulates_o_has_input	GOREL:0001030	display_for_curators, not_for_annotation_extension
-regulates_o_has_participant	regulates_o_has_participant	GOREL:0001016	display_for_curators, not_for_annotation_extension
-regulates_o_occurs_in	regulates process that occurs in	GOREL:0001004	display_for_curators
-regulates_o_results_in_acquisition_of_features_of	regulates acquisition of features of	GOREL:0001010	display_for_curators
-regulates_o_results_in_commitment_to	regulates commitment to	GOREL:0001022	display_for_curators
-regulates_o_results_in_development_of	regulates development of	GOREL:0001023	display_for_curators
-regulates_o_results_in_division_of	regulates division of	GOREL:0001024	display_for_curators
-regulates_o_results_in_formation_of	regulates formation of	GOREL:0001025	display_for_curators
-regulates_o_results_in_maturation_of	regulates maturation of	GOREL:0001012	display_for_curators
-regulates_o_results_in_morphogenesis_of	regulates_o_results_in_morphogenesis_of	GOREL:0001026	display_for_curators
-regulates_o_results_in_movement_of	regulates process that results in movement of	GOREL:0001005	display_for_curators
-regulates_o_results_in_specification_of	regulates specification of	GOREL:0001027	display_for_curators
-regulates_transcription_of	regulates transcription of	GOREL:0098788	display_for_curators, sequence_feature
-regulates_translation_of	regulates translation of	GOREL:0098790	display_for_curators
-regulates_transport_of	regulates transport of	RO:0002011	chemical, display_for_curators, regulates_o_transports_or_maintains_localization_of, ro-eco
-results_in_acquisition_of_features_of	results in acquisition of features of	RO:0002315	cell_or_anatomical, display_for_curators
-results_in_commitment_to	results in commitment to	RO:0002348	cell_or_anatomical, display_for_curators
-results_in_determination_of	results in determination of	RO:0002349	cell_or_anatomical, display_for_curators
-results_in_development_of	results in development of	RO:0002296	GO:cellular_component, cell_or_anatomical, display_for_curators
-results_in_division_of	results_in_division_of	GOREL:0001019	cell_or_anatomical, display_for_curators
-results_in_formation_of	results in formation of	RO:0002297	cell_or_anatomical, display_for_curators
-results_in_maturation_of	results in maturation of	RO:0002299	GO:cellular_component, cell_or_anatomical, display_for_curators
-results_in_morphogenesis_of	results in morphogenesis of	RO:0002298	GO:cellular_component, cell_or_anatomical, display_for_curators
-results_in_movement_of	results in movement of	RO:0002565	cell_or_anatomical, display_for_curators
-results_in_specification_of	results in specification of	RO:0002356	cell_or_anatomical, display_for_curators
-stabilizes	stabilizes	GOREL:0000018	display_for_curators, sequence_or_complex
-transports_or_maintains_localization_of	transports or maintains localization of	RO:0002313	GO:cellular_component, chemical, display_for_curators
+obo id / shorthand	label	RO/GOREL ID	subsets	Checked by RH	Comments
+activated_by	activated_by	GOREL:0000507	chemical, display_for_curators, valid_for_extension	Y	N.B. display_for_curators means the relation will appear in the QG visualisation graph (ontology editors need to check those that need to appear to give graph structure), valid_for_extension means the relation will appear in P2GO drop-down
+acts_on_population_of	acts_on_population_of	GOREL:0001006	cell_or_anatomical, display_for_curators, valid_for_extension, GO:cellular_component	Y	
+adjacent_to	adjacent to	RO:0002220	GO:cellular_component, cell_or_anatomical, display_for_curators 	Y	Remove from display_for_curators subset. Local domain and range needs to be specified.
+causally_upstream_of	causally upstream of	RO:0002411	GO:biological_process, GO:molecular_function, display_for_curators, valid_for_extension	Y	
+coincident_with	coincident with	RO:0002008	GO:cellular_component, display_for_curators, ro-eco	Y	Remove from display_for_curators subset
+dependent_on	dependent_on	GOREL:0000004	GO:biological_process, GO:molecular_function, chemical, display_for_curators, sequence_feature, sequence_or_complex, valid_for_extension	Y	Need to decide if this is being kept (and children such as localization_dependent_on)
+exists_during	exists_during	GOREL:0000032	GO:biological_process, developmental_stages, display_for_curators, valid_for_extension	Y	
+happens_during	happens during	GOREL:0000001	GO:biological_process, developmental_stages, display_for_curators, ro-eco, valid_for_extension	Y	
+has_agent	has active participant	RO:0002218	GO:cellular_component, cell_or_anatomical, display_for_curators, ro-eco, valid_for_extension	Y	Need to set local domain to GO:biological process
+has_direct_input	has_direct_input	GOREL:0000752	chemical, display_for_curators, sequence_or_complex, valid_for_extension	Y	
+has_input	has input	RO:0002233	chemical, display_for_curators, ro-eco, sequence_or_complex, valid_for_extension	Y	Consider removing GO:0051716 Cellular response to stimulus from local range - should use part_of for response to
+has_output	has output	RO:0002234	chemical, display_for_curators, ro-eco, sequence_or_complex, valid_for_extension	Y	
+has_participant	has participant	RO:0000057	display_for_curators, not_for_annotation_extension	Y	Shouldn't need local domain and range if not used in extensions
+has_regulation_target	has_regulation_target	GOREL:0000015	display_for_curators, sequence_or_complex, valid_for_extension	Y	
+in_presence_of	in_presence_of	GOREL:0000027	chemical, display_for_curators, sequence_or_complex, valid_for_extension	Y	Need to decide if this is being kept. If kept, consider removing CC from domain as this type of annotation should instead be captured as: gp that would have been in the range should be annotated to a 'protein localization' term and transports_or_maintains_localization_of X in the extension.
+inhibited_by	inhibited_by	GOREL:0000508	chemical, display_for_curators, valid_for_extension	Y	
+occurs_at	occurs at	GOREL:0000501	GO:cellular_component, display_for_curators, sequence_feature, valid_for_extension	Y	
+occurs_in	occurs in		GO:cellular_component, cell_or_anatomical, display_for_curators, valid_for_extension	Y	
+part_of	part of		GO:biological_process, GO:cellular_component, cell_or_anatomical, developmental_stages, display_for_curators, valid_for_annotation,  valid_for_extension	Y	Has valid_for_annotation subset, which is not used anywhere else.
+regulates_activity_of	regulates activity of	GOREL:0098702	display_for_curators, sequence_or_complex, valid_for_extension	Y	
+regulates_expression_of	regulates expression of	GOREL:0098789	display_for_curators, sequence_feature, valid_for_extension	Y	Need a local domain and range. Why is the domain BFO:0000015? Most of the others are BFO:0000007 which we have been interpreting as MF or BP.
+regulates_o_has_agent	regulates_o_has_agent	GOREL:0001011	display_for_curators, not_for_annotation_extension, valid_for_extension	Y	
+regulates_o_has_input	regulates_o_has_input	GOREL:0001030	display_for_curators, not_for_annotation_extension	Y	Has not been used so far, not sure if it is useful
+regulates_o_has_participant	regulates_o_has_participant	GOREL:0001016	display_for_curators, not_for_annotation_extension	Y	Has been used by MGI, but probably should not be used as we don't use has_participant itself
+regulates_o_occurs_in	regulates process that occurs in	GOREL:0001004	display_for_curators, valid_for_extension	Y	Should have same local range as occurs_in
+regulates_o_results_in_acquisition_of_features_of	regulates acquisition of features of	GOREL:0001010	display_for_curators, valid_for_extension	Y	
+regulates_o_results_in_commitment_to	regulates commitment to	GOREL:0001022	display_for_curators, valid_for_extension	Y	
+regulates_o_results_in_development_of	regulates development of	GOREL:0001023	display_for_curators, valid_for_extension	Y	
+regulates_o_results_in_division_of	regulates division of	GOREL:0001024	display_for_curators, valid_for_extension	Y	
+regulates_o_results_in_formation_of	regulates formation of	GOREL:0001025	display_for_curators, valid_for_extension	Y	
+regulates_o_results_in_maturation_of	regulates maturation of	GOREL:0001012	display_for_curators, valid_for_extension	Y	
+regulates_o_results_in_morphogenesis_of	regulates_o_results_in_morphogenesis_of	GOREL:0001026	display_for_curators, valid_for_extension	Y	
+regulates_o_results_in_movement_of	regulates process that results in movement of	GOREL:0001005	display_for_curators, valid_for_extension	Y	
+regulates_o_results_in_specification_of	regulates specification of	GOREL:0001027	display_for_curators, valid_for_extension	Y	
+regulates_transcription_of	regulates transcription of	GOREL:0098788	display_for_curators, sequence_feature, valid_for_extension	Y	Need a local domain and range
+regulates_translation_of	regulates translation of	GOREL:0098790	display_for_curators, sequence_feature, valid_for_extension	Y	Need a local domain and range
+regulates_transport_of	regulates transport of	RO:0002011	chemical, display_for_curators, regulates_o_transports_or_maintains_localization_of, ro-eco, sequence_or_complex, valid_for_extension		Need a local domain and range. Why does this have subset regulates_o_transports_or_maintains_localization_of?
+results_in_acquisition_of_features_of	results in acquisition of features of	RO:0002315	cell_or_anatomical, display_for_curators, valid_for_extension	Y	
+results_in_commitment_to	results in commitment to	RO:0002348	cell_or_anatomical, display_for_curators, valid_for_extension	Y	
+results_in_determination_of	results in determination of	RO:0002349	cell_or_anatomical, display_for_curators, valid_for_extension	Y	
+results_in_development_of	results in development of	RO:0002296	GO:cellular_component, cell_or_anatomical, display_for_curators, valid_for_extension	Y	
+results_in_division_of	results_in_division_of	GOREL:0001019	cell_or_anatomical, display_for_curators, valid_for_extension	Y	
+results_in_formation_of	results in formation of	RO:0002297	cell_or_anatomical, display_for_curators, valid_for_extension	Y	
+results_in_maturation_of	results in maturation of	RO:0002299	GO:cellular_component, cell_or_anatomical, display_for_curators, valid_for_extension	Y	
+results_in_morphogenesis_of	results in morphogenesis of	RO:0002298	GO:cellular_component, cell_or_anatomical, display_for_curators, valid_for_extension	Y	
+results_in_movement_of	results in movement of	RO:0002565	cell_or_anatomical, display_for_curators, valid_for_extension	Y	
+results_in_specification_of	results in specification of	RO:0002356	cell_or_anatomical, display_for_curators, valid_for_extension	Y	
+stabilizes	stabilizes	GOREL:0000018	display_for_curators, sequence_or_complex, sequence_feature, valid_for_extension	Y	
+transports_or_maintains_localization_of	transports or maintains localization of	RO:0002313	GO:cellular_component, chemical, display_for_curators, sequence_or_complex, sequence_feature, valid_for_extension	Y	
+					
+Missing from AE but in RO:					
+regulates_o_acts_on_population_of			cell_or_anatomical, display_for_curators, valid_for_extension, GO:cellular_component	Y	
+					
+Missing from RO:					
+regulates_o_occurs_at			GO:cellular_component, display_for_curators, sequence_feature, valid_for_extension	Y	
+
+Decision about whether or not to keep the 2 relationships dependent_on and in_presence_of
