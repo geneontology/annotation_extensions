@@ -48,11 +48,4 @@ results_in_movement_of	results in movement of	RO:0002565	cell_or_anatomical, dis
 results_in_specification_of	results in specification of	RO:0002356	cell_or_anatomical, display_for_curators, valid_for_extension	Y	
 stabilizes	stabilizes	GOREL:0000018	display_for_curators, sequence_or_complex, sequence_feature, valid_for_extension	Y	
 transports_or_maintains_localization_of	transports or maintains localization of	RO:0002313	GO:cellular_component, chemical, display_for_curators, sequence_or_complex, sequence_feature, valid_for_extension	Y	
-					
-Missing from AE but in RO:					
-regulates_o_acts_on_population_of			cell_or_anatomical, display_for_curators, valid_for_extension, GO:cellular_component	Y	
-					
-Missing from RO:					
-regulates_o_occurs_at			GO:cellular_component, display_for_curators, sequence_feature, valid_for_extension	Y	
 
-Decision about whether or not to keep the 2 relationships dependent_on and in_presence_of
