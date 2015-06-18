@@ -63,11 +63,11 @@ Relations
 
 -   [stabilizes](stabilizes.md)
 
-[in\_absence\_of](in_absence_of.md) maybe deprecated
+[in\_absence\_of] maybe deprecated
 
-[in\_presence\_of](in_presence_of.md) maybe deprecated
+[in\_presence\_of] maybe deprecated
 
-[independent\_of](independent_of.md) maybe deprecated
+[independent\_of] maybe deprecated
 
 [occurs\_at](occurs_at.md)
 
