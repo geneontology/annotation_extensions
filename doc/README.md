@@ -17,15 +17,15 @@ Relations
 
 [dependent\_on](dependent_on.md)
 
--   [localization\_dependent\_on](localization_dependent_on.md) maybe deprecated
+-   [localization\_dependent\_on] maybe deprecated
 
 <!-- -->
 
--   [requires\_sequence\_feature](requires_sequence_feature.md) maybe deprecated
+-   [requires\_sequence\_feature] maybe deprecated
 
 <!-- -->
 
--   [requires\_substance](requires_substance.md) maybe deprecated
+-   [requires\_substance] maybe deprecated
 
 [exists\_during](exists_during.md)
 
