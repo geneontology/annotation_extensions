@@ -97,7 +97,7 @@ def wiki_cleanup(wiki):
     wiki = remove_section(wiki, "Scope of use")
     wiki = remove_section(wiki, "=domain")
     wiki = remove_section(wiki, "=range")
-    wiki = remove_section(wiki, "synonyms")
+    wiki = remove_section(wiki, "synonym.")
     wiki = remove_section(wiki, "child terms")
     return wiki
     # Add in flag for includes
