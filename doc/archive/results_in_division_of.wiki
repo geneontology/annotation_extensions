@@ -1,0 +1,130 @@
+Back to [http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation  Annotation usage examples for each annotation extension relation]
+
+==Definition==
+
+The relationship linking a entity and its participation in a process that results in the division of the entity into two entities of the same type.
+
+==Comment==
+
+Example of use: an annotation of gene X to cell division with results_in_division_of CL:0000057 (fibroblast) means that at the end of the process a single fibroblast has divided into two fibroblasts.
+
+==Child terms==
+
+* None.
+
+==Scope of use==
+
+===Domain===
+
+GO:0003674 (molecular_function) or GO:0008150 (biological_process)
+
+===Range===
+
+CL:0000000 (cell) or WBbt:0004017 (cell)
+
+==Annotation Extension Usage Examples==
+
+'''1. Gata3 is required for reactive proliferation of radial glial cells in telencephalon of adult zebrafish'''
+
+Paper: "Regenerative Neurogenesis from Neural Progenitor Cells Requires Injury-Induced Expression of Gata3" (PMID: 23168169)
+
+Statement from paper:
+''"... knocking down gata3 reduces the number of injury-stimulated proliferation [of radial glial cells] at 3pdl significantly, to the level characteristic for unlesioned telencephalon."''
+
+{| class="wikitable" border="1"
+|-
+!
+! Gene Name (col 2) 
+! GO ID (col 5) 
+! Reference (col 6) 
+! Evidence (col 7) 
+! Annotation Extension (col 16) 
+! Parent terms of new folded GO term
+|-
+| Unfolded
+| Q91428 Gata3
+| GO:0008284 positive regulation of cell proliferation
+| PMID: 23168169
+| IMP
+| results_in_division_of (CL:0013000 forebrain radial glial cell) 
+|-
+| Folded
+| Q91428 Gata3
+| New GO ID positive regulation of forebrain radial glial cell proliferation
+| PMID: 23168169
+| IMP
+|
+| is_a new GO: positive regulation of radial glial cell proliferation, is_a child of GO:0008284 positive regulation of cell proliferation 
+|}
+
+'''OWL class expression:''' GO:0008284 <span style="color:red">positive regulation of cell proliferation</span> results_in_division_of SOME CL:0013000 <span style="color:red">forebrain radial glial cell</span>
+
+'''2. Pax6a and Pax6b are required during neuronal progenitor proliferation in retina of adult zebrafish'''
+
+Paper: "Pa6a and Paxb are required at different points in neuronal progenitor cell proliferation during zebrafish photoreceptor regeneration" (PMID: 20152834)
+
+Statement from paper:
+''"...knockdown of Pax6b expression inhibited the subsequent division of the Müller glia-derived INL neuronal progenitor. In contrast, reduction of Pax6a expression allowed this initial neuronal progenitor cell division, but it prevented later cell divisions."''
+
+{| class="wikitable" border="1"
+|-
+!
+! Gene Name (col 2) 
+! GO ID (col 5) 
+! Reference (col 6) 
+! Evidence (col 7) 
+! Annotation Extension (col 16) 
+! Parent terms of new folded GO term
+|-
+| Unfolded
+| P26630 Pax6a
+| GO:0008284 positive regulation of cell proliferation
+| PMID: 20152834
+| IMP
+| results_in_division_of (CL:0002672 retinal progenitor cell) 
+|-
+| Folded
+| P26630 Pax6a
+| New GO ID positive regulation of retinal progenitor cell proliferation
+| PMID: 20152834
+| IMP
+|
+| is_a GO:0008284 positive regulation of cell proliferation 
+|}
+
+'''OWL class expression:''' GO:0008284 <span style="color:red">positive regulation of cell proliferation</span> results_in_division_of SOME CL:0002672 <span style="color:red">retinal progenitor cell</span>
+{| class="wikitable" border="1"
+|-
+!
+! Gene Name (col 2) 
+! GO ID (col 5) 
+! Reference (col 6) 
+! Evidence (col 7) 
+! Annotation Extension (col 16) 
+! Parent terms of new folded GO term
+|-
+| Unfolded
+| Q6DHA8 Pax6b
+| GO:0008284 positive regulation of cell proliferation
+| PMID: 20152834
+| IMP
+| results_in_division_of (CL:0002672 retinal progenitor cell) 
+|-
+| Folded
+| Q6DHA8 Pax6b
+| New GO ID positive regulation of retinal progenitor cell proliferation
+| PMID: 20152834
+| IMP
+|
+| is_a GO:0008284 positive regulation of cell proliferation
+|}
+
+'''OWL class expression:''' GO:0008284 <span style="color:red">positive regulation of cell proliferation</span> results_in_division_of SOME CL:0002672 <span style="color:red">retinal progenitor cell</span>
+
+----
+
+
+Back to [http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation Annotation usage examples for each annotation extension relation]
+
+[[Category:relations]]
+[[Category:annotation extension]]

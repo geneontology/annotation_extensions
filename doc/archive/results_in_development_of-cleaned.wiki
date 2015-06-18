@@ -1,0 +1,66 @@
+Back to [http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation  Annotation usage examples for each annotation extension relation]
+
+!INCLUDE
+
+==Annotation Extension Usage Examples==
+
+=== Enhancing Molecular Function and Biological Process Annotations ===
+
+==== Specifying the cell or tissue type which are under going the developmental process ====
+
+'''1. Development of a particular tissue:'''
+
+Statement from paper:
+
+''Periostin is critically required for maintenance of the integrity of the periodontal ligament..''
+
+{| class="wikitable" border="1"
+|-
+! Gene Name (col 2)
+! GO ID (col 5)
+! Reference (col 6)
+! Evidence (col 7)
+! Annotation Extension (col 16)
+|-
+| MGI:1926321<span style="color:green">Postn</span>
+| GO:0009888 <span style="color:green">tissue development</span>
+| PMID:16314533
+| IMP
+| results_in_development_of(MA:0002467 <span style="color:green">periodontal ligament</span>)
+|}
+
+== Using examples (from above) to demonstrate [[Folding_and_Unfolding]] using the relationship results_in_development_of ==
+
+'''1. Differentiation of a particular cell type:'''
+{| class="wikitable" border="1"
+|-
+! Folded/unfolded
+! Gene Name (col 2)
+! GO ID (col 5)
+! Reference (col 6)
+! Evidence (col 7)
+! Annotation Extension (col 16)
+! Parent terms of new folded GO term
+|-
+| Unfolded
+| MGI:1926321 <span style="color:green">Postn</span>
+| GO:0009888 <span style="color:green">tissue development</span>
+| PMID:16314533
+| IMP
+| results_in_development_of(CL:0000540 <span style="color:green">neuron</span>)
+|
+|-
+| Folded
+| MGI:1926321 <span style="color:green">Postn</span>
+| New GO ID <span style="color:green"> periodontal ligament development</span>
+| PMID:16314533
+| IMP
+| 
+|is_a <span style="color:red"> tissue development</span>
+|}
+----
+
+Back to [http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation  Annotation usage examples for each annotation extension relation]
+
+[[Category:relations]]
+[[Category:annotation extension]]

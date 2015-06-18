@@ -1,0 +1,30 @@
+Back to [http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation  Annotation usage examples for each annotation extension relation]
+
+== Text extracted from ontlogy: DO NOT EDIT ==
+* shorthand: regulates_expression_of
+* label: regulates expression of
+=== Definition ===
+A relationship that holds between a process and a gene whose expression is regulated by that process.
+=== Usage ===
+Relates a regulatory process or function to the gene whose expression it regulates.  Expression encompasses transcription, regulation and processing involved in maturation.
+=== local domain ===
+{u'BFO:0000007': u'BFO:0000007'}
+=== local range ===
+{u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
+
+-----
+END AUTO GENERATED SECTION
+-----
+
+
+==Annotation Extension Usage Examples==
+
+Back to [http://wiki.geneontology.org/index.php/Annotation_Extension:_Capturing_participants Annotation Extension: Capturing participants]
+
+
+----
+
+Back to [http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation  Annotation usage examples for each annotation extension relation]
+
+[[Category:relations]]
+[[Category:annotation extension]]

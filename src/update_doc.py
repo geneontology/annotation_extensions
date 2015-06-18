@@ -6,6 +6,7 @@ from urllib2 import urlopen
 import codecs
 import json
 from subprocess import check_output
+from subprocess import CalledProcessError
 
 def load_json(path):
     json_file = open(path, "r")
@@ -54,6 +55,9 @@ class om():
         auto_text += "### Definition\n%s\n" % self.test_then_get_annotation(r, "IAO_0000115")
         auto_text += "### Usage\n%s\n" % self.test_then_get_annotation(r, "usage")
         auto_text += "### Subsets\n%s\n" % str(self.ogw.getSubsets(self.bsfp.getEntity(r)))
+        auto_text += "### synonyms\n%s\n" % str(list(self.ogw.getSynonymStrings(self.bsfp.getEntity(r))))
+        # Finding child and parent relations would take a reasoner object call
+
         local_domain = self.test_then_get_annotation(r, "local_domain")
         local_range = self.test_then_get_annotation(r, "local_range")
         ldd = {}    
@@ -81,22 +85,26 @@ def test_includes():
     rels = gorel_m.get_valid_OP_list()
     return gorel_m.gen_includes_md(rels[0], id_name)
 
-def __main__():
-    gorel_m = om("http://purl.obolibrary.org/obo/go/extensions/gorel.owl")
-    rels = gorel_m.get_valid_OP_list()
-    id_name = load_json("../data/id_name.json")
-    for sfid in rels:
-        auto_content = gorel_m.gen_includes_md(sfid, id_name)
-        r = gorel_m.test_then_get_annotation(sfid, 'shorthand')
-        first_pass(r, auto_content) # Use this for first set of runs
-#       update(r, auto_content) # Uncomment once editing moves to GitHub
+def remove_section(wiki, section):
+    # Perhaps better done using json markup from pandoc. Seems a bit heavyweight, but regex is hairy.
+    # Assumes all sections to clean up are header level 2 to header level2
+    # Ugghh. Weirdly broken regex sub. Python backref malfuction?  No gp 2!
+    return re.sub(pattern = "== *?%s *?==.+?==(\w)" % section, repl = r'==\1', string = wiki, flags = re.DOTALL|re.I)
+    
+def wiki_cleanup(wiki):
+    wiki = re.sub(pattern = "^(back to.+?)==", repl = r'\1!INCLUDE\n\n==', string = wiki, flags = re.DOTALL|re.I)
+    wiki = remove_section(wiki, "Definition")
+    wiki = remove_section(wiki, "Scope of use")
+    wiki = remove_section(wiki, "domain")
+    wiki = remove_section(wiki, "range")
+    wiki = remove_section(wiki, "synonyms")
+    wiki = remove_section(wiki, "child terms")
+    return wiki
+    # Add in flag for includes
 
-def first_pass(r, auto_text):
-    """First pass conversion from wiki
-    r = shorthand,
-    auto_text = auto gen to insert
-    """
 
+def wiki2md(r):
+    # Check if on site.
     sprint_url = 'http://wiki.geneontology.org/api.php?format=json&action=query&titles=Annotation_Extension_Relation:%s&prop=revisions&rvprop=content'
     url = sprint_url % r
     print "Proccessing: %s\n" % url
@@ -106,43 +114,74 @@ def first_pass(r, auto_text):
     # Does the page exist on the wiki.  
     if not "-1" in j['query']['pages'].keys():
         # If yes
-        content = j['query']['pages'].values()[0]['revisions'][0].values()[0]
-        wiki_out.write(content)
-        wiki_out.close()
-        try:
-            md = check_output(["pandoc", "--read=mediawiki", "--write=markdown_github", "../data/%s.wiki" % r]) # simplest to write file here.
-        except:
-            # Should really capture any errors here!
-            pass
-        if md:
-            archive_md_out = codecs.open("../doc/archive/%s.md" % r, 'w', 'utf-8')
-            archive_md_out.write(md)
-            archive_md_out.close()
-            md = re.sub("Definition\n\-+\n.+Comment", auto_text + "\n\nComment", md, flags=re.DOTALL) # Check this pattern
-            md = re.sub("Scope of use.+Annotation Extension Usage Examples", 'Annotation Extension Usage Examples', md, flags=re.DOTALL)
+        wiki = j['query']['pages'].values()[0]['revisions'][0].values()[0]
+        # convert
+    else:
+        wiki = open("../doc/archive/generic.wiki").read()
+    #Archive + need to save to disk for external pandoc call
+    wiki_out.write(wiki)
+    wiki_out.close()
+    # Cleanup
+    wiki = wiki_cleanup(wiki)
+    wiki_clean = codecs.open("../doc/archive/%s-cleaned.wiki" % r, 'w', 'utf-8')
+    wiki_clean.write(wiki)
+    wiki_clean.close()
+    md = ''
+    try:
+        md = check_output(["pandoc", "--read=mediawiki", "--write=markdown_github", "../doc/archive/%s-cleaned.wiki" % r]) # simplest to write file here.
+#    except CalledProcessError, e:
+        # Should really capture any errors here!
+ #       warnings.warn("conversion failed with error code %s and output %s", e.returncode, e.output)
+    except:
+        pass
+    # if conversion is good
+    if md:
+        #archive
+        archive_md_out = codecs.open("../doc/archive/%s.md" % r, 'w', 'utf-8')
+        archive_md_out.write(md)
+        archive_md_out.close()
+        return md
     else: 
-        # if no open template.
+        warnings.warn("Conversion of %s failed" % r)
+
+def include(sub_pattern, auto_text, mdin):
+        return re.sub(pattern = sub_pattern.encode('utf-8'), repl = auto_text.encode('utf-8'), string = mdin.encode('utf-8'), flags = re.DOTALL)
+
+
+def first_pass(r, auto_text):
+    """First pass conversion from wiki
+    r = shorthand,
+    """
+    md = wiki2md(r)
+    if md: return include(sub_pattern = '!INCLUDE', auto_text = auto_text, mdin = md)
         
-        template = codecs.open("template.", "r", "utf-8")
-        old_auto_text = "## Text extracted from ontlogy: DO NOT EDIT.+ -+END AUTO GENERATED SECTION-+"
-        md = re.sub(pattern = old_auto_text, repl = auto_text, string = md, flags = re.DOTALL)
-        template.close()   
-        md_out = codecs.open("../doc/%s.md" % r, 'w', 'utf-8')
-        md_out.write(md)
-        md_out.close()
+
         
-def  update(r, auto_text):
+def  update(md, auto_text):
     """Update markdown
     r = shorthand,
     auto_text = auto gen to insert
     """
-    md_out = codecs.open("../doc/archive/%s.md" % r, 'rw', 'utf-8')
-    md = md_out.read()
     old_auto_text = "## Text extracted from ontlogy: DO NOT EDIT.+ -+END AUTO GENERATED SECTION-+"
-    md = re.sub(pattern = old_auto_text, repl = auto_text, string = md, flags = re.DOTALL)
-    md_out.write(md)
+    md = include(pattern = old_auto_text, auto_text = auto_text, mdin = md)
     md_out.close()    
      # Now to filter down - use subset ?
 
+def __main__():
+    gorel_m = om("http://purl.obolibrary.org/obo/go/extensions/gorel.owl")
+    rels = gorel_m.get_valid_OP_list()
+    rels.remove('RO_0002411')  # Temporary expedient to deal with translation issued for this page
+    id_name = load_json("../data/id_name.json")
+    for sfid in rels:
+        auto_content = gorel_m.gen_includes_md(sfid, id_name)
+        r = gorel_m.test_then_get_annotation(sfid, 'shorthand')
+        md_out = codecs.open("../doc/%s.md" % r, 'w', 'utf-8')
+        md = first_pass(r, auto_content) # Use this for first set of runs
+#       md = update(md_out.read(), auto_content) # Uncomment once editing moves to GitHub
+        md_out.write(md)
+        md_out.close()
+
+
 print test_includes()
+
 __main__()

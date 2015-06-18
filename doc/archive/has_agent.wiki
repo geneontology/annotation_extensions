@@ -1,0 +1,119 @@
+Back to [http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation  Annotation usage examples for each annotation extension relation]
+
+==Definition==
+
+The relationship that links an entity with a Molecular Function or Biological Process in which the entity participates in the Function or Process by serving as the continuant that is responsible for the execution of the Function or Process.
+
+[[Category:Relations]]
+
+[[Category:Reasoning]]
+
+==Comment==
+
+==Synonyms==
+
+has_active_participant
+
+==Child terms==
+
+* None
+
+==Scope of use==
+
+===Domain===
+
+BFO:0000007 ! process (Biological Process or Molecular Function)
+
+===Local Range===
+
+CL:0000000 (cell), GO:0005575 (cellular component), PO:0025131 (plant anatomical entity), UBERON:0001062 (anatomical entity), WBbt:0004017 (cell), WBbt:0005766 (anatomy)
+
+==Annotation Extension Usage Examples==
+
+==Annotation Extension Usage Examples==
+
+1. Recording the cell type that is the agent in a secretion process
+
+{| class="wikitable" border="1"
+|-
+! Gene Name (col 2)
+! GO ID (col 5)
+! Reference (col 6)
+! Evidence (col 7)
+! With (col 8)
+! Annotation Extension (col 16)
+|-
+| A2A7Q8
+| GO:0072643 interferon-gamma secretion
+|
+| ECO:0000315
+| 
+|has_agent(CL:0000623 natural killer cell)
+
+|}
+
+2. Recording the agent involved in a transport process
+
+{| class="wikitable" border="1"
+|-
+! Gene Name (col 2)
+! GO ID (col 5)
+! Reference (col 6)
+! Evidence (col 7)
+! With (col 8)
+! Annotation Extension (col 16)
+|-
+| F1PRN2
+| GO:0061502 early endosome to recycling endosome transport
+|
+| ECO:0000314
+| 
+|has_agent(GO:0005884; (actin filament))
+|}
+
+(Question - could this be better recorded in the ontology?)
+
+== Using examples to demonstrate [[Folding_and_Unfolding]] using the relationship has_agent ==
+
+
+{| class="wikitable" border="1"
+! Folded/unfolded
+!DB (Col 2)
+!Object (Col 3)
+!GO ID (Col 5)
+!Reference (Col 6)
+!Extension (Col 16)
+!Parent terms for new folded GO term
+|-
+| Unfolded
+|  
+| A2A7Q8
+| GO:0072643 interferon-gamma secretion
+| 
+| 
+| has_agent(CL:0000623 natural killer cell)
+|-
+| Folded
+|  
+| A2A7Q8
+| ??
+|
+|
+| is_a GO:0002370 natural killer cell cytokine production
+|-
+|}
+
+
+'''OWL class expression:''' 
+
+interferon-gamma secretion and has_agent some 'naural killer cell'
+
+----
+
+----
+
+
+Back to [http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation  Annotation usage examples for each annotation extension relation]
+
+[[Category:relations]]
+[[Category:annotation extension]]

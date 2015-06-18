@@ -1,0 +1,30 @@
+Back to [http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation  Annotation usage examples for each annotation extension relation]
+
+== Text extracted from ontlogy: DO NOT EDIT ==
+* shorthand: regulates_translation_of
+* label: regulates translation of
+=== Definition ===
+A relationship that holds between a process and a protein coding gene whose translation is regulated by that process.
+=== Usage ===
+Relates a regulatory process or function to the gene whose translation it regulates.
+=== local domain ===
+{u'BFO:0000001': ''}
+=== local range ===
+{u'SO:0000704': u'gene', u'PR:000000001': u'PR:000000001', u'GO:0032991': u'macromolecular complex', u'CHEBI:24431': u'chemical entity', u'MI:0315': u'protein complex', u'SO:0000673': u'transcript'}
+
+-----
+END AUTO GENERATED SECTION
+-----
+
+
+==Annotation Extension Usage Examples==
+
+Back to [http://wiki.geneontology.org/index.php/Annotation_Extension:_Capturing_participants Annotation Extension: Capturing participants]
+
+
+----
+
+Back to [http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation  Annotation usage examples for each annotation extension relation]
+
+[[Category:relations]]
+[[Category:annotation extension]]

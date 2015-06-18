@@ -1,0 +1,137 @@
+Back to [http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation  Annotation usage examples for each annotation extension relation]
+
+!INCLUDE
+
+==Annotation Extension Usage Examples==
+
+=== Enhancing Molecular Function and Biological Process Annotations ===
+
+==== Specifying the cell or tissue type which acquires new features following a specific process or function ====
+
+'''1. Differentiation of a particular cell type:'''
+
+Statement from paper:
+
+''REN promoted neuronal differentiation of neural committed progenitor cells of CNS (ST14A cells, Fig. 7 A) or PNS (N2a cells, Fig. 7 B) origin.''
+
+
+{| class="wikitable" border="1"
+|-
+! Gene Name (col 2)
+! GO ID (col 5)
+! Reference (col 6)
+! Evidence (col 7)
+! Annotation Extension (col 16)
+|-
+| MGI:2448712  <span style="color:green">Ren</span>
+| GO:0030154 <span style="color:green">cell differentiation</span>
+| PMID:12186855
+| IDA
+| results in acquisition of features of (CL:0000540 <span style="color:green">neuron</span>)
+
+|}
+
+
+'''2. A protein's involvement in changing a particular cell's shape:'''
+
+Statement from paper:
+
+''Eotaxin, eotaxin-2, and MCP-4 were the most potent inducers of eosinophil shape change, followed by MCP-3, while MCP-1 and IL-8 were inactive. MCP-4 alone showed a bell-shaped eosinophil dose-response curve over the dose range tested. Eotaxin and eotaxin-2 were inactive on monocytes (Fig. 2⇓B), whereas MCP-1, -3, and -4 all induced monocyte shape change, with MCP-3 exhibiting the highest potency.''
+
+{| class="wikitable" border="1"
+|-
+! Gene Name (col 2)
+! GO ID (col 5)
+! Reference (col 6)
+! Evidence (col 7)
+! Annotation Extension (col 16)
+|-
+| Q99616  <span style="color:green">MCP4</span>
+| GO:0008360 <span style="color:green">regulation of cell shape</span>
+| PMID:10072545
+| IDA
+| results in acquisition of features of(CL:0000771 <span style="color:green">eosinophil</span>) 'pipe' results in acquisition of features of(CL:0000576 <span style="color:green">monocyte</span>)
+|}
+
+Note the use of the pipe to create a multiple annotation extensions. The interpretation of this annotation is MCP4 is involved in the regulation of eosinophil cell shape and monocyte cell shape.
+
+== Using examples (from above) to demonstrate [[Folding_and_Unfolding]] using the relationship  results_in_acquisition_of_features_of ==
+
+==== Specifying the cell or tissue type which acquires new features following a specific process ====
+
+'''1. Differentiation of a particular cell type:'''
+{| class="wikitable" border="1"
+|-
+! Folded/unfolded
+! Gene Name (col 2)
+! GO ID (col 5)
+! Reference (col 6)
+! Evidence (col 7)
+! Annotation Extension (col 16)
+! Parent terms of new folded GO term
+|-
+| Unfolded
+| MGI:2448712  <span style="color:green">Ren</span>
+| GO:0030154 <span style="color:green">cell differentiation</span>
+| PMID:12186855
+| IDA
+| results_in_acquisition_of_features_of(CL:0000540 <span style="color:green">neuron</span>)
+|
+|-
+| Folded
+| MGI:2448712  <span style="color:green">Ren</span>
+| New GO ID <span style="color:green"> neuron cell differentiation</span>
+| PMID:12186855
+| IDA
+| 
+|is_a GO:0030154 <span style="color:red"> cell differentiation</span>
+|}
+'''OWL class expression:''' GO:0005515 <span style="color:red">cell differentiation</span> results_in_acquisition_of_features_of SOME CL:0000540 <span style="color:red">neuron</span>
+
+'''2. A protein's involvement in changing a particular cell's shape:'''
+
+Note the use of the pipe to create a multiple annotation extensions.
+{| class="wikitable" border="1"
+|-
+! Folded/unfolded
+! Gene Name (col 2)
+! GO ID (col 5)
+! Reference (col 6)
+! Evidence (col 7)
+! Annotation Extension (col 16)
+! Parent terms of new folded GO term
+|-
+| Unfolded
+| Q99616  <span style="color:green">MCP4</span>
+| GO:0008360 <span style="color:green">regulation of cell shape</span>
+| PMID:10072545
+| IDA
+| results_in_acquisition_of_features_of(CL:0000771 <span style="color:green">eosinophil</span>) 'pipe' occurs_in(CL:0000576 <span style="color:green">monocyte</span>)
+|
+|-
+| Folded
+| Q99616  <span style="color:green">MCP4</span>
+| New GO ID <span style="color:green">regulation of eosinophil cell shape</span>
+| PMID:10072545
+| IDA
+|
+| is_a GO:0008360 <span style="color:red">regulation of cell shape</span>
+
+|-
+| Folded
+| Q99616  <span style="color:green">MCP4</span>
+| New GO ID <span style="color:green">regulation of monocyte cell shape</span>
+| PMID:10072545
+| IDA
+| 
+|is_a GO:0008360 <span style="color:red">regulation of cell shape</span>
+|}
+
+'''OWL class expression:''' GO:0008360 <span style="color:red">regulation of cell shape</span> results_in_acquisition_of_features_of SOME CL:0000771 <span style="color:red">eosinophil</span> AND occurs_in SOME CL:0000576 <span style="color:red">monocyte</span>
+
+----
+
+Back to [http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation  Annotation usage examples for each annotation extension relation]
+
+[[Category:relations]]
+[[Category:annotation extension]]

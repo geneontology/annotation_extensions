@@ -1,0 +1,87 @@
+Back to [http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation  Annotation usage examples for each annotation extension relation]
+
+==Definition==
+
+Identifies an entity that is changed or created after participation in a molecular function or biological process.
+
+==Comment==
+
+[http://wiki.geneontology.org/index.php/Annotation_Extension_Relation:has_participant#Comment '''More details on the limited use of has_output with biological process annotations''']
+
+==Child terms==
+
+* None
+
+==Scope of use==
+
+===Domain===
+
+GO:0008150 ! process (Biological Process)
+
+===Range===
+
+[[ENTITY_UNION:0000005]] ! chemical, gene product, or complex
+
+==Annotation Extension Usage Examples==
+
+'''1. FGF production in response to stimulation of protein A''' 
+
+
+{| class="wikitable" border="1"
+|-
+! Gene Name (col 2)
+! GO ID (col 5)
+! Reference (col 6)
+! Evidence (col 7)
+! Annotation Extension (col 16)
+|-
+| Pxxxx
+|Protein A
+|GO:0090269 <span style="color:green">fibroblast growth factor production</span>
+|PMID:xxx 
+|has_output (UniProt:Q9GZV9 <span style="color:green">FGF23</span>)
+|
+
+|}
+
+== Using examples to demonstrate [[Folding_and_Unfolding]] using the relationship has_output ==
+
+'''1. FGF production in response to stimulation of protein A'''
+
+{| class="wikitable" border="1"
+! Folded/unfolded
+!DB (Col 2)
+!Object (Col 3)
+!GO ID (Col 5)
+!Reference (Col 6)
+!Extension (Col 16)
+!Parent terms for new folded GO term
+|-
+| Unfolded
+| Pxxxx
+|Protein A
+|GO:0090269 <span style="color:green">fibroblast growth factor production</span>
+|PMID:xxx 
+|has_output (UniProt:Q9GZV9 <span style="color:green">FGF23</span>)
+|
+|-
+| Folded
+| Pxxxx 
+|Protein A
+|New GO term <span style="color:green">FGF23 fibroblast growth factor cytokine production</span>
+|PMID:xxx 
+|
+|is_a GO:0090269 <span style="color:red">fibroblast growth factor production</span>
+|-
+|}
+
+'''OWL class expression:''' GO:0090269 <span style="color:red">fibroblast growth factor production</span> AND has_output SOME UniProt:Q9GZV9 <span style="color:red">FGF23</span>
+----
+----
+
+
+Back to [http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation  Annotation usage examples for each annotation extension relation]
+
+[[Category:relations]]
+[[Category:annotation extension]]
+[[Category:LEGO examples]]

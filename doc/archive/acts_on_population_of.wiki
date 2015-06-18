@@ -1,0 +1,82 @@
+Back to [http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation  Annotation usage examples for each annotation extension relation]
+
+==Definition==
+
+The relationship that links an entity with a process in which the process has more than one participant that is of the same entity type.
+
+==Child terms==
+
+* None.
+
+==Scope of use==
+
+===Domain===
+
+GO:0003674 (molecular_function) or GO:0008150 (biological_process)
+
+===Range===
+
+CL:0000000 (cell) or GO:0005575 (cellular component) or WBbt:0004017 (cell)
+
+==Annotation Extension Usage Examples==
+
+'''1. SEMA3A signals through NRP1 and PLXNA4 to guide the axons of facial visceromotor neurons:'''
+
+Statement from paper:  
+
+''Whilst axons formed normal projections in 5/5 Nrp2-null and 3/3 Sema3F-null mutants, we observed striking axon guidance errors in 5/5 Nrp1-null and 5/5 Sema3a-null mutants. Specifically, there was defasciculation and midline crossing of ectopic axons near Rathke's pouch, consistent with the idea that Sema3a normally provides repulsive cues for GSPN axons. Moreover, there was no arborisation in the area where the sphenopalatine ganglion forms; rather, some axons appeared to extend beyond the target area.''  
+
+
+{| class="wikitable" border="1"
+|-
+! Gene Name (col 2)
+! GO ID (col 5)
+! Reference (col 6)
+! Evidence (col 7)
+! Annotation Extension (col 16)
+|-
+| O08665 <span style="color:green">Sema3a</span>
+|GO:0008045 <span style="color:green">motor neuron axon guidance</span>
+| PMID:18804103
+| IMP
+| acts_on_population of(CL:0005025 <span style="color:green">visceromotor neuron</span>)
+
+|}
+
+== Using example (from above) to demonstrate [[Folding_and_Unfolding]] using the relationship acts_on_population_of ==
+
+'''1. SEMA3A signals through NRP1 and PLXNA4 to guide the axons of facial visceromotor neurons:'''
+{| class="wikitable" border="1"
+|-
+! Folded/unfolded
+! Gene Name (col 2)
+! GO ID (col 5)
+! Reference (col 6)
+! Evidence (col 7)
+! Annotation Extension (col 16)
+! Parent terms of new folded GO term
+|-
+| Unfolded
+| O08665 <span style="color:green">Sema3a</span>
+|GO:0008045 <span style="color:green">motor neuron axon guidance</span>
+| PMID:18804103
+| IMP
+| acts_on_population of(CL:0005025 <span style="color:green">visceromotor neuron</span>)
+|
+|-
+| Folded
+| O08665 <span style="color:green">Sema3a</span>
+| New GO ID <span style="color:green">visceromotor neuron motor neuron axon guidance</span>
+| PMID:18804103
+| IMP
+|
+|is_a GO:0008045 <span style="color:red"> motor neuron axon guidance</span>
+|}
+
+
+----
+
+Back to [http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation  Annotation usage examples for each annotation extension relation]
+
+[[Category:relations]]
+[[Category:annotation extension]]
