@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## results_in_development_of
 * OWL ID: RO_0002296
-* shorthand: results_in_development_of
 * label: results in development of
+* synonyms
+[]
 
 ### Definition
 p 'results in development of' c if and only if p is a developmental process and p results in the state of c changing from its initial state as a primordium or anlage through its mature state and to its final state.
@@ -13,9 +16,6 @@ The relationship linking an entity and its participation in a process that chang
 
 ### Subsets
 [display_for_curators, AE_cellular_component, AE_cell_or_anatomical]
-
-### synonyms
-[]
 
 ##local domain
 {u'BFO:0000007': u'BFO:0000007'}

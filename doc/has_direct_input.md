@@ -2,10 +2,13 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 
 Back to [Annotation usage examples for has input](http://wiki.geneontology.org/index.php/Annotation_Extension_Relation:has_input)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## has_direct_input
 * OWL ID: GOREL_0000752
-* shorthand: has_direct_input
 * label: has_direct_input
+* synonyms
+[]
 
 ### Definition
 
@@ -15,9 +18,6 @@ Identifies an entity directly affected (transported, modified, consumed or destr
 
 ### Subsets
 [display_for_curators, AE_chemical, AE_sequence_or_complex]
-
-### synonyms
-[]
 
 ##local domain
 {u'BFO:0000007': u'BFO:0000007'}

@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## transports_or_maintains_localization_of
 * OWL ID: RO_0002313
-* shorthand: transports_or_maintains_localization_of
 * label: transports or maintains localization of
+* synonyms
+[u'regulates location of', u'transports']
 
 ### Definition
 Holds between p and c when p is a transportation or localization process and the outcome of this process is to regulate the location of c
@@ -13,9 +16,6 @@ Use to relate a process or molecular function to a substance that is transported
 
 ### Subsets
 [display_for_curators, AE_chemical, AE_cellular_component]
-
-### synonyms
-[u'regulates location of', u'transports']
 
 ##local domain
 {u'BFO_0000015': ''}

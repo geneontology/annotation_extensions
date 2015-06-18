@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## results_in_commitment_to
 * OWL ID: RO_0002348
-* shorthand: results_in_commitment_to
 * label: results in commitment to
+* synonyms
+[]
 
 ### Definition
 p 'results in commitment to' c if and only if p is a developmental process and c is a cell and p results in the state of c changing such that is can only develop into a single cell type.
@@ -13,9 +16,6 @@ The relationship linking a cell and its participation in a process that results 
 
 ### Subsets
 [display_for_curators, AE_cell_or_anatomical]
-
-### synonyms
-[]
 
 ##local domain
 {u'BFO:0000007': u'BFO:0000007'}

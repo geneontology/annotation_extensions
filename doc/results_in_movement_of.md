@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## results_in_movement_of
 * OWL ID: RO_0002565
-* shorthand: results_in_movement_of
 * label: results in movement of
+* synonyms
+[]
 
 ### Definition
 Holds between p and c when p is locomotion process and the outcome of this process is the change of location of c
@@ -13,9 +16,6 @@ Use this relation to link a locomotion process to the type of cell or anatomical
 
 ### Subsets
 [display_for_curators, AE_cell_or_anatomical]
-
-### synonyms
-[]
 
 ##local domain
 {u'BFO:0000007': u'BFO:0000007'}

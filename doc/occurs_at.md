@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## occurs_at
 * OWL ID: GOREL_0000501
-* shorthand: occurs_at
 * label: occurs at
+* synonyms
+[]
 
 ### Definition
 
@@ -13,9 +16,6 @@ Identifies the Cellular Component or sequence feature adjacent to or in the vici
 
 ### Subsets
 [display_for_curators, AE_cellular_component, AE_sequence_feature]
-
-### synonyms
-[]
 
 ##local domain
 {u'BFO:0000007': u'BFO:0000007'}

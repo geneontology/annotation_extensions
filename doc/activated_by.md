@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## activated_by
 * OWL ID: GOREL_0000507
-* shorthand: activated_by
 * label: activated_by
+* synonyms
+[]
 
 ### Definition
 
@@ -13,9 +16,6 @@ Identifies a chemical substance that increases the activity of the gene product.
 
 ### Subsets
 [display_for_curators, AE_chemical]
-
-### synonyms
-[]
 
 ##local domain
 {u'GO:0003674': u'molecular_function'}

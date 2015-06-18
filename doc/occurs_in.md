@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## occurs_in
 * OWL ID: BFO_0000066
-* shorthand: occurs_in
 * label: occurs in
+* synonyms
+[u'unfolds_in', u'occurs_in', u'unfolds in']
 
 ### Definition
 b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and sâ where & b spatially_projects_onto s at t& c is occupies_spatial_region sâ at t& s is a proper_continuant_part_of sâ at t
@@ -13,9 +16,6 @@ Identifies the cell, tissue, cellular component or anatomical entity within whic
 
 ### Subsets
 [display_for_curators, AE_cellular_component, AE_cell_or_anatomical]
-
-### synonyms
-[u'unfolds_in', u'occurs_in', u'unfolds in']
 
 ##local domain
 {u'BFO:0000007': u'BFO:0000007'}

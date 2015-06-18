@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## has_output
 * OWL ID: RO_0002234
-* shorthand: has_output
 * label: has output
+* synonyms
+[u'produces']
 
 ### Definition
 p has direct input c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of c.
@@ -13,9 +16,6 @@ Identifies an entity that is changed or created after participation in a molecul
 
 ### Subsets
 [display_for_curators, AE_chemical, AE_sequence_or_complex, ro-eco]
-
-### synonyms
-[u'produces']
 
 ##local domain
 {u'BFO:0000007': u'BFO:0000007'}

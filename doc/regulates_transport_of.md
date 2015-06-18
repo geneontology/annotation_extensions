@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## regulates_transport_of
 * OWL ID: RO_0002011
-* shorthand: regulates_transport_of
 * label: regulates transport of
+* synonyms
+[]
 
 ### Definition
 A relationship that holds between a  process that regulates a transport process and the entity transported by that process.
@@ -13,9 +16,6 @@ A relationship that holds between a  process that regulates a transport process 
 
 ### Subsets
 [display_for_curators, AE_chemical, ro-eco]
-
-### synonyms
-[]
 
 ##local domain
 {}

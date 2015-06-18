@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## acts_on_population_of
 * OWL ID: GOREL_0001006
-* shorthand: acts_on_population_of
 * label: acts_on_population_of
+* synonyms
+[]
 
 ### Definition
 The relationship that links an entity with a process in which the process has more than one participant that is of the same entity type.
@@ -13,9 +16,6 @@ The relationship that links an entity with a process in which the process has mo
 
 ### Subsets
 [display_for_curators, AE_cell_or_anatomical]
-
-### synonyms
-[]
 
 ##local domain
 {u'BFO:0000007': u'BFO:0000007'}

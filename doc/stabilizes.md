@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## stabilizes
 * OWL ID: GOREL_0000018
-* shorthand: stabilizes
 * label: stabilizes
+* synonyms
+[]
 
 ### Definition
 Identifies specific gene product stabilized in a protein stabilization process (or regulation thereof)
@@ -13,9 +16,6 @@ Identifies specific gene product stabilized in a protein stabilization process (
 
 ### Subsets
 [display_for_curators, AE_sequence_or_complex]
-
-### synonyms
-[]
 
 ##local domain
 {u'GO:0031647': ''}

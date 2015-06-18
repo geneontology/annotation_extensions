@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## dependent_on
 * OWL ID: GOREL_0000004
-* shorthand: dependent_on
 * label: dependent_on
+* synonyms
+[]
 
 ### Definition
 Identifies a requirement under which the ontology term is observed to apply to the annotated gene product.
@@ -13,9 +16,6 @@ Identifies a requirement under which the ontology term is observed to apply to t
 
 ### Subsets
 [display_for_curators, AE_molecular_function, AE_chemical, AE_sequence_or_complex, AE_sequence_feature, AE_biological_process]
-
-### synonyms
-[]
 
 ##local domain
 {u'BFO:0000001': ''}

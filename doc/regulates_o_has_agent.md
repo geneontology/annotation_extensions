@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## regulates_o_has_agent
 * OWL ID: GOREL_0001011
-* shorthand: regulates_o_has_agent
 * label: regulates_o_has_agent
+* synonyms
+[]
 
 ### Definition
 A relationship between the regulation of a process and the agent that executes that process.
@@ -13,9 +16,6 @@ A relationship between the regulation of a process and the agent that executes t
 
 ### Subsets
 [display_for_curators]
-
-### synonyms
-[]
 
 ##local domain
 {u'GO:0098772': '', u'GO:0065009': ''}

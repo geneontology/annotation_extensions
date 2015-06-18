@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## regulates_o_occurs_in
 * OWL ID: GOREL_0001004
-* shorthand: regulates_o_occurs_in
 * label: regulates process that occurs in
+* synonyms
+[]
 
 ### Definition
 A relation that holds between a regulatory process and the entity which the regulated biological process or molecular function occurs in.
@@ -13,9 +16,6 @@ Use this relation to link a regulatory process or function to the structure that
 
 ### Subsets
 [display_for_curators]
-
-### synonyms
-[]
 
 ##local domain
 {}

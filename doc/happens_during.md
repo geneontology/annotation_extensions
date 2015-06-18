@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## happens_during
 * OWL ID: RO_0002092
-* shorthand: happens_during
 * label: happens during
+* synonyms
+[u'during', u'd']
 
 ### Definition
 
@@ -13,9 +16,6 @@ Identifies a process or life stage during which a molecular function or biologic
 
 ### Subsets
 [display_for_curators, AE_biological_process, AE_developmental_stages, ro-eco]
-
-### synonyms
-[u'during', u'd']
 
 ##local domain
 {u'BFO:0000007': u'BFO:0000007'}

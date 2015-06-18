@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## has_regulation_target
 * OWL ID: GOREL_0000015
-* shorthand: has_regulation_target
 * label: has_regulation_target
+* synonyms
+[]
 
 ### Definition
 
@@ -13,9 +16,6 @@ Use this relationship to link a regulatory process or function to an entity that
 
 ### Subsets
 [display_for_curators, AE_sequence_or_complex]
-
-### synonyms
-[]
 
 ##local domain
 {u'GO:0065007': ''}

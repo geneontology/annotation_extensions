@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## regulates_expression_of
 * OWL ID: GOREL_0098789
-* shorthand: regulates_expression_of
 * label: regulates expression of
+* synonyms
+[]
 
 ### Definition
 A relationship that holds between a process and a gene whose expression is regulated by that process.
@@ -13,9 +16,6 @@ Relates a regulatory process or function to the gene whose expression it regulat
 
 ### Subsets
 [display_for_curators, AE_sequence_feature]
-
-### synonyms
-[]
 
 ##local domain
 {u'BFO_0000015': ''}

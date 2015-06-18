@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## results_in_formation_of
 * OWL ID: RO_0002297
-* shorthand: results_in_formation_of
 * label: results in formation of
+* synonyms
+[]
 
 ### Definition
 The relationship linking a entity and its participation in a process whereby at the beginning of the process the entity does not exist and at the end of the process the entity exists.
@@ -13,9 +16,6 @@ The relationship linking a entity and its participation in a process whereby at 
 
 ### Subsets
 [display_for_curators, AE_cell_or_anatomical]
-
-### synonyms
-[]
 
 ##local domain
 {u'BFO:0000007': u'BFO:0000007'}

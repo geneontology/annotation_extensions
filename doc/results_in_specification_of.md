@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## results_in_specification_of
 * OWL ID: RO_0002356
-* shorthand: results_in_specification_of
 * label: results in specification of
+* synonyms
+[]
 
 ### Definition
 The relationship linking a cell and its participation in a process that results in the fate of the cell being specified. Once specification has taken place, a cell will be committed to differentiate down a specific pathway if left in its normal environment. 
@@ -13,9 +16,6 @@ The relationship linking a cell and its participation in a process that results 
 
 ### Subsets
 [display_for_curators, AE_cell_or_anatomical]
-
-### synonyms
-[]
 
 ##local domain
 {u'BFO:0000007': u'BFO:0000007'}

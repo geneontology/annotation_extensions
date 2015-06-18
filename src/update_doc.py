@@ -48,15 +48,16 @@ class om():
         r = relation_shortFormId
         id_name = and id_name dict lookup to use for domain and range
         """
-        auto_text =  "## Text extracted from ontlogy: DO NOT EDIT\n"
+        auto_text =  "---------------Text extracted from ontology: DO NOT EDIT---------------\n"
+        auto_text += "\n## %s\n" % self.test_then_get_annotation(r, "shorthand")
         auto_text += "* OWL ID: %s\n" % r
-        auto_text += "* shorthand: %s\n" % self.test_then_get_annotation(r, "shorthand")
         auto_text += "* label: %s\n" % self.test_then_get_annotation(r, 'label')
+        auto_text += "* synonyms\n%s\n" % str(list(self.ogw.getSynonymStrings(self.bsfp.getEntity(r)))) # could be prettified
         auto_text += "\n### Definition\n%s\n" % self.test_then_get_annotation(r, "IAO_0000115")
-        auto_text += "\n### Usage\n%s\n" % self.test_then_get_annotation(r, "usage")
-        auto_text += "\n### Subsets\n%s\n" % str(self.ogw.getSubsets(self.bsfp.getEntity(r)))
-        auto_text += "\n### synonyms\n%s\n" % str(list(self.ogw.getSynonymStrings(self.bsfp.getEntity(r))))
-        # Finding child and parent relations would take a reasoner object call
+        auto_text += "\n### Usage\n%s\n" % self.test_then_get_annotation(r, "usage") #
+        auto_text += "\n### Subsets\n%s\n" % str(self.ogw.getSubsets(self.bsfp.getEntity(r))) # Perhaps only display AE_
+        # Finding child and parent relations would take a reasoner object call.  Better for annotators to reply on graph.
+        # MIght be useful to give some record of how often used in ontology
 
         local_domain = self.test_then_get_annotation(r, "local_domain")
         local_range = self.test_then_get_annotation(r, "local_range")

@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## has_input
 * OWL ID: RO_0002233
-* shorthand: has_input
 * label: has input
+* synonyms
+[u'consumes']
 
 ### Definition
 p has input c if either: p has direct input c or p has indirect input c. See subrelations for definitions.
@@ -13,9 +16,6 @@ Identifies an entity affected by (bound, transported, modified, consumed or dest
 
 ### Subsets
 [display_for_curators, AE_chemical, AE_sequence_or_complex, ro-eco]
-
-### synonyms
-[u'consumes']
 
 ##local domain
 {u'BFO:0000007': u'BFO:0000007'}

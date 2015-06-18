@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## has_agent
 * OWL ID: RO_0002218
-* shorthand: has_agent
 * label: has active participant
+* synonyms
+[u'has agent']
 
 ### Definition
 x has participant y if and only if x realizes some active role that inheres in y
@@ -13,9 +16,6 @@ The relationship that links an entity with a process in which the entity partici
 
 ### Subsets
 [display_for_curators, AE_cellular_component, AE_cell_or_anatomical, ro-eco]
-
-### synonyms
-[u'has agent']
 
 ##local domain
 {u'GO:0008150': ''}

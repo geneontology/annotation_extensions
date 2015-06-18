@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## regulates_activity_of
 * OWL ID: GOREL_0098702
-* shorthand: regulates_activity_of
 * label: regulates activity of
+* synonyms
+[]
 
 ### Definition
 A relation that holds between the regulation of a molecular function and the agent that executes that function.
@@ -13,9 +16,6 @@ Use this relation to link either a molecular function, or a biological process t
 
 ### Subsets
 [display_for_curators, AE_sequence_or_complex]
-
-### synonyms
-[]
 
 ##local domain
 {u'GO:0098772': '', u'GO:0065009': ''}

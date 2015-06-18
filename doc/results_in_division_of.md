@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## results_in_division_of
 * OWL ID: GOREL_0001019
-* shorthand: results_in_division_of
 * label: results_in_division_of
+* synonyms
+[]
 
 ### Definition
 The relationship linking a entity and its participation in a process that results in the division of the entity into two entities of the same type.
@@ -13,9 +16,6 @@ The relationship linking a entity and its participation in a process that result
 
 ### Subsets
 [display_for_curators, AE_cell_or_anatomical]
-
-### synonyms
-[]
 
 ##local domain
 {u'BFO:0000007': u'BFO:0000007'}

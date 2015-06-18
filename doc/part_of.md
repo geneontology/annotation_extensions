@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## part_of
 * OWL ID: BFO_0000050
-* shorthand: part_of
 * label: part of
+* synonyms
+[u'part_of']
 
 ### Definition
 a core relation that holds between a part and its whole
@@ -13,9 +16,6 @@ This relation has two uses in annotation extension.  It may be used to relate a 
 
 ### Subsets
 [display_for_curators, AE_cellular_component, AE_biological_process, AE_cell_or_anatomical, AE_developmental_stages]
-
-### synonyms
-[u'part_of']
 
 ##local domain
 {u'BFO:0000001': ''}

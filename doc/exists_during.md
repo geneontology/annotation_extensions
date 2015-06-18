@@ -1,9 +1,12 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
 
-## Text extracted from ontlogy: DO NOT EDIT
+---------------Text extracted from ontology: DO NOT EDIT---------------
+
+## exists_during
 * OWL ID: GOREL_0000032
-* shorthand: exists_during
 * label: exists_during
+* synonyms
+[]
 
 ### Definition
 
@@ -13,9 +16,6 @@ Identifies a process or life stage during which a cellular component is present
 
 ### Subsets
 [display_for_curators, AE_biological_process, AE_developmental_stages]
-
-### synonyms
-[]
 
 ##local domain
 {u'BFO:0000004': ''}
