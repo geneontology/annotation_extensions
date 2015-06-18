@@ -17,7 +17,8 @@ This relation has two uses in annotation extension.  It may be used to relate a 
 ### synonyms
 [u'part_of']
 
-##local domainn{u'BFO:0000001': ''}
+##local domain
+{u'BFO:0000001': ''}
 
 ## local range
 {u'WBls:0000075': '', u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy', u'PO:0009012': '', u'ZFS:0100000': '', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'GO:0008150': '', u'CL:0000000': u'cell'}

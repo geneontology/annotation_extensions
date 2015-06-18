@@ -17,7 +17,8 @@ Identifies specific gene product stabilized in a protein stabilization process (
 ### synonyms
 []
 
-##local domainn{u'GO:0031647': ''}
+##local domain
+{u'GO:0031647': ''}
 
 ## local range
 {u'SO:0000704': u'gene', u'PR:000000001': u'PR:000000001', u'GO:0032991': u'macromolecular complex', u'CHEBI:33697': u'ribonucleic acid', u'MI:0315': u'protein complex', u'SO:0000673': u'transcript'}

@@ -17,7 +17,8 @@ Relates a regulatory process or function to the gene whose transcription it regu
 ### synonyms
 []
 
-##local domainn{u'BFO_0000015': ''}
+##local domain
+{u'BFO_0000015': ''}
 
 ## local range
 {u'SO_0000704': ''}
@@ -31,7 +32,24 @@ Text extracted from ontlogy: DO NOT EDIT
 -   shorthand: regulates\_transcription\_of
 -   label: regulates transcription of
 
-===Annotation Extension Usage Examples==
+==== Usage === Relates a regulatory process or function to the gene whose transcription it regulates.
+
+### local domain
+
+{u'BFO:0000007': u'BFO:0000007'}
+
+### local range
+
+{u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
+
+------------------------------------------------------------------------
+
+END AUTO GENERATED SECTION
+
+------------------------------------------------------------------------
+
+Annotation Extension Usage Examples
+-----------------------------------
 
 Back to [Annotation Extension: Capturing participants](http://wiki.geneontology.org/index.php/Annotation_Extension:_Capturing_participants)
 

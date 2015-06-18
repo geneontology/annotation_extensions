@@ -17,7 +17,8 @@ A relationship that holds between a  process that regulates a transport process 
 ### synonyms
 []
 
-##local domainn{}
+##local domain
+{}
 
 ## local range
 {}

@@ -67,7 +67,7 @@ class om():
                     ldd[ld] = id_name[ld]
                 else:
                     ldd[ld] = ''
-        auto_text += "\n##local domainn%s\n" % str(ldd)
+        auto_text += "\n##local domain\n%s\n" % str(ldd)
         lrd = {}           
         if local_range:
             for lr in local_range.split(" "):
@@ -87,16 +87,16 @@ def test_includes():
 
 def remove_section(wiki, section):
     # Perhaps better done using json markup from pandoc. Seems a bit heavyweight, but regex is hairy.
-    # Assumes all sections to clean up are header level 2 to header level2
-    # Ugghh. Weirdly broken regex sub. Python backref malfuction?  No gp 2!
-    return re.sub(pattern = "== *?%s *?==.+?==(\w)" % section, repl = r'==\1', string = wiki, flags = re.DOTALL|re.I)
+    # Assumes all sections to clean up are header level 2 to header level2/3
+    # Tried to do level2 to level2 but stymied by what appears to be weirdly broken regex sub. Python backref malfuction?  No gp 2!
+    return re.sub(pattern = "== *?%s *?==.+?==" % section, repl = r'==', string = wiki, flags = re.DOTALL|re.I)
     
 def wiki_cleanup(wiki):
     wiki = re.sub(pattern = "^(back to.+?)==", repl = r'\1!INCLUDE\n\n==', string = wiki, flags = re.DOTALL|re.I)
     wiki = remove_section(wiki, "Definition")
     wiki = remove_section(wiki, "Scope of use")
-    wiki = remove_section(wiki, "domain")
-    wiki = remove_section(wiki, "range")
+    wiki = remove_section(wiki, "=domain")
+    wiki = remove_section(wiki, "=range")
     wiki = remove_section(wiki, "synonyms")
     wiki = remove_section(wiki, "child terms")
     return wiki

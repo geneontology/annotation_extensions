@@ -17,7 +17,8 @@ Use to relate a process or molecular function to a substance that is transported
 ### synonyms
 [u'regulates location of', u'transports']
 
-##local domainn{u'BFO_0000015': ''}
+##local domain
+{u'BFO_0000015': ''}
 
 ## local range
 {u'GO:0005575': u'cellular_component', u'PR:000000001': u'PR:000000001', u'CHEBI:24431': u'chemical entity'}

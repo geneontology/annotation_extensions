@@ -17,7 +17,8 @@ Identifies a process or life stage during which a molecular function or biologic
 ### synonyms
 [u'during', u'd']
 
-##local domainn{u'BFO:0000007': u'BFO:0000007'}
+##local domain
+{u'BFO:0000007': u'BFO:0000007'}
 
 ## local range
 {u'WBls:0000075': '', u'ZFS:0100000': '', u'GO:0008150': ''}

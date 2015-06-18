@@ -17,7 +17,8 @@ The relationship that links an entity with a process in which the entity partici
 ### synonyms
 [u'has agent']
 
-##local domainn{u'GO:0008150': ''}
+##local domain
+{u'GO:0008150': ''}
 
 ## local range
 {u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'CL:0000000': u'cell'}
@@ -28,10 +29,7 @@ The relationship that links an entity with a process in which the entity partici
 Comment
 -------
 
-Local Range
------------
-
-=
+### Local Range
 
 CL:0000000 (cell), <GO:0005575> (cellular component), PO:0025131 (plant anatomical entity), UBERON:0001062 (anatomical entity), WBbt:0004017 (cell), WBbt:0005766 (anatomy)
 

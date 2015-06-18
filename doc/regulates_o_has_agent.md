@@ -17,7 +17,8 @@ A relationship between the regulation of a process and the agent that executes t
 ### synonyms
 []
 
-##local domainn{u'GO:0098772': '', u'GO:0065009': ''}
+##local domain
+{u'GO:0098772': '', u'GO:0065009': ''}
 
 ## local range
 {u'UBERON:0000465': '', u'GO:0043234': '', u'PR:000000001': u'PR:000000001', u'PO:0025131': u'plant anatomical entity', u'SO:0000374': ''}

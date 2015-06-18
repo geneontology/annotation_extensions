@@ -17,7 +17,8 @@ Identifies a chemical substance that decreases the activity of the gene product.
 ### synonyms
 []
 
-##local domainn{u'GO:0003674': u'molecular_function'}
+##local domain
+{u'GO:0003674': u'molecular_function'}
 
 ## local range
 {u'CHEBI:24431': u'chemical entity'}

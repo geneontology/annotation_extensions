@@ -17,7 +17,8 @@ Identifies an entity affected by (bound, transported, modified, consumed or dest
 ### synonyms
 [u'consumes']
 
-##local domainn{u'BFO:0000007': u'BFO:0000007'}
+##local domain
+{u'BFO:0000007': u'BFO:0000007'}
 
 ## local range
 {u'SO:0000704': u'gene', u'PR:000000001': u'PR:000000001', u'GO:0032991': u'macromolecular complex', u'CHEBI:33697': u'ribonucleic acid', u'GO:0051716': u'cellular response to stimulus', u'CHEBI:24431': u'chemical entity', u'MI:0315': u'protein complex', u'SO:0000839': '', u'SO:0000673': u'transcript'}

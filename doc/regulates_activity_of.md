@@ -17,7 +17,8 @@ Use this relation to link either a molecular function, or a biological process t
 ### synonyms
 []
 
-##local domainn{u'GO:0098772': '', u'GO:0065009': ''}
+##local domain
+{u'GO:0098772': '', u'GO:0065009': ''}
 
 ## local range
 {u'GO:0043234': '', u'PR:000000001': u'PR:000000001', u'SO:0000374': ''}

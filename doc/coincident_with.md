@@ -17,7 +17,8 @@ A relation that holds between two linear structures that are approximately paral
 ### synonyms
 []
 
-##local domainn{u'GO:0005575': u'cellular_component'}
+##local domain
+{u'GO:0005575': u'cellular_component'}
 
 ## local range
 {u'SO:0000001': '', u'CHEBI:24431': u'chemical entity'}

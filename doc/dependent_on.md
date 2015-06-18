@@ -17,13 +17,18 @@ Identifies a requirement under which the ontology term is observed to apply to t
 ### synonyms
 []
 
-##local domainn{u'BFO:0000001': ''}
+##local domain
+{u'BFO:0000001': ''}
 
 ## local range
 {u'SO:0000704': u'gene', u'MOD:00000': '', u'PR:000000001': u'PR:000000001', u'GO:0032991': u'macromolecular complex', u'CHEBI:24431': u'chemical entity', u'SO:0000110': '', u'GO:0008150': '', u'SO:0000673': u'transcript', u'CHEBI:33697': u'ribonucleic acid', u'MI:0315': u'protein complex', u'GO:0003674': u'molecular_function'}
 
 ---------------END AUTO GENERATED SECTION---------------
 
+
+### DEPRECATION WARNING
+
+The GO editors have agreed that this relation should be deprecated. The relation does not extend the meaning of the GO term, as annotation relations are meant to, but instead specifies conditions under which the annotation is true. This can not be expressed in OWL. Annotation extensions using this relation will not fold.
 
 Annotation Extension Usage Examples
 -----------------------------------

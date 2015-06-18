@@ -17,7 +17,8 @@ The relationship linking a cell and its participation in a process that results 
 ### synonyms
 []
 
-##local domainn{u'BFO:0000007': u'BFO:0000007'}
+##local domain
+{u'BFO:0000007': u'BFO:0000007'}
 
 ## local range
 {u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}

@@ -17,7 +17,8 @@ This is the combination of the regulates relation with the has_input relation
 ### synonyms
 []
 
-##local domainn{}
+##local domain
+{}
 
 ## local range
 {}

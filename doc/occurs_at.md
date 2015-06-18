@@ -17,7 +17,8 @@ Identifies the Cellular Component or sequence feature adjacent to or in the vici
 ### synonyms
 []
 
-##local domainn{u'BFO:0000007': u'BFO:0000007'}
+##local domain
+{u'BFO:0000007': u'BFO:0000007'}
 
 ## local range
 {u'GO:0005575': u'cellular_component', u'SO:0000110': ''}

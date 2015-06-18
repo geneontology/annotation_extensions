@@ -17,7 +17,8 @@ Identifies a process or life stage during which a cellular component is present
 ### synonyms
 []
 
-##local domainn{u'BFO:0000004': ''}
+##local domain
+{u'BFO:0000004': ''}
 
 ## local range
 {u'WBls:0000075': '', u'ZFS:0100000': '', u'GO:0008150': ''}

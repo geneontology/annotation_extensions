@@ -17,7 +17,8 @@ Use this relation to link a regulatory process or function to the structure that
 ### synonyms
 []
 
-##local domainn{}
+##local domain
+{}
 
 ## local range
 {u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'CL:0000000': u'cell'}
