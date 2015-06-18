@@ -11,124 +11,89 @@ Relations
 
 [acts\_on\_population\_of](acts_on_population_of.md)
 
-[has\_agent]
+[has\_agent](has\_agent.md)
 
-[causally\_upstream\_of]
+[causally\_upstream\_of](causally_upstream_of.md)
 
-[dependent\_on]
+[dependent\_on](dependent_on.md)
 
--   [localization\_dependent\_on] maybe deprecated
-
-<!-- -->
-
--   [requires\_sequence\_feature] maybe deprecated
+-   [localization\_dependent\_on](localization_dependent_on.md) maybe deprecated
 
 <!-- -->
 
--   [requires\_substance] maybe deprecated
-
-[exists\_during]
-
-[happens\_during]
-
-[has\_participant] Not for direct use in annotation extensions!
-
--   [has\_input]
+-   [requires\_sequence\_feature](requires_sequence_feature.md) maybe deprecated
 
 <!-- -->
 
--   -   [has\_direct\_input]
+-   [requires\_substance](requires_substance.md) maybe deprecated
+
+[exists\_during](exists_during.md)
+
+[happens\_during](happens_during.md)
+
+[has\_participant](has_participant.md) Not for direct use in annotation extensions!
+
+-   [has\_input](has_input.md)
 
 <!-- -->
 
--   [has\_output]
+-   -   [has\_direct\_input](has_direct_input.md)
 
 <!-- -->
 
--   [has\_regulation\_target]
+-   [has\_output](has_output.md)
 
 <!-- -->
 
--   -   [regulates\_expression\_of]
+-   [has\_regulation\_target](has_regulation_target.md)
 
 <!-- -->
 
--   -   [regulates\_transcription\_of]
+-   -   [regulates\_expression\_of](regulates_expression_of.md)
 
 <!-- -->
 
--   -   [regulates\_translation\_of]
+-   -   [regulates\_transcription\_of](regulates_transcription_of.md)
 
 <!-- -->
 
--   [stabilizes]
+-   -   [regulates\_translation\_of](regulates_translation_of.md)
 
-[in\_absence\_of] maybe deprecated
+<!-- -->
 
-[in\_presence\_of] maybe deprecated
+-   [stabilizes](stabilizes.md)
 
-[independent\_of] maybe deprecated
+[in\_absence\_of](in_absence_of.md) maybe deprecated
 
-[occurs\_at]
+[in\_presence\_of](in_presence_of.md) maybe deprecated
 
-[occurs\_in]
+[independent\_of](independent_of.md) maybe deprecated
 
-[part\_of]
+[occurs\_at](occurs_at.md)
 
-[activated\_by]
+[occurs\_in](occurs_in.md)
 
-[inhibited\_by]
+[part\_of](part_of.md)
 
-[results\_in\_acquisition\_of\_features\_of]
+[activated\_by](activated_by.md)
 
-[results\_in\_commitment\_to]
+[inhibited\_by](inhibited_by.md)
 
-[results\_in\_determination\_of]
+[results\_in\_acquisition\_of\_features\_of](results_in_acquisition_of_features_of.md)
 
-[results\_in\_development\_of]
+[results\_in\_commitment\_to](results_in_commitment_to.md)
 
-[results\_in\_movement\_of]
+[results\_in\_determination\_of](results_in_determination_of.md)
 
-[results\_in\_specification\_of]
+[results\_in\_development\_of](results_in_development_of.md)
 
-[results\_in\_morphogenesis\_of]
+[results\_in\_movement\_of](results_in_movement_of.md)
 
-\[\[Annotation\_Extension\_Relation:results\_in\_
+[results\_in\_specification\_of](results_in_specification_of.md)
+
+[results\_in\_morphogenesis\_of](results_in_morphogenesis_of.md)
 
   [Annotation Extension Relationship graph at EBI]: http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html
   [GO relationships OBO file]: http://viewvc.geneontology.org/viewvc/GO-SVN/trunk/ontology/extensions/gorel.obo?view=log
   [Annotation Extension]: http://wiki.geneontology.org/index.php/Annotation_Extension
-  [Folding and Unfolding]: Folding_and_Unfolding "wikilink"
-  [acts\_on\_population\_of]: Annotation_Extension_Relation:acts_on_population_of "wikilink"
-  [has\_agent]: Annotation_Extension_Relation:has_agent "wikilink"
-  [causally\_upstream\_of]: Annotation_Extension_Relation:causally_upstream_of "wikilink"
-  [dependent\_on]: Annotation_Extension_Relation:dependent_on "wikilink"
-  [localization\_dependent\_on]: Annotation_Extension_Relation:localization_dependent_on "wikilink"
-  [requires\_sequence\_feature]: Annotation_Extension_Relation:requires_sequence_feature "wikilink"
-  [requires\_substance]: Annotation_Extension_Relation:requires_substance "wikilink"
-  [exists\_during]: Annotation_Extension_Relation:exists_during "wikilink"
-  [happens\_during]: Annotation_Extension_Relation:happens_during "wikilink"
-  [has\_participant]: Annotation_Extension_Relation:has_participant "wikilink"
-  [has\_input]: Annotation_Extension_Relation:has_input "wikilink"
-  [has\_direct\_input]: Annotation_Extension_Relation:has_direct_input "wikilink"
-  [has\_output]: Annotation_Extension_Relation:has_output "wikilink"
-  [has\_regulation\_target]: Annotation_Extension_Relation:has_regulation_target "wikilink"
-  [regulates\_expression\_of]: Annotation_Extension_Relation:regulates_expression_of "wikilink"
-  [regulates\_transcription\_of]: Annotation_Extension_Relation:regulates_transcription_of "wikilink"
-  [regulates\_translation\_of]: Annotation_Extension_Relation:regulates_translation_of "wikilink"
-  [stabilizes]: Annotation_Extension_Relation:stabilizes "wikilink"
-  [in\_absence\_of]: Annotation_Extension_Relation:in_absence_of "wikilink"
-  [in\_presence\_of]: Annotation_Extension_Relation:in_presence_of "wikilink"
-  [independent\_of]: Annotation_Extension_Relation:independent_of "wikilink"
-  [occurs\_at]: Annotation_Extension_Relation:occurs_at "wikilink"
-  [occurs\_in]: Annotation_Extension_Relation:occurs_in "wikilink"
-  [part\_of]: Annotation_Extension_Relation:part_of "wikilink"
-  [activated\_by]: Annotation_Extension_Relation:activated_by "wikilink"
-  [inhibited\_by]: Annotation_Extension_Relation:inhibited_by "wikilink"
-  [results\_in\_acquisition\_of\_features\_of]: Annotation_Extension_Relation:results_in_acquisition_of_features_of "wikilink"
-  [results\_in\_commitment\_to]: Annotation_Extension_Relation:results_in_commitment_to "wikilink"
-  [results\_in\_determination\_of]: Annotation_Extension_Relation:results_in_determination_of "wikilink"
-  [results\_in\_development\_of]: Annotation_Extension_Relation:results_in_development_of "wikilink"
-  [results\_in\_movement\_of]: Annotation_Extension_Relation:results_in_movement_of "wikilink"
-  [results\_in\_specification\_of]: Annotation_Extension_Relation:results_in_specification_of "wikilink"
-  [results\_in\_morphogenesis\_of]: Annotation_Extension_Relation:results_in_morphogenesis_of "wikilink"
+  [Folding and Unfolding]: http://wiki.geneontology.org/index.php/Folding_and_Unfolding
