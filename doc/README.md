@@ -9,7 +9,7 @@ Information on [Folding and Unfolding]
 Relations
 ---------
 
-[acts\_on\_population\_of]
+[acts\_on\_population\_of](acts_on_population_of.md)
 
 [has\_agent]
 
