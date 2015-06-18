@@ -4,17 +4,22 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: GOREL_0098788
 * shorthand: regulates_transcription_of
 * label: regulates transcription of
+
 ### Definition
 A relationship that holds between a process and a gene whose transcription is regulated by that process.
+
 ### Usage
 Relates a regulatory process or function to the gene whose transcription it regulates.
+
 ### Subsets
 [display_for_curators, AE_sequence_feature]
+
 ### synonyms
 []
-=== local domain ===
-{u'BFO_0000015': ''}
-=== local range ===
+
+##local domainn{u'BFO_0000015': ''}
+
+## local range
 {u'SO_0000704': ''}
 
 ---------------END AUTO GENERATED SECTION---------------

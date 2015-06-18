@@ -52,10 +52,10 @@ class om():
         auto_text += "* OWL ID: %s\n" % r
         auto_text += "* shorthand: %s\n" % self.test_then_get_annotation(r, "shorthand")
         auto_text += "* label: %s\n" % self.test_then_get_annotation(r, 'label')
-        auto_text += "### Definition\n%s\n" % self.test_then_get_annotation(r, "IAO_0000115")
-        auto_text += "### Usage\n%s\n" % self.test_then_get_annotation(r, "usage")
-        auto_text += "### Subsets\n%s\n" % str(self.ogw.getSubsets(self.bsfp.getEntity(r)))
-        auto_text += "### synonyms\n%s\n" % str(list(self.ogw.getSynonymStrings(self.bsfp.getEntity(r))))
+        auto_text += "\n### Definition\n%s\n" % self.test_then_get_annotation(r, "IAO_0000115")
+        auto_text += "\n### Usage\n%s\n" % self.test_then_get_annotation(r, "usage")
+        auto_text += "\n### Subsets\n%s\n" % str(self.ogw.getSubsets(self.bsfp.getEntity(r)))
+        auto_text += "\n### synonyms\n%s\n" % str(list(self.ogw.getSynonymStrings(self.bsfp.getEntity(r))))
         # Finding child and parent relations would take a reasoner object call
 
         local_domain = self.test_then_get_annotation(r, "local_domain")
@@ -67,7 +67,7 @@ class om():
                     ldd[ld] = id_name[ld]
                 else:
                     ldd[ld] = ''
-        auto_text += "=== local domain ===\n%s\n" % str(ldd)
+        auto_text += "\n##local domainn%s\n" % str(ldd)
         lrd = {}           
         if local_range:
             for lr in local_range.split(" "):
@@ -75,7 +75,7 @@ class om():
                     lrd[lr] = id_name[lr]
                 else:
                     lrd[lr] = ''
-        auto_text += "=== local range ===\n%s\n" % str(lrd)
+        auto_text += "\n## local range\n%s\n" % str(lrd)
         auto_text += "\n---------------END AUTO GENERATED SECTION---------------\n"
         return auto_text
 

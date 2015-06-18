@@ -4,17 +4,22 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: GOREL_0001030
 * shorthand: regulates_o_has_input
 * label: regulates_o_has_input
+
 ### Definition
 This is the combination of the regulates relation with the has_input relation
+
 ### Usage
 This is the combination of the regulates relation with the has_input relation
+
 ### Subsets
 [display_for_curators]
+
 ### synonyms
 []
-=== local domain ===
-{}
-=== local range ===
+
+##local domainn{}
+
+## local range
 {}
 
 ---------------END AUTO GENERATED SECTION---------------

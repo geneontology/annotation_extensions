@@ -4,17 +4,22 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: RO_0002565
 * shorthand: results_in_movement_of
 * label: results in movement of
+
 ### Definition
 Holds between p and c when p is locomotion process and the outcome of this process is the change of location of c
+
 ### Usage
 Use this relation to link a locomotion process to the type of cell or anatomical structure or organism that the process results in locomotion of.
+
 ### Subsets
 [display_for_curators, AE_cell_or_anatomical]
+
 ### synonyms
 []
-=== local domain ===
-{u'BFO:0000007': u'BFO:0000007'}
-=== local range ===
+
+##local domainn{u'BFO:0000007': u'BFO:0000007'}
+
+## local range
 {u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------

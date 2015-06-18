@@ -4,17 +4,22 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: GOREL_0000508
 * shorthand: inhibited_by
 * label: inhibited_by
+
 ### Definition
 Identifies a chemical substance that decreases the activity of the gene product.
+
 ### Usage
 Identifies a chemical substance that decreases the activity of the gene product.
+
 ### Subsets
 [display_for_curators, AE_chemical]
+
 ### synonyms
 []
-=== local domain ===
-{u'GO:0003674': u'molecular_function'}
-=== local range ===
+
+##local domainn{u'GO:0003674': u'molecular_function'}
+
+## local range
 {u'CHEBI:24431': u'chemical entity'}
 
 ---------------END AUTO GENERATED SECTION---------------

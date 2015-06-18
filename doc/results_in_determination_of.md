@@ -4,17 +4,22 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: RO_0002349
 * shorthand: results_in_determination_of
 * label: results in determination of
+
 ### Definition
 p 'results in determination of' c if and only if p is a developmental process and c is a cell and p results in the state of c changing to be determined. Once a cell becomes determined, it becomes committed to differentiate down a particular pathway regardless of its environment.
+
 ### Usage
 The relationship linking a cell and its participation in a process that results in the transition of a cell such that it can only develop into a single cell type independent of its environment.
+
 ### Subsets
 [display_for_curators, AE_cell_or_anatomical]
+
 ### synonyms
 []
-=== local domain ===
-{u'BFO:0000007': u'BFO:0000007'}
-=== local range ===
+
+##local domainn{u'BFO:0000007': u'BFO:0000007'}
+
+## local range
 {u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------

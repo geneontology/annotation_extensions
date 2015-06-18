@@ -4,17 +4,22 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: RO_0002315
 * shorthand: results_in_acquisition_of_features_of
 * label: results in acquisition of features of
+
 ### Definition
 The relationship that links a specified entity with the process that results in an unspecified entity acquiring the features and characteristics of the specified entity
+
 ### Usage
 Use this relation to link a process to the cell or anatomical structure that the process results in the differentiation of.
+
 ### Subsets
 [display_for_curators, AE_cell_or_anatomical]
+
 ### synonyms
 []
-=== local domain ===
-{u'BFO:0000007': u'BFO:0000007'}
-=== local range ===
+
+##local domainn{u'BFO:0000007': u'BFO:0000007'}
+
+## local range
 {u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy', u'PO:0009012': '', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------

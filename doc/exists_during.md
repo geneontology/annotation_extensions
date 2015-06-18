@@ -4,17 +4,22 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: GOREL_0000032
 * shorthand: exists_during
 * label: exists_during
+
 ### Definition
+
 
 ### Usage
 Identifies a process or life stage during which a cellular component is present
+
 ### Subsets
 [display_for_curators, AE_biological_process, AE_developmental_stages]
+
 ### synonyms
 []
-=== local domain ===
-{u'BFO:0000004': ''}
-=== local range ===
+
+##local domainn{u'BFO:0000004': ''}
+
+## local range
 {u'WBls:0000075': '', u'ZFS:0100000': '', u'GO:0008150': ''}
 
 ---------------END AUTO GENERATED SECTION---------------

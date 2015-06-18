@@ -4,17 +4,22 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: BFO_0000050
 * shorthand: part_of
 * label: part of
+
 ### Definition
 a core relation that holds between a part and its whole
+
 ### Usage
 This relation has two uses in annotation extension.  It may be used to relate a cellular component to some cellular component, cell or anatomical structure that it is part of.  It may also be used to relate a molecular function or biological process to a biological process or developmental stage of which it is a part.  It may not be used to relate cellular components to functions, processes or stages, or to relate processes or functions to cellular components, cells or anatomical structures.
+
 ### Subsets
 [display_for_curators, AE_cellular_component, AE_biological_process, AE_cell_or_anatomical, AE_developmental_stages]
+
 ### synonyms
 [u'part_of']
-=== local domain ===
-{u'BFO:0000001': ''}
-=== local range ===
+
+##local domainn{u'BFO:0000001': ''}
+
+## local range
 {u'WBls:0000075': '', u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy', u'PO:0009012': '', u'ZFS:0100000': '', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'GO:0008150': '', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------

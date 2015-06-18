@@ -4,17 +4,22 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: GOREL_0000018
 * shorthand: stabilizes
 * label: stabilizes
+
 ### Definition
 Identifies specific gene product stabilized in a protein stabilization process (or regulation thereof)
+
 ### Usage
 Identifies specific gene product stabilized in a protein stabilization process (or regulation thereof)
+
 ### Subsets
 [display_for_curators, AE_sequence_or_complex]
+
 ### synonyms
 []
-=== local domain ===
-{u'GO:0031647': ''}
-=== local range ===
+
+##local domainn{u'GO:0031647': ''}
+
+## local range
 {u'SO:0000704': u'gene', u'PR:000000001': u'PR:000000001', u'GO:0032991': u'macromolecular complex', u'CHEBI:33697': u'ribonucleic acid', u'MI:0315': u'protein complex', u'SO:0000673': u'transcript'}
 
 ---------------END AUTO GENERATED SECTION---------------

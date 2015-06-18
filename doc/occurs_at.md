@@ -4,17 +4,22 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: GOREL_0000501
 * shorthand: occurs_at
 * label: occurs at
+
 ### Definition
+
 
 ### Usage
 Identifies the Cellular Component or sequence feature adjacent to or in the vicinity of which the Molecular Function or Biological Process is executed
+
 ### Subsets
 [display_for_curators, AE_cellular_component, AE_sequence_feature]
+
 ### synonyms
 []
-=== local domain ===
-{u'BFO:0000007': u'BFO:0000007'}
-=== local range ===
+
+##local domainn{u'BFO:0000007': u'BFO:0000007'}
+
+## local range
 {u'GO:0005575': u'cellular_component', u'SO:0000110': ''}
 
 ---------------END AUTO GENERATED SECTION---------------

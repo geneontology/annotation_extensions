@@ -4,17 +4,22 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: RO_0002356
 * shorthand: results_in_specification_of
 * label: results in specification of
+
 ### Definition
 The relationship linking a cell and its participation in a process that results in the fate of the cell being specified. Once specification has taken place, a cell will be committed to differentiate down a specific pathway if left in its normal environment. 
+
 ### Usage
 The relationship linking a cell and its participation in a process that results in the transition of a cell such that is can only develop into a single cell type when left in its environment.
+
 ### Subsets
 [display_for_curators, AE_cell_or_anatomical]
+
 ### synonyms
 []
-=== local domain ===
-{u'BFO:0000007': u'BFO:0000007'}
-=== local range ===
+
+##local domainn{u'BFO:0000007': u'BFO:0000007'}
+
+## local range
 {u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------

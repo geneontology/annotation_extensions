@@ -4,17 +4,22 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: RO_0002092
 * shorthand: happens_during
 * label: happens during
+
 ### Definition
+
 
 ### Usage
 Identifies a process or life stage during which a molecular function or biological process occurs.  This is weaker than parthood.  So, for example, some various processes occur during gastrulation without being part of that process.
+
 ### Subsets
 [display_for_curators, AE_biological_process, AE_developmental_stages, ro-eco]
+
 ### synonyms
 [u'during', u'd']
-=== local domain ===
-{u'BFO:0000007': u'BFO:0000007'}
-=== local range ===
+
+##local domainn{u'BFO:0000007': u'BFO:0000007'}
+
+## local range
 {u'WBls:0000075': '', u'ZFS:0100000': '', u'GO:0008150': ''}
 
 ---------------END AUTO GENERATED SECTION---------------

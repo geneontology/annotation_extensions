@@ -4,17 +4,22 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: GOREL_0098789
 * shorthand: regulates_expression_of
 * label: regulates expression of
+
 ### Definition
 A relationship that holds between a process and a gene whose expression is regulated by that process.
+
 ### Usage
 Relates a regulatory process or function to the gene whose expression it regulates.  Expression encompasses transcription, regulation and processing involved in maturation.
+
 ### Subsets
 [display_for_curators, AE_sequence_feature]
+
 ### synonyms
 []
-=== local domain ===
-{u'BFO_0000015': ''}
-=== local range ===
+
+##local domainn{u'BFO_0000015': ''}
+
+## local range
 {u'SO_0000704': ''}
 
 ---------------END AUTO GENERATED SECTION---------------

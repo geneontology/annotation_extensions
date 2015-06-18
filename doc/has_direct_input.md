@@ -6,17 +6,22 @@ Back to [Annotation usage examples for has input](http://wiki.geneontology.org/i
 * OWL ID: GOREL_0000752
 * shorthand: has_direct_input
 * label: has_direct_input
+
 ### Definition
+
 
 ### Usage
 Identifies an entity directly affected (transported, modified, consumed or destroyed) by the gene product's participation in a molecular function or biological process. It is expected that the gene product and entity will physically interact, this can be determined either by a direct binding assay or inferred from the activity of the gene product, for example, a gene product with catalytic activity is inferred to bind its substrate.
+
 ### Subsets
 [display_for_curators, AE_chemical, AE_sequence_or_complex]
+
 ### synonyms
 []
-=== local domain ===
-{u'BFO:0000007': u'BFO:0000007'}
-=== local range ===
+
+##local domainn{u'BFO:0000007': u'BFO:0000007'}
+
+## local range
 {u'SO:0000704': u'gene', u'PR:000000001': u'PR:000000001', u'GO:0032991': u'macromolecular complex', u'CHEBI:33697': u'ribonucleic acid', u'CHEBI:24431': u'chemical entity', u'MI:0315': u'protein complex', u'SO:0000839': '', u'SO:0000673': u'transcript'}
 
 ---------------END AUTO GENERATED SECTION---------------

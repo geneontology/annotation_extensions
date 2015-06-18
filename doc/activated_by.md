@@ -4,17 +4,22 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: GOREL_0000507
 * shorthand: activated_by
 * label: activated_by
+
 ### Definition
+
 
 ### Usage
 Identifies a chemical substance that increases the activity of the gene product.
+
 ### Subsets
 [display_for_curators, AE_chemical]
+
 ### synonyms
 []
-=== local domain ===
-{u'GO:0003674': u'molecular_function'}
-=== local range ===
+
+##local domainn{u'GO:0003674': u'molecular_function'}
+
+## local range
 {u'CHEBI:24431': u'chemical entity'}
 
 ---------------END AUTO GENERATED SECTION---------------

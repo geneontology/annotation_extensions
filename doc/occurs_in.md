@@ -4,17 +4,22 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: BFO_0000066
 * shorthand: occurs_in
 * label: occurs in
+
 ### Definition
 b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and sâ where & b spatially_projects_onto s at t& c is occupies_spatial_region sâ at t& s is a proper_continuant_part_of sâ at t
+
 ### Usage
 Identifies the cell, tissue, cellular component or anatomical entity within which all parts of the molecular function or biological process occurs
+
 ### Subsets
 [display_for_curators, AE_cellular_component, AE_cell_or_anatomical]
+
 ### synonyms
 [u'unfolds_in', u'occurs_in', u'unfolds in']
-=== local domain ===
-{u'BFO:0000007': u'BFO:0000007'}
-=== local range ===
+
+##local domainn{u'BFO:0000007': u'BFO:0000007'}
+
+## local range
 {u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------

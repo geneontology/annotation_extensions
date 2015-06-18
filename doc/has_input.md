@@ -4,17 +4,22 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: RO_0002233
 * shorthand: has_input
 * label: has input
+
 ### Definition
 p has input c if either: p has direct input c or p has indirect input c. See subrelations for definitions.
+
 ### Usage
 Identifies an entity affected by (bound, transported, modified, consumed or destroyed), or a cellular response process involved in the gene product's participation in a molecular function or biological process. There is no requirement for the gene product being annotated to physically interact with the entity identified. Cases where this relation should be used include where there is insufficient evidence to suggest the gene product and entity directly interact or when the entity is an input to a biological process but doesn't physically interact with the gene product being annotated.
+
 ### Subsets
 [display_for_curators, AE_chemical, AE_sequence_or_complex, ro-eco]
+
 ### synonyms
 [u'consumes']
-=== local domain ===
-{u'BFO:0000007': u'BFO:0000007'}
-=== local range ===
+
+##local domainn{u'BFO:0000007': u'BFO:0000007'}
+
+## local range
 {u'SO:0000704': u'gene', u'PR:000000001': u'PR:000000001', u'GO:0032991': u'macromolecular complex', u'CHEBI:33697': u'ribonucleic acid', u'GO:0051716': u'cellular response to stimulus', u'CHEBI:24431': u'chemical entity', u'MI:0315': u'protein complex', u'SO:0000839': '', u'SO:0000673': u'transcript'}
 
 ---------------END AUTO GENERATED SECTION---------------

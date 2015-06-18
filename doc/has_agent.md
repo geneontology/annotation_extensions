@@ -4,17 +4,22 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: RO_0002218
 * shorthand: has_agent
 * label: has active participant
+
 ### Definition
 x has participant y if and only if x realizes some active role that inheres in y
+
 ### Usage
 The relationship that links an entity with a process in which the entity participates in the process by serving as the continuant that is responsible for the execution of the process.
+
 ### Subsets
 [display_for_curators, AE_cellular_component, AE_cell_or_anatomical, ro-eco]
+
 ### synonyms
 [u'has agent']
-=== local domain ===
-{u'GO:0008150': ''}
-=== local range ===
+
+##local domainn{u'GO:0008150': ''}
+
+## local range
 {u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------

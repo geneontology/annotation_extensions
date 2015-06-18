@@ -4,17 +4,22 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: GOREL_0001019
 * shorthand: results_in_division_of
 * label: results_in_division_of
+
 ### Definition
 The relationship linking a entity and its participation in a process that results in the division of the entity into two entities of the same type.
+
 ### Usage
 The relationship linking a entity and its participation in a process that results in the division of the entity into two entities of the same type.
+
 ### Subsets
 [display_for_curators, AE_cell_or_anatomical]
+
 ### synonyms
 []
-=== local domain ===
-{u'BFO:0000007': u'BFO:0000007'}
-=== local range ===
+
+##local domainn{u'BFO:0000007': u'BFO:0000007'}
+
+## local range
 {u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------

@@ -4,17 +4,22 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: RO_0002008
 * shorthand: coincident_with
 * label: coincident with
+
 ### Definition
 A relation that holds between two linear structures that are approximately parallel to each other for their entire length and where either the two structures are adjacent to each other or one is part of the other.
+
 ### Usage
+
 
 ### Subsets
 [display_for_curators, AE_cellular_component, ro-eco]
+
 ### synonyms
 []
-=== local domain ===
-{u'GO:0005575': u'cellular_component'}
-=== local range ===
+
+##local domainn{u'GO:0005575': u'cellular_component'}
+
+## local range
 {u'SO:0000001': '', u'CHEBI:24431': u'chemical entity'}
 
 ---------------END AUTO GENERATED SECTION---------------

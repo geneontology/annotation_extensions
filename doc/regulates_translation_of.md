@@ -4,17 +4,22 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: GOREL_0098790
 * shorthand: regulates_translation_of
 * label: regulates translation of
+
 ### Definition
 A relationship that holds between a process and a protein coding gene whose translation is regulated by that process.
+
 ### Usage
 Relates a regulatory process or function to the gene whose translation it regulates.
+
 ### Subsets
 [display_for_curators]
+
 ### synonyms
 []
-=== local domain ===
-{u'BFO_0000015': ''}
-=== local range ===
+
+##local domainn{u'BFO_0000015': ''}
+
+## local range
 {u'SO_0000704': ''}
 
 ---------------END AUTO GENERATED SECTION---------------
