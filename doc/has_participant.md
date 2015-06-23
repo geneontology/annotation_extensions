@@ -1,4 +1,4 @@
-# Definition
+## Definition
 
 Identifies an entity affected by the gene product's participation in a molecular function or biological process 
 
