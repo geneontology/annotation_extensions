@@ -23,6 +23,8 @@ class om():
        self.o = self.b.getOntology()
        self.bsfp = self.b.getBidiShortFormProvider() # uses .getEntity(<string> shortForm), .getShortForm(OWLEntity entity)
        self.ogw = OWLGraphWrapper(self.o)
+       self.start_auto_text = "---------------Text extracted from ontology: DO NOT EDIT---------------"
+       self.end_auto_text = "---------------END AUTO GENERATED SECTION---------------"
 
     def get_valid_OP_list(self):
         """Returns a list of relations in the display_for_curators subset"""
@@ -48,7 +50,8 @@ class om():
         r = relation_shortFormId
         id_name = and id_name dict lookup to use for domain and range
         """
-        auto_text =  "---------------Text extracted from ontology: DO NOT EDIT---------------\n"
+        # Be carful
+        auto_text =  "%s\n" % self.start_auto_text
         auto_text += "\n## %s\n" % self.test_then_get_annotation(r, "shorthand")
         auto_text += "* OWL ID: %s\n" % r
         auto_text += "* label: %s\n" % self.test_then_get_annotation(r, 'label')
@@ -77,7 +80,7 @@ class om():
                 else:
                     lrd[lr] = ''
         auto_text += "\n## local range\n%s\n" % str(lrd)
-        auto_text += "\n---------------END AUTO GENERATED SECTION---------------\n"
+        auto_text += "\n%s\n" % self.end_auto_text
         return auto_text
 
 def test_includes():
@@ -96,12 +99,12 @@ def wiki_cleanup(wiki):
     wiki = re.sub(pattern = "^(back to.+?)==", repl = r'\1!INCLUDE\n\n==', string = wiki, flags = re.DOTALL|re.I)
     wiki = remove_section(wiki, "Definition")
     wiki = remove_section(wiki, "Scope of use")
-    wiki = remove_section(wiki, "=domain")
-    wiki = remove_section(wiki, "=range")
+    wiki = remove_section(wiki, "=domain") # assumes level 3.  Deals with regex deficiencies
+    wiki = remove_section(wiki, "=range") # ditto
     wiki = remove_section(wiki, "synonym.")
     wiki = remove_section(wiki, "child terms")
     return wiki
-    # Add in flag for includes
+
 
 
 def wiki2md(r):
@@ -163,7 +166,7 @@ def  update(md, auto_text):
     r = shorthand,
     auto_text = auto gen to insert
     """
-    old_auto_text = "## Text extracted from ontlogy: DO NOT EDIT.+ -+END AUTO GENERATED SECTION-+"
+    old_auto_text = "-+Text extracted from ontology: DO NOT EDIT-+.+-+END AUTO GENERATED SECTION-+"
     md = include(pattern = old_auto_text, auto_text = auto_text, mdin = md)
     md_out.close()    
      # Now to filter down - use subset ?
