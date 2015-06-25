@@ -7,13 +7,6 @@ Comment
 
 This relation should not be used to annotate one gene product regulating another's activity; a regulator Molecular Function or regulation Biological Process should be used in such cases.
 
-Range
------
-
-=
-
-CHEBI:24431 ! chemical entity
-
 Annotation Extension Usage Examples
 -----------------------------------
 

@@ -5,10 +5,7 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 Comment
 -------
 
-Local Range
------------
-
-=
+### Local Range
 
 CL:0000000 (cell), <GO:0005575> (cellular component), PO:0025131 (plant anatomical entity), UBERON:0001062 (anatomical entity), WBbt:0004017 (cell), WBbt:0005766 (anatomy)
 

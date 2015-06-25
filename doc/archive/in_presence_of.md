@@ -1,3 +1,7 @@
+### DEPRECATION WARNING
+
+The GO editors have agreed that this relation should be deprecated. The relation does not extend the meaning of the GO term, as annotation relations are meant to, but instead specifies conditions under which the annotation is true. This can not be expressed in OWL. Annotation extensions using this relation will never fold.
+
 Annotation Extension Usage Examples
 -----------------------------------
 

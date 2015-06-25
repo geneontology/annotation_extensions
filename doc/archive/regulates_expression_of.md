@@ -8,7 +8,24 @@ Text extracted from ontlogy: DO NOT EDIT
 -   shorthand: regulates\_expression\_of
 -   label: regulates expression of
 
-===Annotation Extension Usage Examples==
+==== Usage === Relates a regulatory process or function to the gene whose expression it regulates. Expression encompasses transcription, regulation and processing involved in maturation.
+
+### local domain
+
+{u'BFO:0000007': u'BFO:0000007'}
+
+### local range
+
+{u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
+
+------------------------------------------------------------------------
+
+END AUTO GENERATED SECTION
+
+------------------------------------------------------------------------
+
+Annotation Extension Usage Examples
+-----------------------------------
 
 Back to [Annotation Extension: Capturing participants](http://wiki.geneontology.org/index.php/Annotation_Extension:_Capturing_participants)
 

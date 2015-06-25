@@ -6,7 +6,19 @@ Back to [http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_ea
 == Text extracted from ontlogy: DO NOT EDIT ==
 * shorthand: regulates_transcription_of
 * label: regulates transcription of
-===Annotation Extension Usage Examples==
+==== Usage ===
+Relates a regulatory process or function to the gene whose transcription it regulates.
+=== local domain ===
+{u'BFO:0000007': u'BFO:0000007'}
+=== local range ===
+{u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
+
+-----
+END AUTO GENERATED SECTION
+-----
+
+
+==Annotation Extension Usage Examples==
 
 Back to [http://wiki.geneontology.org/index.php/Annotation_Extension:_Capturing_participants Annotation Extension: Capturing participants]
 
