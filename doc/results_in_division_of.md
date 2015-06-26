@@ -14,6 +14,9 @@ The relationship linking a entity and its participation in a process that result
 ### Usage
 The relationship linking a entity and its participation in a process that results in the division of the entity into two entities of the same type.
 
+### Comment
+Example of use: an annotation of gene X to cell division with results_in_division_of CL:0000057 (fibroblast) means that at the end of the process a single fibroblast has divided into two fibroblasts.
+
 ### Subsets
 [display_for_curators, AE_cell_or_anatomical]
 
@@ -24,6 +27,11 @@ The relationship linking a entity and its participation in a process that result
 {u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 
@@ -53,7 +61,7 @@ Statement from paper: *"... knocking down gata3 reduces the number of injury-sti
 
 Paper: "Pa6a and Paxb are required at different points in neuronal progenitor cell proliferation during zebrafish photoreceptor regeneration" (PMID: 20152834)
 
-Statement from paper: *"...knockdown of Pax6b expression inhibited the subsequent division of the MÃÂÃÂÃÂÃÂ¼ller glia-derived INL neuronal progenitor. In contrast, reduction of Pax6a expression allowed this initial neuronal progenitor cell division, but it prevented later cell divisions."*
+Statement from paper: *"...knockdown of Pax6b expression inhibited the subsequent division of the MÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¼ller glia-derived INL neuronal progenitor. In contrast, reduction of Pax6a expression allowed this initial neuronal progenitor cell division, but it prevented later cell divisions."*
 
 |          | Gene Name (col 2) | GO ID (col 5)                                                          | Reference (col 6) | Evidence (col 7) | Annotation Extension (col 16)                                  | Parent terms of new folded GO term                           |
 |----------|-------------------|------------------------------------------------------------------------|-------------------|------------------|----------------------------------------------------------------|--------------------------------------------------------------|

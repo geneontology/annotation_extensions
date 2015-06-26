@@ -14,16 +14,24 @@ Holds between p and c when p is locomotion process and the outcome of this proce
 ### Usage
 Use this relation to link a locomotion process to the type of cell or anatomical structure or organism that the process results in locomotion of.
 
+### Comment
+For movement of chemicals or cell parts, please use transports_or_maintains_localization_of
+
 ### Subsets
 [display_for_curators, AE_cell_or_anatomical]
 
 ##local domain
-{u'GO:0008150': ''}
+{u'GO:0008150': u'biological_process'}
 
 ## local range
 {u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

@@ -6,7 +6,7 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: GOREL_0000501
 * label: occurs at
 * synonyms
-[]
+[u'at']
 
 ### Definition
 
@@ -14,16 +14,24 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 ### Usage
 Identifies the Cellular Component or sequence feature adjacent to or in the vicinity of which the Molecular Function or Biological Process is executed
 
+### Comment
+Previous definition "P occurs_at C : the execution of P is located at C." [GOC:cjm, GOC:mah] This relation is not constrained with respect to whether C completely surrounds, or is adjacent to, the location where P is executed. Example: chromatin silencing at centromere unfolds_around centromere : Repression of transcription of centromeric DNA by the formation of heterochromatin.
+
 ### Subsets
 [display_for_curators, AE_cellular_component, AE_sequence_feature]
 
 ##local domain
-{u'BFO:0000015': ''}
+{u'BFO:0000015': u'process'}
 
 ## local range
-{u'GO:0005575': u'cellular_component', u'SO:0000110': ''}
+{u'GO:0005575': u'cellular_component', u'SO:0000110': u'sequence_feature'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

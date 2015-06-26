@@ -14,6 +14,9 @@ This is the combination of the regulates relation with the results_in_division_o
 ### Usage
 This is the combination of the regulates relation with the results_in_division_of relation.
 
+### Comment
+
+
 ### Subsets
 [display_for_curators]
 
@@ -24,6 +27,11 @@ This is the combination of the regulates relation with the results_in_division_o
 {u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

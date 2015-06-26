@@ -6,13 +6,16 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: RO_0002233
 * label: has input
 * synonyms
-[u'consumes']
+[u'has_target', u'localizes']
 
 ### Definition
 p has input c if either: p has direct input c or p has indirect input c. See subrelations for definitions.
 
 ### Usage
 Use this relation to relate a biological process or molecular function to an entity that participates in the process/function, is present at the start of the process/function and whose state is affected by that process/function.  Change of state includes being transported, modified, consumed or destroyed.  An input may be any continuant: chemical; gene product; cell component;  cells type; organism.  For inputs to MFs that are bound by the gene product that executes the MF, the more specific relation 'has_direct_input' may be used.
+
+### Comment
+Previous definition "p has_input c if and only c participates_in p at the start of p and c is in some way bound, transported, modified, consumed or destroyed by p." If it is known whether the entity is directly or indirectly bound/acted upon by the gene product that is the subject of the annotation, then the relations has_direct_input or has_indirect_input should be alternatively considered.
 
 ### Subsets
 [display_for_curators, AE_chemical, AE_sequence_or_complex, ro-eco]
@@ -21,9 +24,14 @@ Use this relation to relate a biological process or molecular function to an ent
 {u'BFO:0000007': u'BFO:0000007'}
 
 ## local range
-{u'SO:0000704': u'gene', u'PR:000000001': u'PR:000000001', u'GO:0032991': u'macromolecular complex', u'CHEBI:33697': u'ribonucleic acid', u'CHEBI:24431': u'chemical entity', u'MI:0315': u'protein complex', u'SO:0000839': '', u'SO:0000673': u'transcript'}
+{u'SO:0000704': u'gene', u'PR:000000001': u'protein', u'GO:0032991': u'macromolecular complex', u'CHEBI:33697': u'ribonucleic acid', u'CHEBI:24431': u'chemical entity', u'MI:0315': u'protein complex', u'SO:0000839': u'polypeptide_region', u'SO:0000673': u'transcript'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

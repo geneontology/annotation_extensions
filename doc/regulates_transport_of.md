@@ -14,6 +14,9 @@ A relationship that holds between a  process that regulates a transport process 
 ### Usage
 
 
+### Comment
+
+
 ### Subsets
 [display_for_curators, AE_chemical, ro-eco]
 
@@ -24,6 +27,11 @@ A relationship that holds between a  process that regulates a transport process 
 {}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

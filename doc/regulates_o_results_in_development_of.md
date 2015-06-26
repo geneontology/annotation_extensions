@@ -6,13 +6,16 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: GOREL_0001023
 * label: regulates development of
 * synonyms
-[]
+[u'regulates_o_results_in_development_of']
 
 ### Definition
 This is the combination of the regulates relation with the results_in_development_of relation.
 
 ### Usage
 Use this relation to relate 'regulation of developmental process' or one of its subclasses to the structure that the regulated developmental process results in the development of.
+
+### Comment
+
 
 ### Subsets
 [display_for_curators, AE_cell_or_anatomical]
@@ -24,6 +27,11 @@ Use this relation to relate 'regulation of developmental process' or one of its 
 {u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

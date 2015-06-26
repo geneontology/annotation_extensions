@@ -6,13 +6,16 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: GOREL_0001022
 * label: regulates commitment to
 * synonyms
-[]
+[u'regulates_o_results_in_commitment_to']
 
 ### Definition
 A relation that applies between a process that regulates cell fate commitment and the cell type that the regulated process results in commitment to.
 
 ### Usage
 This is the combination of the regulates relation with the results_in_commitment_to relation.
+
+### Comment
+
 
 ### Subsets
 [display_for_curators, AE_cell_or_anatomical]
@@ -24,6 +27,11 @@ This is the combination of the regulates relation with the results_in_commitment
 {u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

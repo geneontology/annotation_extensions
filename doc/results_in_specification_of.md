@@ -14,16 +14,24 @@ The relationship linking a cell and its participation in a process that results 
 ### Usage
 The relationship linking a cell and its participation in a process that results in the transition of a cell such that is can only develop into a single cell type when left in its environment.
 
+### Comment
+Example of use: an annotation of gene X to cell determination with results_in_determination_of CL:0000540 (neuron) means that at the end of the process an unspecified cell will develop into a neuron if left in its environment. If the cell is moved, it may develop into a cell type other than a neuron.
+
 ### Subsets
 [display_for_curators, AE_cell_or_anatomical]
 
 ##local domain
-{u'GO:0008150': ''}
+{u'GO:0008150': u'biological_process'}
 
 ## local range
 {u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

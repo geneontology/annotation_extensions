@@ -6,12 +6,15 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: RO_0002220
 * label: adjacent to
 * synonyms
-[]
+[u'adjacent to']
 
 ### Definition
 x adjacent to y if and only if x and y share a boundary
 
 ### Usage
+
+
+### Comment
 
 
 ### Subsets
@@ -24,6 +27,11 @@ x adjacent to y if and only if x and y share a boundary
 {}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

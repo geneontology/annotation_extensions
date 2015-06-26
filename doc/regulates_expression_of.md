@@ -14,16 +14,24 @@ A relationship that holds between a process and a gene whose expression is regul
 ### Usage
 Relates a regulatory process or function to the gene whose expression it regulates.  Expression encompasses transcription, regulation and processing involved in maturation.
 
+### Comment
+
+
 ### Subsets
 [display_for_curators, AE_sequence_feature]
 
 ##local domain
-{u'BFO_0000015': ''}
+{u'BFO:0000015': u'process'}
 
 ## local range
-{u'SO_0000704': ''}
+{u'SO:0000704': u'gene'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

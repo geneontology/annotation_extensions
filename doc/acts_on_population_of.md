@@ -14,6 +14,9 @@ The relationship that links an entity with a process in which the process has mo
 ### Usage
 The relationship that links an entity with a process in which the process has more than one participant that is of the same entity type.
 
+### Comment
+Example of use: an annotation of gene X to cell proliferation with acts_on_population_of CL:0000057 means that gene X is involved in the proliferation of fibroblasts.
+
 ### Subsets
 [display_for_curators, AE_cell_or_anatomical]
 
@@ -24,6 +27,11 @@ The relationship that links an entity with a process in which the process has mo
 {u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

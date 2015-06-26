@@ -14,6 +14,9 @@ The relationship linking a entity and its participation in a process whereby at 
 ### Usage
 The relationship linking a entity and its participation in a process whereby at the beginning of the process the entity does not exist and at the end of the process the entity exists.
 
+### Comment
+Example of use: an annotation of gene X to anatomical structure formation with results_in_formation_of UBERON:0000007 (pituitary gland) means that at the beginning of the process a pituitary gland does not exist and at the end of the process a pituitary gland exists.
+
 ### Subsets
 [display_for_curators, AE_cell_or_anatomical]
 
@@ -21,9 +24,14 @@ The relationship linking a entity and its participation in a process whereby at 
 {}
 
 ## local range
-{u'GO:0008150': ''}
+{u'GO:0008150': u'biological_process'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

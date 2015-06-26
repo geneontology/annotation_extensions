@@ -16,6 +16,9 @@ The relationship that links an entity with the process that results in the forma
 ### Usage
 The relationship that links an entity with the process that results in the formation and shaping of that entity over time from an immature to a mature state.
 
+### Comment
+Example of use: an annotation of gene X to cell morphogenesis with results_in_morphogenesis_of CL:0000540 (neuron) means that at the end of the process an input neuron has attained its shape.
+
 ### Subsets
 [display_for_curators, AE_cellular_component, AE_cell_or_anatomical]
 
@@ -26,6 +29,11 @@ The relationship that links an entity with the process that results in the forma
 {u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

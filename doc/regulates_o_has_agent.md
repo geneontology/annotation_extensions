@@ -6,7 +6,7 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: GOREL_0001011
 * label: regulates_o_has_agent
 * synonyms
-[]
+[u'regulates_o_has_agent']
 
 ### Definition
 A relationship between the regulation of a process and the agent that executes that process.
@@ -14,16 +14,24 @@ A relationship between the regulation of a process and the agent that executes t
 ### Usage
 
 
+### Comment
+
+
 ### Subsets
 [display_for_curators]
 
 ##local domain
-{u'GO:0098772': '', u'GO:0065009': ''}
+{u'GO:0098772': u'molecular function regulator', u'GO:0065009': u'regulation of molecular function'}
 
 ## local range
-{u'UBERON:0000465': '', u'GO:0043234': '', u'PR:000000001': u'PR:000000001', u'PO:0025131': u'plant anatomical entity', u'SO:0000374': ''}
+{u'UBERON:0000465': u'material anatomical entity', u'GO:0043234': u'protein complex', u'PR:000000001': u'protein', u'PO:0025131': u'plant anatomical entity', u'SO:0000374': u'ribozyme'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

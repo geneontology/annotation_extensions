@@ -14,6 +14,9 @@ This is the combination of the regulates relation with the results_in_morphogene
 ### Usage
 This is the combination of the regulates relation with the results_in_morphogenesis_of relation.
 
+### Comment
+
+
 ### Subsets
 [display_for_curators]
 
@@ -24,6 +27,11 @@ This is the combination of the regulates relation with the results_in_morphogene
 {u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

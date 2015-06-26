@@ -6,13 +6,16 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: GOREL_0000508
 * label: inhibited_by
 * synonyms
-[]
+[u'activity_decreased_by', u'inhibited by', u'inhibited_by_chemical', u'inhibited_by_substance']
 
 ### Definition
 Identifies a chemical substance that decreases the activity of the gene product.
 
 ### Usage
 Identifies a chemical substance that decreases the activity of the gene product.
+
+### Comment
+This relation should not be used to annotate one gene product regulating another's activity; a regulator MF or regulation BP should be used in such cases.
 
 ### Subsets
 [display_for_curators, AE_chemical]
@@ -24,6 +27,11 @@ Identifies a chemical substance that decreases the activity of the gene product.
 {u'CHEBI:24431': u'chemical entity'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

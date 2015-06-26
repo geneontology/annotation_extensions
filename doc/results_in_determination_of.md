@@ -14,6 +14,9 @@ p 'results in determination of' c if and only if p is a developmental process an
 ### Usage
 The relationship linking a cell and its participation in a process that results in the transition of a cell such that it can only develop into a single cell type independent of its environment.
 
+### Comment
+Example of use: an annotation of gene X to cell determination with results_in_determination_of CL:0000540 (neuron) means that at the end of the process an unspecified cell will develop into a neuron with no additional input.
+
 ### Subsets
 [display_for_curators, AE_cell_or_anatomical]
 
@@ -24,6 +27,11 @@ The relationship linking a cell and its participation in a process that results 
 {u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

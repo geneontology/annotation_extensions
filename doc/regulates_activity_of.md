@@ -14,16 +14,24 @@ A relation that holds between the regulation of a molecular function and the age
 ### Usage
 Use this relation to link either a molecular function, or a biological process that regulates a molecular function, to the gene product or complex that executes the regulated function.
 
+### Comment
+
+
 ### Subsets
 [display_for_curators, AE_sequence_or_complex]
 
 ##local domain
-{u'GO:0098772': '', u'GO:0065009': ''}
+{u'GO:0098772': u'molecular function regulator', u'GO:0065009': u'regulation of molecular function'}
 
 ## local range
-{u'GO:0043234': '', u'PR:000000001': u'PR:000000001', u'SO:0000374': ''}
+{u'GO:0043234': u'protein complex', u'PR:000000001': u'protein', u'SO:0000374': u'ribozyme'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

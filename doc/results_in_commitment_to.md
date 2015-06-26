@@ -14,6 +14,9 @@ p 'results in commitment to' c if and only if p is a developmental process and c
 ### Usage
 The relationship linking a cell and its participation in a process that results in the transition of a cell such that is can only develop into a single cell type.
 
+### Comment
+Example of use: an annotation of gene X to cell commitment with results_in_commitment_to CL:0000540 (neuron) means that at the end of the process an unspecified cell has been specified and determined to develop into a neuron.
+
 ### Subsets
 [display_for_curators, AE_cell_or_anatomical]
 
@@ -24,6 +27,11 @@ The relationship linking a cell and its participation in a process that results 
 {u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

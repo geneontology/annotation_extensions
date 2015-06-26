@@ -6,7 +6,7 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: GOREL_0000004
 * label: dependent_on
 * synonyms
-[]
+[u'dependent on']
 
 ### Definition
 Identifies a requirement under which the ontology term is observed to apply to the annotated gene product.
@@ -14,16 +14,24 @@ Identifies a requirement under which the ontology term is observed to apply to t
 ### Usage
 Identifies a requirement under which the ontology term is observed to apply to the annotated gene product.
 
+### Comment
+PomBase uses the more specific child relations, and avoids using dependent_on directly.
+
 ### Subsets
 [display_for_curators, AE_molecular_function, AE_chemical, AE_sequence_or_complex, AE_sequence_feature, AE_biological_process]
 
 ##local domain
-{u'BFO:0000001': ''}
+{u'BFO:0000001': u'entity'}
 
 ## local range
-{u'SO:0000704': u'gene', u'MOD:00000': '', u'PR:000000001': u'PR:000000001', u'GO:0032991': u'macromolecular complex', u'CHEBI:24431': u'chemical entity', u'SO:0000110': '', u'GO:0008150': '', u'SO:0000673': u'transcript', u'CHEBI:33697': u'ribonucleic acid', u'MI:0315': u'protein complex', u'GO:0003674': u'molecular_function'}
+{u'SO:0000704': u'gene', u'MOD:00000': u'protein modification', u'PR:000000001': u'protein', u'GO:0032991': u'macromolecular complex', u'CHEBI:24431': u'chemical entity', u'SO:0000110': u'sequence_feature', u'GO:0008150': u'biological_process', u'SO:0000673': u'transcript', u'CHEBI:33697': u'ribonucleic acid', u'MI:0315': u'protein complex', u'GO:0003674': u'molecular_function'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 
@@ -39,7 +47,7 @@ Annotation Extension Usage Examples
 
 Statement from paper:
 
-*To test whether RIP3 and RIP4 have to be ubiquitinated by cIAP1/2 in order to mediate NF-kB activation, we compared RIP-mediated NF-kB luciferase reporter activity when ectopically expressed in HEK293T cells in the presence or absence of the IAP inhibitor BV6, a treatment that induces rapid auto-ubiquitination and degradation of endogenous cIAP1/2[41]. As shown in Figure 4A, BV6 treatment greatly impaired TNF and RIP1ÃÂÃÂ¢ÃÂÃÂÃÂÃÂRIP4-induced NF-kB activation but had no impact on TAK1-mediated NF-kB induction (Figure 4A). Those results, which indicate that cIAP1/2 act upstream of TAK1, are consistent with a role for cIAP1/2 as E3 ligases regulating RIP1ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ4-mediated activation of NF-kB.*
+*To test whether RIP3 and RIP4 have to be ubiquitinated by cIAP1/2 in order to mediate NF-kB activation, we compared RIP-mediated NF-kB luciferase reporter activity when ectopically expressed in HEK293T cells in the presence or absence of the IAP inhibitor BV6, a treatment that induces rapid auto-ubiquitination and degradation of endogenous cIAP1/2[41]. As shown in Figure 4A, BV6 treatment greatly impaired TNF and RIP1ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂRIP4-induced NF-kB activation but had no impact on TAK1-mediated NF-kB induction (Figure 4A). Those results, which indicate that cIAP1/2 act upstream of TAK1, are consistent with a role for cIAP1/2 as E3 ligases regulating RIP1ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ4-mediated activation of NF-kB.*
 
 Expressed in LEGO: <http://go-genkisugi.rhcloud.com/seed/model/gomodel:taxon_9606-5408ded30000003>
 

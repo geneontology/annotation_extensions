@@ -6,7 +6,7 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: GOREL_0001027
 * label: regulates specification of
 * synonyms
-[]
+[u'regulates_o_results_in_specification_of']
 
 ### Definition
 A relation that applies between a process that regulates the specification of some cell type or structure and the specified cell type or structure.
@@ -14,16 +14,24 @@ A relation that applies between a process that regulates the specification of so
 ### Usage
 Use this relation to link a process that regulates the specification of some cell type of anatomical structure, and the structure or cell type specified.
 
+### Comment
+
+
 ### Subsets
 [display_for_curators, AE_cell_or_anatomical]
 
 ##local domain
-{u'GO:0050896': ''}
+{u'GO:0050896': u'response to stimulus'}
 
 ## local range
 {u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

@@ -6,13 +6,16 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: GOREL_0000507
 * label: activated_by
 * synonyms
-[]
+[u'activated by', u'activated_by_chemical', u'activated_by_substance', u'activity_increased_by']
 
 ### Definition
 
 
 ### Usage
 Identifies a chemical substance that increases the activity of the gene product.
+
+### Comment
+This relation should not be used to annotate one gene product regulating another's activity; a regulator MF or regulation BP should be used in such cases.
 
 ### Subsets
 [display_for_curators, AE_chemical]
@@ -24,6 +27,11 @@ Identifies a chemical substance that increases the activity of the gene product.
 {u'CHEBI:24431': u'chemical entity'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

@@ -6,7 +6,7 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: GOREL_0001004
 * label: regulates process that occurs in
 * synonyms
-[]
+[u'regulates_o_occurs_in']
 
 ### Definition
 A relation that holds between a regulatory process and the entity which the regulated biological process or molecular function occurs in.
@@ -14,16 +14,24 @@ A relation that holds between a regulatory process and the entity which the regu
 ### Usage
 Use this relation to link a regulatory process or function to the structure that the regulated process or function occurs in.
 
+### Comment
+
+
 ### Subsets
 [display_for_curators, AE_cellular_component, AE_cell_or_anatomical]
 
 ##local domain
-{u'GO:0050789': ''}
+{u'GO:0050789': u'regulation of biological process'}
 
 ## local range
 {u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

@@ -6,13 +6,16 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 * OWL ID: GOREL_0000015
 * label: has_regulation_target
 * synonyms
-[]
+[u'regulates']
 
 ### Definition
 
 
 ### Usage
 Use this relationship to link a regulatory process or function to an entity that (such as a gene, gene product, or complex) participates in the regulated process.
+
+### Comment
+probably want to add one or two new subtypes that capture something about directness
 
 ### Subsets
 [display_for_curators, AE_sequence_or_complex]
@@ -21,9 +24,14 @@ Use this relationship to link a regulatory process or function to an entity that
 {}
 
 ## local range
-{u'SO:0000704': u'gene', u'PR:000000001': u'PR:000000001', u'GO:0032991': u'macromolecular complex', u'CHEBI:33697': u'ribonucleic acid', u'MI:0315': u'protein complex', u'SO:0000673': u'transcript'}
+{u'SO:0000704': u'gene', u'PR:000000001': u'protein', u'GO:0032991': u'macromolecular complex', u'CHEBI:33697': u'ribonucleic acid', u'MI:0315': u'protein complex', u'SO:0000673': u'transcript'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 
