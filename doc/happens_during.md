@@ -26,12 +26,14 @@ Identifies a process or life stage during which a molecular function or biologic
 ---------------END AUTO GENERATED SECTION---------------
 
 
+
+
 Comment
 -------
 
 This relationship can be used in two ways:
 
--   To add a **PHASE** to the annotation extension field of a biological processes the **ONLY** relationship to use is Ã¢ÂÂhappens\_duringÃ¢ÂÂ (not part\_of)
+-   To add a **PHASE** to the annotation extension field of a biological processes the **ONLY** relationship to use is ÃÂÃÂ¢ÃÂÃÂÃÂÃÂhappens\_duringÃÂÃÂ¢ÃÂÃÂÃÂÃÂ (not part\_of)
 -   To add a *biological process* to the annotation extension field when the role of the gene product in the process is unclear, but occurs during this specific *biological process*. Consider the use of the relationship [part\_of](http://wiki.geneontology.org/index.php/Annotation_Extension_Relation:part_of) if it is known that the process is definitely part of the biological process.
 
 To link a **physical entity** (*cellular component*) to a process by duration, use the relationship **exists\_during.**

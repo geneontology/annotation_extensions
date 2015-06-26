@@ -26,6 +26,8 @@ Identifies a requirement under which the ontology term is observed to apply to t
 ---------------END AUTO GENERATED SECTION---------------
 
 
+
+
 ### DEPRECATION WARNING
 
 The GO editors have agreed that this relation should be deprecated. The relation does not extend the meaning of the GO term, as annotation relations are meant to, but instead specifies conditions under which the annotation is true. This can not be expressed in OWL. Annotation extensions using this relation will not fold.
@@ -37,7 +39,7 @@ Annotation Extension Usage Examples
 
 Statement from paper:
 
-*To test whether RIP3 and RIP4 have to be ubiquitinated by cIAP1/2 in order to mediate NF-kB activation, we compared RIP-mediated NF-kB luciferase reporter activity when ectopically expressed in HEK293T cells in the presence or absence of the IAP inhibitor BV6, a treatment that induces rapid auto-ubiquitination and degradation of endogenous cIAP1/2[41]. As shown in Figure 4A, BV6 treatment greatly impaired TNF and RIP1Ã¢ÂÂRIP4-induced NF-kB activation but had no impact on TAK1-mediated NF-kB induction (Figure 4A). Those results, which indicate that cIAP1/2 act upstream of TAK1, are consistent with a role for cIAP1/2 as E3 ligases regulating RIP1Ã¢ÂÂ4-mediated activation of NF-kB.*
+*To test whether RIP3 and RIP4 have to be ubiquitinated by cIAP1/2 in order to mediate NF-kB activation, we compared RIP-mediated NF-kB luciferase reporter activity when ectopically expressed in HEK293T cells in the presence or absence of the IAP inhibitor BV6, a treatment that induces rapid auto-ubiquitination and degradation of endogenous cIAP1/2[41]. As shown in Figure 4A, BV6 treatment greatly impaired TNF and RIP1ÃÂÃÂ¢ÃÂÃÂÃÂÃÂRIP4-induced NF-kB activation but had no impact on TAK1-mediated NF-kB induction (Figure 4A). Those results, which indicate that cIAP1/2 act upstream of TAK1, are consistent with a role for cIAP1/2 as E3 ligases regulating RIP1ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ4-mediated activation of NF-kB.*
 
 Expressed in LEGO: <http://go-genkisugi.rhcloud.com/seed/model/gomodel:taxon_9606-5408ded30000003>
 

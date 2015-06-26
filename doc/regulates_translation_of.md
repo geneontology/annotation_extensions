@@ -15,7 +15,7 @@ A relationship that holds between a process and a protein coding gene whose tran
 Relates a regulatory process or function to the gene whose translation it regulates.
 
 ### Subsets
-[display_for_curators]
+[display_for_curators, AE_sequence_feature]
 
 ##local domain
 {u'BFO_0000015': ''}
@@ -24,6 +24,8 @@ Relates a regulatory process or function to the gene whose translation it regula
 {u'SO_0000704': ''}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
 
 
 Text extracted from ontlogy: DO NOT EDIT

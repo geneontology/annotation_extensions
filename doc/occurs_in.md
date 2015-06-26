@@ -18,12 +18,14 @@ Identifies the cell, tissue, cellular component or anatomical entity within whic
 [display_for_curators, AE_cellular_component, AE_cell_or_anatomical]
 
 ##local domain
-{u'BFO:0000007': u'BFO:0000007'}
+{u'BFO:0000003': ''}
 
 ## local range
 {u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
 
 
 Annotation Extension Usage Examples

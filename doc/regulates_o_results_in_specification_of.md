@@ -15,15 +15,17 @@ A relation that applies between a process that regulates the specification of so
 Use this relation to link a process that regulates the specification of some cell type of anatomical structure, and the structure or cell type specified.
 
 ### Subsets
-[display_for_curators]
+[display_for_curators, AE_cell_or_anatomical]
 
 ##local domain
-{u'BFO:0000007': u'BFO:0000007'}
+{u'GO:0050896': ''}
 
 ## local range
 {u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
 
 
 Annotation Extension Usage Example

@@ -26,6 +26,8 @@ Use this relation to link either a molecular function, or a biological process t
 ---------------END AUTO GENERATED SECTION---------------
 
 
+
+
 Annotation Extension Usage Example
 ----------------------------------
 

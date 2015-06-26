@@ -9,7 +9,7 @@ Annotation Extension Usage Examples
 
 Statement from paper:
 
-*Without CD44 expression, none of Hyal-1, Hyal-2, and Hyal-3 affected catabolism of fl-HA. Most of the fl-HA in the medium remained intact and was eluted in the void volume of the Sepharose CL-2B column (Fig. 2, AÃ¢ÂÂD).*
+*Without CD44 expression, none of Hyal-1, Hyal-2, and Hyal-3 affected catabolism of fl-HA. Most of the fl-HA in the medium remained intact and was eluted in the void volume of the Sepharose CL-2B column (Fig. 2, AÃÂÃÂ¢ÃÂÃÂÃÂÃÂD).*
 
 | Gene Name (col 2) | GO ID (col 5)                                                              | Reference (col 6) | Evidence (col 7) | Annotation Extension (col 16)                                            |
 |-------------------|----------------------------------------------------------------------------|-------------------|------------------|--------------------------------------------------------------------------|

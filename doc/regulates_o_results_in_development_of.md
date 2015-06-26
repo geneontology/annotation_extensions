@@ -15,7 +15,7 @@ This is the combination of the regulates relation with the results_in_developmen
 Use this relation to relate 'regulation of developmental process' or one of its subclasses to the structure that the regulated developmental process results in the development of.
 
 ### Subsets
-[display_for_curators]
+[display_for_curators, AE_cell_or_anatomical]
 
 ##local domain
 {u'BFO:0000007': u'BFO:0000007'}
@@ -24,6 +24,8 @@ Use this relation to relate 'regulation of developmental process' or one of its 
 {u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
 
 
 Annotation Extension Usage Example

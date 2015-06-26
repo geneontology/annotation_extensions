@@ -26,6 +26,8 @@ x adjacent to y if and only if x and y share a boundary
 ---------------END AUTO GENERATED SECTION---------------
 
 
+
+
 Annotation Extension Usage Example
 ----------------------------------
 

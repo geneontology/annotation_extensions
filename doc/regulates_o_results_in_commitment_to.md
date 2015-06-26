@@ -15,7 +15,7 @@ A relation that applies between a process that regulates cell fate commitment an
 This is the combination of the regulates relation with the results_in_commitment_to relation.
 
 ### Subsets
-[display_for_curators]
+[display_for_curators, AE_cell_or_anatomical]
 
 ##local domain
 {u'BFO:0000007': u'BFO:0000007'}
@@ -24,6 +24,8 @@ This is the combination of the regulates relation with the results_in_commitment
 {u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
 
 
 Annotation Extension Usage Example

@@ -12,18 +12,20 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 x has participant y if and only if x realizes some active role that inheres in y
 
 ### Usage
-The relationship that links an entity with a process in which the entity participates in the process by serving as the continuant that is responsible for the execution of the process.
+The relationship that links an entity with a Molecular Function or Biological Process in which the entity participates in the Function or Process by serving as the continuant that is responsible for the execution of the Function or Process
 
 ### Subsets
 [display_for_curators, AE_cellular_component, AE_cell_or_anatomical, ro-eco]
 
 ##local domain
-{u'GO:0008150': ''}
+{u'GO:0003674': u'molecular_function', u'GO:0008150': ''}
 
 ## local range
 {u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
 
 
 Comment

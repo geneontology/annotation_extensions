@@ -26,6 +26,8 @@ Identifies specific gene product stabilized in a protein stabilization process (
 ---------------END AUTO GENERATED SECTION---------------
 
 
+
+
 Annotation Extension Usage Examples
 -----------------------------------
 

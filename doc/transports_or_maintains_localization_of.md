@@ -26,6 +26,8 @@ Use to relate a process or molecular function to a substance that is transported
 ---------------END AUTO GENERATED SECTION---------------
 
 
+
+
 Annotation Extension Usage Example
 ----------------------------------
 

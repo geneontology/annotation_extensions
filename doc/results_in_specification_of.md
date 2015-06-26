@@ -18,12 +18,14 @@ The relationship linking a cell and its participation in a process that results 
 [display_for_curators, AE_cell_or_anatomical]
 
 ##local domain
-{u'BFO:0000007': u'BFO:0000007'}
+{u'GO:0008150': ''}
 
 ## local range
 {u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
 
 
 Comment
