@@ -7,6 +7,7 @@ import codecs
 import json
 from subprocess import check_output
 from subprocess import CalledProcessError
+import os
 
 def load_json(path):
     json_file = open(path, "r")
@@ -14,7 +15,13 @@ def load_json(path):
     json_file.close()
     return json.loads(json_string)
 
+def write_json(json_var, path):
+    """Writes json_var to file (path) with a nicely serialised layout."""
+    json_file = open(path, "w")
+    json_file.write(json.dumps(json_var ,sort_keys=True, indent=4, separators=(',', ': ')))
+    json_file.close()
 
+# Should really split this class out into a separate file!
 class om():
     
     def __init__(self, uri_or_fp):
@@ -55,9 +62,10 @@ class om():
         auto_text += "\n## %s\n" % self.test_then_get_annotation(r, "shorthand")
         auto_text += "* OWL ID: %s\n" % r
         auto_text += "* label: %s\n" % self.test_then_get_annotation(r, 'label')
-        auto_text += "* synonyms\n%s\n" % str(list(self.ogw.getSynonymStrings(self.bsfp.getEntity(r)))) # could be prettified
+        auto_text += "* synonyms\n%s\n" % str(list(self.ogw.getOBOSynonymStrings(self.bsfp.getEntity(r), []))) # could be prettified
         auto_text += "\n### Definition\n%s\n" % self.test_then_get_annotation(r, "IAO_0000115")
         auto_text += "\n### Usage\n%s\n" % self.test_then_get_annotation(r, "usage") #
+        auto_text += "\n### Comment\n%s\n" % self.test_then_get_annotation(r, "comment") #  
         auto_text += "\n### Subsets\n%s\n" % str(self.ogw.getSubsets(self.bsfp.getEntity(r))) # Perhaps only display AE_
         # Finding child and parent relations would take a reasoner object call.  Better for annotators to reply on graph.
         # MIght be useful to give some record of how often used in ontology
@@ -71,6 +79,7 @@ class om():
                     ldd[ld] = id_name[ld]
                 else:
                     ldd[ld] = ''
+                    id_name[ld] = ''
         auto_text += "\n##local domain\n%s\n" % str(ldd)
         lrd = {}           
         if local_range:
@@ -79,6 +88,8 @@ class om():
                     lrd[lr] = id_name[lr]
                 else:
                     lrd[lr] = ''
+                    id_name[lr] = ''
+
         auto_text += "\n## local range\n%s\n" % str(lrd)
         auto_text += "\n%s\n" % self.end_auto_text
         return auto_text
@@ -104,7 +115,6 @@ def wiki_cleanup(wiki):
     wiki = remove_section(wiki, "synonym.")
     wiki = remove_section(wiki, "child terms")
     return wiki
-
 
 
 def wiki2md(r):
@@ -149,7 +159,8 @@ def wiki2md(r):
         warnings.warn("Conversion of %s failed" % r)
 
 def include(sub_pattern, auto_text, mdin):
-        return re.sub(pattern = sub_pattern.encode('utf-8'), repl = auto_text.encode('utf-8'), string = mdin.encode('utf-8'), flags = re.DOTALL)
+        return re.sub(pattern = sub_pattern.encode('utf-8'), 
+                      repl = auto_text.encode('utf-8'), string = mdin.encode('utf-8'), flags = re.DOTALL)
 
 
 def first_pass(r, auto_text):
@@ -161,31 +172,38 @@ def first_pass(r, auto_text):
         
 
         
-def  update(md, auto_text):
-    """Update markdown
-    r = shorthand,
-    auto_text = auto gen to insert
-    """
-    old_auto_text = "-+Text extracted from ontology: DO NOT EDIT-+.+-+END AUTO GENERATED SECTION-+"
-    md = include(pattern = old_auto_text, auto_text = auto_text, mdin = md)
-    md_out.close()    
-     # Now to filter down - use subset ?
+
 
 def __main__():
     gorel_m = om("http://purl.obolibrary.org/obo/go/extensions/gorel.owl")
+#   gorel_m = om("/repos/go_trunk_ont/extensions/gorel.owl")
     rels = gorel_m.get_valid_OP_list()
     rels.remove('RO_0002411')  # Temporary expedient to deal with translation issued for this page
     id_name = load_json("../data/id_name.json")
     for sfid in rels:
         auto_content = gorel_m.gen_includes_md(sfid, id_name)
         r = gorel_m.test_then_get_annotation(sfid, 'shorthand')
+        if not os.path.exists("../doc/%s.md" % r):
+            generic = codecs.open("../doc/archive/generic.md", 'r', 'utf-8')
+            existing_content = generic.read()
+            generic.close()
+        else:   
+            file = codecs.open("../doc/%s.md" % r, 'r', 'utf-8')
+            existing_content = file.read()
+            file.close()
+            old_auto_text = "-+Text extracted from ontology: DO NOT EDIT-+.+-+END AUTO GENERATED SECTION-+"
+            existing_content = re.sub(old_auto_text, '!INCLUDE', existing_content, flags = re.DOTALL)
+      # md = first_pass(r, auto_content) # Use this for first set of runs
+        print "Processing %s.md" % r
+        # But need to check first if file exists !
         md_out = codecs.open("../doc/%s.md" % r, 'w', 'utf-8')
-        md = first_pass(r, auto_content) # Use this for first set of runs
-#       md = update(md_out.read(), auto_content) # Uncomment once editing moves to GitHub
+        md = include(sub_pattern = "!INCLUDE", auto_text = auto_content, mdin = existing_content)
         md_out.write(md)
         md_out.close()
+    write_json(id_name, "../data/id_name.json")
+    
 
 
-print test_includes()
+#print test_includes()
 
 __main__()
