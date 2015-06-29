@@ -1,5 +1,6 @@
-Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
+Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
+[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
 ## activated_by
@@ -27,6 +28,7 @@ This relation should not be used to annotate one gene product regulating another
 {u'CHEBI:24431': u'chemical entity'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 
@@ -70,6 +72,7 @@ Using examples to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "w
 
 ------------------------------------------------------------------------
 
-Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
+Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
+[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 <Category:relations> [Category:annotation extension](Category:annotation extension "wikilink") [Category:LEGO examples](Category:LEGO examples "wikilink")

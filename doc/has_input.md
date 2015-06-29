@@ -1,5 +1,6 @@
-Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
+Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
+[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
 ## has_input
@@ -27,6 +28,7 @@ Previous definition "p has_input c if and only c participates_in p at the start 
 {u'SO:0000704': u'gene', u'PR:000000001': u'protein', u'GO:0032991': u'macromolecular complex', u'CHEBI:33697': u'ribonucleic acid', u'CHEBI:24431': u'chemical entity', u'MI:0315': u'protein complex', u'SO:0000839': u'polypeptide_region', u'SO:0000673': u'transcript'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 
@@ -158,6 +160,7 @@ No new term will be created in this example because this is outside of the scope
 
 ------------------------------------------------------------------------
 
-Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
+Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
+[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 <Category:relations> [Category:annotation extension](Category:annotation extension "wikilink") [Category:LEGO examples](Category:LEGO examples "wikilink")

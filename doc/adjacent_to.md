@@ -1,5 +1,6 @@
-Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
+Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
+[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
 ## adjacent_to
@@ -36,7 +37,10 @@ x adjacent to y if and only if x and y share a boundary
 
 
 
+
 Annotation Extension Usage Example
 ----------------------------------
 
-Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
+Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
+
+[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)

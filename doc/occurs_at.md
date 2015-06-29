@@ -1,5 +1,6 @@
-Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
+Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
+[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
 ## occurs_at
@@ -27,6 +28,7 @@ Previous definition "P occurs_at C : the execution of P is located at C." [GOC:c
 {u'GO:0005575': u'cellular_component', u'SO:0000110': u'sequence_feature'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 
@@ -80,10 +82,12 @@ Statement from paper:
 
 ------------------------------------------------------------------------
 
-Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
+Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
+[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 ------------------------------------------------------------------------
 
-Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
+Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
+[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 <Category:relations> [Category:annotation extension](Category:annotation extension "wikilink") <Category:relations> [Category:annotation extension](Category:annotation extension "wikilink")

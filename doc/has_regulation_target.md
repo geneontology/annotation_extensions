@@ -1,5 +1,6 @@
-Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
+Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
+[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
 ## has_regulation_target
@@ -27,6 +28,7 @@ probably want to add one or two new subtypes that capture something about direct
 {u'SO:0000704': u'gene', u'PR:000000001': u'protein', u'GO:0032991': u'macromolecular complex', u'CHEBI:33697': u'ribonucleic acid', u'MI:0315': u'protein complex', u'SO:0000673': u'transcript'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 
@@ -79,6 +81,7 @@ Back to [Annotation Extension: Capturing participants](http://wiki.geneontology.
 
 ------------------------------------------------------------------------
 
-Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
+Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
+[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 <Category:relations> [Category:annotation extension](Category:annotation extension "wikilink")

@@ -1,5 +1,6 @@
-Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
+Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
+[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
 ## results_in_formation_of
@@ -36,6 +37,7 @@ Example of use: an annotation of gene X to anatomical structure formation with r
 
 
 
+
 Comment
 -------
 
@@ -61,6 +63,7 @@ Using examples to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "w
 
 ------------------------------------------------------------------------
 
-Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
+Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
+[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 <Category:relations> [Category:annotation extension](Category:annotation extension "wikilink")
