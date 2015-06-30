@@ -31,35 +31,6 @@ Relates a regulatory process or function to the gene whose expression it regulat
 
 
 
-
-
-
-
-
-
-
-Text extracted from ontlogy: DO NOT EDIT
-----------------------------------------
-
--   shorthand: regulates\_expression\_of
--   label: regulates expression of
-
-==== Usage === Relates a regulatory process or function to the gene whose expression it regulates. Expression encompasses transcription, regulation and processing involved in maturation.
-
-### local domain
-
-{u'BFO:0000007': u'BFO:0000007'}
-
-### local range
-
-{u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
-
-------------------------------------------------------------------------
-
-END AUTO GENERATED SECTION
-
-------------------------------------------------------------------------
-
 Annotation Extension Usage Examples
 -----------------------------------
 

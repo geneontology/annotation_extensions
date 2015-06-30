@@ -22,12 +22,14 @@ Example of use: an annotation of gene X to cell proliferation with acts_on_popul
 [display_for_curators, AE_cell_or_anatomical]
 
 ##local domain
-{u'BFO:0000007': u'BFO:0000007'}
+{u'BFO:0000015': u'process'}
 
 ## local range
 {u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
 
 
 

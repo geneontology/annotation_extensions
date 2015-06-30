@@ -5,7 +5,7 @@ Back to [index of relations docs](https://github.com/geneontology/annotation_ext
 
 ## regulates_o_results_in_morphogenesis_of
 * OWL ID: GOREL_0001026
-* label: regulates_o_results_in_morphogenesis_of
+* label: regulates morphogenesis of
 * synonyms
 []
 
@@ -22,12 +22,14 @@ This is the combination of the regulates relation with the results_in_morphogene
 [display_for_curators]
 
 ##local domain
-{u'BFO:0000007': u'BFO:0000007'}
+{u'BFO:0000015': u'process'}
 
 ## local range
 {u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
 
 
 

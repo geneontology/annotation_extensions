@@ -38,6 +38,8 @@ Use this relation to link either a molecular function, or a biological process t
 
 
 
+
+
 Annotation Extension Usage Example
 ----------------------------------
 

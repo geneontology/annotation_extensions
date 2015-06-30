@@ -38,6 +38,8 @@ Identifies specific gene product stabilized in a protein stabilization process (
 
 
 
+
+
 Annotation Extension Usage Examples
 -----------------------------------
 

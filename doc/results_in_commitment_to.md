@@ -22,12 +22,14 @@ Example of use: an annotation of gene X to cell commitment with results_in_commi
 [display_for_curators, AE_cell_or_anatomical]
 
 ##local domain
-{u'BFO:0000007': u'BFO:0000007'}
+{u'BFO:0000015': u'process'}
 
 ## local range
 {u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
 
 
 

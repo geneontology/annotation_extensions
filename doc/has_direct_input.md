@@ -24,12 +24,14 @@ If the entity is indirectly bound/acted upon by the gene product that is the sub
 [display_for_curators, AE_chemical, AE_sequence_or_complex]
 
 ##local domain
-{u'BFO:0000007': u'BFO:0000007'}
+{u'BFO:0000015': u'process'}
 
 ## local range
 {u'SO:0000704': u'gene', u'PR:000000001': u'protein', u'GO:0032991': u'macromolecular complex', u'CHEBI:33697': u'ribonucleic acid', u'CHEBI:24431': u'chemical entity', u'MI:0315': u'protein complex', u'SO:0000839': u'polypeptide_region', u'SO:0000673': u'transcript'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
 
 
 
