@@ -32,6 +32,7 @@ Relates a regulatory process or function to the gene whose transcription it regu
 
 
 
+
 # Annotation Extension Usage Examples
 
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)

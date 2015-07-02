@@ -40,4 +40,5 @@ Example of use: an annotation of gene X to cell morphogenesis with results_in_mo
 
 
 
+
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
