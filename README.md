@@ -1,17 +1,18 @@
 # annotation_extensions
 
-A site for tickets discussing the annotation extension relations used in GO annotation, for code used to generate documention for annotators, and for despositing usage reports. 
+A site for 
 
-## Annotation usage reports
 
-Please see the documents here: 
+* [Semi-automated documentation of relations](doc/) used in annotation extensions
+* [Annotation extension relation usage reports](annotation_extension_usage_reports/)
+* Code used to generate documention & usage reports for annotators
+* [Documentation of of the annotation extension pipeline, dependencies and validation](https://github.com/geneontology/annotation_extensions/wiki)
+* [Tickets](https://github.com/geneontology/annotation_extensions/issues) requesting changes to the annotation extension relations and all related coded and documentation.
 
 ## Dynamically generated documentation of annotation extension relations
 
-In an ideal world, everyone would be using a single system for editing and viewing all AE extension relation content. It's probably asking too much for that one place to be Protege, although we should pull as much as we can into the OWL file itself.  Work is ongoing to move the manually maintained [wiki](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation) to a set of semi-automated pages, pulling information from the OWL file.  The latest versions of these pages can be viewed in the [/doc](doc) folder on this repository.
+In an ideal world, everyone would be using a single system for editing and viewing all AE extension relation content. Protege is ideal for this, but annotators have traditionally relied on a manually maintained [wiki](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation).  This inevitably goes stale, and so we have moved these pages to this repository ([doc](doc/)), where generation of their ontology-derived content is automated -  pulling information from the OWL file.  These pages retain a manual component consisting of examples of usage & how extended annotations are ['folded'](http://wiki.geneontology.org/index.php/Folding_and_Unfolding)) into the ontology.
 
-
-Information on [Folding and Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding)
 
 
  
