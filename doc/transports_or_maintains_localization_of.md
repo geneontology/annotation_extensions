@@ -36,7 +36,13 @@ Use to relate a process or molecular function to a substance that is transported
 
 
 
+Comment
+-------
 
+Consider instead using [results_in_movement_of](https://github.com/geneontology/annotation_extensions/blob/master/doc/results_in_movement_of.md)
+
+* Use results_in_movement_of for transport/movement of a cell or component
+* Use the transports term for transport/movement of proteins and small molecules 
 
 
 
