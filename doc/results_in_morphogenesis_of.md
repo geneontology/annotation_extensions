@@ -56,7 +56,7 @@ Note the use of the pipe to create a multiple annotation extensions. The interpr
 
 More examples of this usage of occurs_in can be found on the documentation page for [Column_16:_Cell_Type](http://wiki.geneontology.org/index.php/Column_16:_Cell_Type)
 
-#### Using examples (from above) to demonstrate [[Folding_and_Unfolding]] using the relationship results_in_morphogenesis_of 
+#### Using examples (from above) to demonstrate [Folding_and_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship results_in_morphogenesis_of 
 
 ##### '''1. A protein's involvement in changing a particular cell's shape:'''
 
