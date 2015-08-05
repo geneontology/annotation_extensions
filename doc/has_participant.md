@@ -20,19 +20,19 @@ Or another option is to create the annotation protein ubiquitination (has_input 
 Child terms
 -----------
 
--   [has\_input](Annotation_Extension_Relation:has_input "wikilink")
+-   [has\_input](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_input.md)
 
 <!-- -->
 
--   [has\_output](Annotation_Extension_Relation:has_output "wikilink")
+-   [has\_output](Ahttps://github.com/geneontology/annotation_extensions/blob/master/doc/has_ouput.md)
 
 <!-- -->
 
--   [has\_regulation\_target](Annotation_Extension_Relation:has_regulation_target "wikilink")
+-   [has\_regulation\_target](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_regulation_target.md)
 
 <!-- -->
 
--   [stabilizes](Annotation_Extension_Relation:stabilizes "wikilink")
+-   [stabilizes](https://github.com/geneontology/annotation_extensions/blob/master/doc/stabilizes.md)
 
 ------------------------------------------------------------------------
 
