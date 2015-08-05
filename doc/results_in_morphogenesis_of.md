@@ -33,7 +33,7 @@ Example of use: an annotation of gene X to cell morphogenesis with results_in_mo
 Annotation Extension Usage Examples
 --
 
-# Enhancing Molecular Function and Biological Process Annotations
+#### Enhancing Molecular Function and Biological Process Annotations
 
 
 Specifying the cell or tissue type which are under going the morphogenic process
