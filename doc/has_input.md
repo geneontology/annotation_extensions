@@ -114,7 +114,7 @@ So one of the annotations would be:
 | O14672     | ADAM10         | <GO:0006509> <span style="color:green">membrane protein ectodomain proteolysis</span> | <PMID:18676862>   | IMP              | has\_input(UNIPROT:Q29983 <span style="color:green">MICA</span>) |
 ||
 
-Using examples (from above) to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "wikilink") using the relationship has\_input
+Using examples (from above) to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship has\_input
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 #### Specifying the protein which is a target of a Biological Process
