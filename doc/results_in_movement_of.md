@@ -44,7 +44,7 @@ For movement of chemicals or cell parts, please use transports_or_maintains_loca
 Comment
 -------
 
-Consider instead using transports\_or\_maintains\_localization\_of
+Consider instead using [transports\_or\_maintains\_localization\_of](https://github.com/geneontology/annotation_extensions/blob/master/doc/transports_or_maintains_localization_of.md)
 
 Use results_in_movement_of for transport/movement of a cell or component
 Use the transports term for transport/movement of proteins and small molecules 
