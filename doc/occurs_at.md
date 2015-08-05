@@ -64,7 +64,7 @@ Statement from paper:
 |--------------------------------------------------|-----------------------------------------------------------|-------------------|------------------|----------------------------------------------------------------------------|
 | SPCC970.09 <span style="color:green">sec8</span> | <GO:0006897> <span style="color:green">endocytosis</span> | <PMID:16141239>   | IMP              | occurs\_at(GO:0032153 <span style="color:green">cell division site</span>) |
 
-Using examples to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "wikilink") using the relationship occurs\_at
+Using examples to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship occurs\_at
 ---------------------------------------------------------------------------------------------------------------------------
 
 **Endocytosis in S. pombe occurs at the cell division site:**
