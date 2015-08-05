@@ -46,6 +46,12 @@ Comment
 
 This relation should not be used to annotate one gene product regulating another's activity; a regulator Molecular Function or regulation Biological Process should be used in such cases.
 
+Synonyms
+-------
+activity_decreased_by (EXACT)
+inhibited_by_chemical (EXACT)
+inhibited_by_substance (EXACT)
+
 Annotation Extension Usage Examples
 -----------------------------------
 
