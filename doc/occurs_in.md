@@ -80,7 +80,7 @@ Statement from paper:
 
 Note the use of the comma to create a compound annotation extension. The interpretation of this annotation is CASQ2 is involved in sequestering calcium ions in the sarcoplasmic reticulum of cardiac muscle cell.
 
-Using examples (from above) to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "wikilink") using the relationship occurs\_in
+Using examples (from above) to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship occurs\_in
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 **2. A protein's involvement in changing a particular cell's shape:**
