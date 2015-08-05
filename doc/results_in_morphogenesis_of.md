@@ -68,25 +68,6 @@ Note the use of the pipe to create a multiple annotation extensions.
 | Folded          | Q99616 <span style="color:green">MCP4</span> | New GO ID <span style="color:green">regulation of eosinophil cell shape</span> | <PMID:10072545>   | IDA             |                                                                  | <span style="color:red">is_a regulation of cell shape</span> |
 | Folded          | Q99616 <span style="color:green">MCP4</span> | New GO ID <span style="color:green">regulation of monocyte cell shape</span> | <PMID:10072545>   | IDA             |                                                                  | <span style="color:red">is_a regulation of cell shape</span> |
 
-|-
-| Folded
-| Q99616  <span style="color:green">MCP4</span>
-| New GO ID <span style="color:green">regulation of eosinophil cell shape</span>
-| PMID:10072545
-| IDA
-|
-| is_a <span style="color:red">regulation of cell shape</span>
-|-
-| Folded
-| Q99616  <span style="color:green">MCP4</span>
-| New GO ID <span style="color:green">regulation of monocyte cell shape</span>
-| PMID:10072545
-| IDA
-| 
-|is_a <span style="color:red">regulation of cell shape</span>
-
-
-
 
 
 
