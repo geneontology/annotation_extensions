@@ -30,7 +30,8 @@ Example of use: an annotation of gene X to cell morphogenesis with results_in_mo
 
 ---------------END AUTO GENERATED SECTION---------------
 
-==Annotation Extension Usage Examples==
+Annotation Extension Usage Examples
+--
 
 === Enhancing Molecular Function and Biological Process Annotations ===
 
