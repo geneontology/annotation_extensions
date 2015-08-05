@@ -117,7 +117,7 @@ This is harmless but pointless, because we know that kinase activity is part\_of
 
 Also include 2 redundant annotation lines
 
-Using examples (from above) to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "wikilink") using the relationship part\_of
+Using examples (from above) to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship part\_of
 --------------------------------------------------------------------------------------------------------------------------------------
 
 **1. Specifying that a gene product is located in a cellular component of a specific cell or tissue type**
