@@ -24,7 +24,7 @@ Child terms
 
 <!-- -->
 
--   [has\_output](Ahttps://github.com/geneontology/annotation_extensions/blob/master/doc/has_ouput.md)
+-   [has\_output](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_ouput.md)
 
 <!-- -->
 
