@@ -56,9 +56,33 @@ Note the use of the pipe to create a multiple annotation extensions. The interpr
 
 More examples of this usage of occurs_in can be found on the documentation page for [Column_16:_Cell_Type](http://wiki.geneontology.org/index.php/Column_16:_Cell_Type)
 
+#### Using examples (from above) to demonstrate [[Folding_and_Unfolding]] using the relationship results_in_morphogenesis_of 
 
+##### '''1. A protein's involvement in changing a particular cell's shape:'''
 
+Note the use of the pipe to create a multiple annotation extensions.
 
+| Folded/unfolded | Gene Name (col 2)                              | GO ID (col 5)                                                                         | Reference (col 6) | Evidence (col 7) | Annotation Extension (col 16)                                    | Parent terms of new folded GO term                    |
+|-----------------|------------------------------------------------|---------------------------------------------------------------------------------------|-------------------|------------------|------------------------------------------------------------------|-------------------------------------------------------|
+| Unfolded        | Q99616 <span style="color:green">MCP4</span> | <GO:0008360> <span style="color:green">regulation of cell shape</span> | <PMID:10072545>   | IDA              | results_in_morphogenesis_of(CL:0000771 <span style="color:green">eosinophil</span>) pipe results_in_morphogenesis_of(CL:0000576 <span style="color:green">monocyte</span>) |                                                       |
+| Folded          | Q99616 <span style="color:green">MCP4</span> | New GO ID <span style="color:green">regulation of eosinophil cell shape</span> | <PMID:10072545>   | IDA             |                                                                  | <span style="color:red">No new GO term created</span> |
+
+|-
+| Folded
+| Q99616  <span style="color:green">MCP4</span>
+| New GO ID <span style="color:green">regulation of eosinophil cell shape</span>
+| PMID:10072545
+| IDA
+|
+| is_a <span style="color:red">regulation of cell shape</span>
+|-
+| Folded
+| Q99616  <span style="color:green">MCP4</span>
+| New GO ID <span style="color:green">regulation of monocyte cell shape</span>
+| PMID:10072545
+| IDA
+| 
+|is_a <span style="color:red">regulation of cell shape</span>
 
 
 
