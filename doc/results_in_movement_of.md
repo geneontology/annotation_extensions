@@ -46,6 +46,9 @@ Comment
 
 Consider instead using transports\_or\_maintains\_localization\_of
 
+Use results_in_movement_of for transport/movement of a cell or component
+Use the transports term for transport/movement of proteins and small molecules 
+
 Annotation Extension Usage Examples
 -----------------------------------
 
