@@ -55,7 +55,7 @@ Annotation Extension Usage Examples
 |-------------------|---------------|-----------------------------------------------------------------------------------|------------------|---------------------------------------------------------------------|
 | Pxxxx             | Protein A     | <GO:0090269> <span style="color:green">fibroblast growth factor production</span> | <PMID:xxx>       | has\_output (UniProt:Q9GZV9 <span style="color:green">FGF23</span>) |
 
-Using examples to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "wikilink") using the relationship has\_output
+Using examples to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship has\_output
 ----------------------------------------------------------------------------------------------------------------------------
 
 **1. FGF production in response to stimulation of protein A**
