@@ -63,7 +63,7 @@ Statement from paper:
 |----------------------------------------------|--------------------------------------------------------------------------------------------|-------------------|------------------|------------------------------------------------------------------------------------|
 | Q9ES83 <span style="color:green">Bves</span> | <GO:0060973> <span style="color:green">cell migration involved in heart development</span> | <PMID:24048452>   | IMP              | results\_in\_movement\_of (CL:0002494 <span style="color:green">cardiocyte</span>) |
 
-Using examples to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "wikilink") using the relationship results\_in\_movement\_of
+Using examples to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship results\_in\_movement\_of
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 **Specifying that a gene product regulates the location of cardiocytes as part of heart development .** <PMID:24048452>
