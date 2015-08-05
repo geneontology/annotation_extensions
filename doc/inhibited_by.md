@@ -55,7 +55,7 @@ Annotation Extension Usage Examples
 | P32783, <font color = "green">ABD1</font> | <GO:0004482>, <font color = "green">mRNA (guanine-N7-)-methyltransferase activity</font> | PMID: 7623811     | IDA              |              | inhibited\_by: CHEBI:16680 <font color = "green">S-adenosyl-L-homocysteine</font> |
 ||
 
-Using examples to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "wikilink") using the relationship inhibited\_by
+Using examples to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship inhibited\_by
 ------------------------------------------------------------------------------------------------------------------------------
 
 | Folded/unfolded | Object (Col 2)                            | GO ID (Col 5)                                                       | Reference (Col 6) | Evidence | Extension (Col 16)                                                  | Parent terms for new folded GO term                   |
