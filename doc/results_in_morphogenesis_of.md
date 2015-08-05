@@ -61,6 +61,11 @@ Specifying the cell or tissue type which are under going the morphogenic process
 | results_in_morphogenesis_of(CL:0000771 <span style="color:green">eosinophil</span>) 'pipe' results_in_morphogenesis_of(CL:0000576 <span style="color:green">monocyte</span>)
 |}
 
+| DB (Col 2) | Object (Col 3) | GO ID (Col 5)                                                           | Reference (Col 6) | Evidence (Col 7) | Extension (Col 16)                                                |
+|------------|----------------|-------------------------------------------------------------------------|-------------------|------------------|-------------------------------------------------------------------|
+| Q99616     | MCP4          | <GO:0008360> <span style="color:green">regulation of cell shape</span> | <PMID:10072545>   | IDA              | results_in_morphogenesis_of(CL:0000771 <span style="color:green">eosinophil</span>) results_in_morphogenesis_of(CL:0000576 <span style="color:green">monocyte</span>) |
+||
+
 Note the use of the pipe to create a multiple annotation extensions. The interpretation of this annotation is MCP4 is involved in the regulation of eosinophil cell shape and monocyte cell shape. 
 
 More examples of this usage of occurs_in can be found on the documentation page for [[Column_16:_Cell_Type]]
