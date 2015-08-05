@@ -54,7 +54,7 @@ Specifying the cell or tissue type which are under going the morphogenic process
 
 Note the use of the pipe to create a multiple annotation extensions. The interpretation of this annotation is MCP4 is involved in the regulation of eosinophil cell shape and monocyte cell shape. 
 
-More examples of this usage of occurs_in can be found on the documentation page for [[Column_16:_Cell_Type]]
+More examples of this usage of occurs_in can be found on the documentation page for [Column_16:_Cell_Type](http://wiki.geneontology.org/index.php/Column_16:_Cell_Type)
 
 
 
