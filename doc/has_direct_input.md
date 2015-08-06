@@ -69,7 +69,7 @@ Statement from paper:
 
 | Gene Name (col 2)                                     | GO ID (col 5)                                                                                 | Reference (col 6) | Evidence (col 7) | Annotation Extension (col 16)                                                                                                                                                                                                           |
 |-------------------------------------------------------|-----------------------------------------------------------------------------------------------|-------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| WBGene00000220 <span style="color:green">Atf-2</span> | <GO:0001012> <span style="color:green">RNA polymerase II regulatory region DNA binding</span> | <PMID:21502138>   | IDA              | has\_direct\_input(WB:WBGene00000247 <span style="color:green">bec-1</span>)|has\_direct\_input(WB:WBGene00002980 <span style="color:green">lgg-1</span>)|has\_direct\_input(WB:WBGene00003033 <span style="color:green">lin-48</span>) |
+| WBGene00000220 <span style="color:green">Atf-2</span> | <GO:0001012> <span style="color:green">RNA polymerase II regulatory region DNA binding</span> | <PMID:21502138>   | IDA              | has\_direct\_input(WB:WBGene00000247 <span style="color:green">bec-1</span>)| has\_direct\_input(WB:WBGene00002980 <span style="color:green">lgg-1</span>)| has\_direct\_input(WB:WBGene00003033 <span style="color:green">lin-48</span>) |
 
 #### Specifying the target molecule of an enzyme activity
 
@@ -143,5 +143,5 @@ Back to [Annotation Extension: Capturing participants](http://wiki.geneontology.
 
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 <Category:relations> [Category:annotation extension](Category:annotation extension "wikilink") [Category:LEGO examples](Category:LEGO examples "wikilink")
