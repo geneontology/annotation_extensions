@@ -81,7 +81,7 @@ Example 1 Statement from paper:
 
 | Gene Name (col 2)                                     | GO ID (col 5)                                                         | Reference (col 6) | Evidence (col 7) | Annotation Extension (col 16)                                                                                                                             |
 |-------------------------------------------------------|-----------------------------------------------------------------------|-------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| WBGene00017895 <span style="color:green">Vrk-1</span> | <GO:0004672> <span style="color:green">protein kinase activity</span> | <PMID:17170708>   | IDA              | has\_direct\_input(WB:WBGene00000235 <span style="color:green">baf-1</span>)|has\_direct\_input(WB:WBGene00017895 <span style="color:green">vrk-1</span>) |
+| WBGene00017895 <span style="color:green">Vrk-1</span> | <GO:0004672> <span style="color:green">protein kinase activity</span> | <PMID:17170708>   | IDA              | has\_direct\_input(WB:WBGene00000235)\|has\_direct\_input(WB:WBGene00017895) baf-1, vrk-1|
 
 Example 2:
 
