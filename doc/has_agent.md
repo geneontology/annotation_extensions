@@ -1,6 +1,6 @@
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
 ## has_agent
@@ -30,37 +30,16 @@ Example of use: an annotation of gene X to cytokine production with has_agent of
 ---------------END AUTO GENERATED SECTION---------------
 
 
-
-
-
-
-
-
-
-
-
-
-
-Comment
--------
-
-### Local Range
-
-CL:0000000 (cell), <GO:0005575> (cellular component), PO:0025131 (plant anatomical entity), UBERON:0001062 (anatomical entity), WBbt:0004017 (cell), WBbt:0005766 (anatomy)
-
 Annotation Extension Usage Examples
 -----------------------------------
 
-Annotation Extension Usage Examples
------------------------------------
-
-1. Recording the cell type that is the agent in a secretion process
+**1. Recording the cell type that is the agent in a secretion process**
 
 | Gene Name (col 2) | GO ID (col 5)                           | Reference (col 6) | Evidence (col 7) | With (col 8) | Annotation Extension (col 16)              |
 |-------------------|-----------------------------------------|-------------------|------------------|--------------|--------------------------------------------|
 | A2A7Q8            | <GO:0072643> interferon-gamma secretion |                   | ECO:0000315      |              | has\_agent(CL:0000623 natural killer cell) |
 
-2. Recording the agent involved in a transport process
+**2. Recording the agent involved in a transport process**
 
 | Gene Name (col 2) | GO ID (col 5)                                               | Reference (col 6) | Evidence (col 7) | With (col 8) | Annotation Extension (col 16)            |
 |-------------------|-------------------------------------------------------------|-------------------|------------------|--------------|------------------------------------------|
@@ -68,7 +47,7 @@ Annotation Extension Usage Examples
 
 (Question - could this be better recorded in the ontology?)
 
-Using examples to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "wikilink") using the relationship has\_agent
+Using examples to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship has\_agent
 ---------------------------------------------------------------------------------------------------------------------------
 
 | Folded/unfolded | DB (Col 2) | Object (Col 3) | GO ID (Col 5)                           | Reference (Col 6) | Extension (Col 16) | Parent terms for new folded GO term                        |
@@ -87,5 +66,5 @@ interferon-gamma secretion and has\_agent some 'naural killer cell'
 
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 <Category:relations> [Category:annotation extension](Category:annotation extension "wikilink")
