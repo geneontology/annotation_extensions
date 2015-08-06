@@ -89,7 +89,7 @@ Example 2:
 
 | Gene Name (col 2)                        | GO ID (col 5)                                                         | Reference (col 6) | Evidence (col 7) | Annotation Extension (col 16)                                |
 |------------------------------------------|-----------------------------------------------------------------------|-------------------|------------------|--------------------------------------------------------------|
-| SGD:A <span style="color:green">A</span> | <GO:0004672> <span style="color:green">protein kinase activity</span> | <PMID:17170708>   | IDA              | has\_direct\_input(SGD:B) |
+| SGD:A | <GO:0004672> <span style="color:green">protein kinase activity</span> | <PMID:17170708>   | IDA              | has\_direct\_input(SGD:B) |
 
 NOTE we would not include a separate annotation line for B, because we only have annotation lines for active participants
 
@@ -99,13 +99,13 @@ Strictly speaking, the input is SGD:B in the unphosphorylated state and the outp
 
 | Gene Name (col 2)                        | GO ID (col 5)                                                         | Reference (col 6) | Evidence (col 7) | Annotation Extension (col 16)                                                                                                     |
 |------------------------------------------|-----------------------------------------------------------------------|-------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| SGD:A <span style="color:green">A</span> | <GO:0004672> <span style="color:green">protein kinase activity</span> | <PMID:17170708>   | IDA              | has\_direct\_input(SGD:B)\| has\_direct\_input(CHEBI:15422) ATP |
+| SGD:A | <GO:0004672> <span style="color:green">protein kinase activity</span> | <PMID:17170708>   | IDA              | has\_direct\_input(SGD:B)\| has\_direct\_input(CHEBI:15422) ATP |
 
 **Or even:**
 
 | Gene Name (col 2)                        | GO ID (col 5)                                                         | Reference (col 6) | Evidence (col 7) | Annotation Extension (col 16)                                                                                                                                                                                                                         |
 |------------------------------------------|-----------------------------------------------------------------------|-------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SGD:A <span style="color:green">A</span> | <GO:0004672> <span style="color:green">protein kinase activity</span> | <PMID:17170708>   | IDA              | has\_direct\_input(SGD:B)\| has\_direct\_input(CHEBI:15422) ATP\| has\_output(SGD:B \| has\_output(CHEBI:16761) ADP |
+| SGD:A <span style="color:green">A</span> | <GO:0004672> <span style="color:green">protein kinase activity</span> | <PMID:17170708>   | IDA              | has\_direct\_input(SGD:B)\| has\_direct\_input(CHEBI:15422) ATP\| has\_output(SGD:B) \| has\_output(CHEBI:16761) ADP |
 
 These are correct but this is pointless because the additional info is redundant with what we already know about kinase activity (this is actually made computable in MF x CHEBI)
 
@@ -115,11 +115,11 @@ Inclusion of the C16 information in the Molecular Function *protein kinase* and 
 
 | Gene Name (col 2)                        | GO ID (col 5)                                                         | Reference (col 6) | Evidence (col 7) | Annotation Extension (col 16)                                                                                             |
 |------------------------------------------|-----------------------------------------------------------------------|-------------------|------------------|---------------------------------------------------------------------------------------------------------------------------|
-| SGD:A <span style="color:green">A</span> | <GO:0004672> <span style="color:green">protein kinase activity</span> | <PMID:17170708>   | IDA              | has\_direct\_input(SGD:B <span style="color:green">B</span>)|has\_direct\_input(SGD:C <span style="color:green">C</span>) |
+| SGD:A | <GO:0004672> <span style="color:green">protein kinase activity</span> | <PMID:17170708>   | IDA              | has\_direct\_input(SGD:B)\| has\_direct\_input(SGD:C) |
 
 There is some redundancy with interaction databases here. Capturing this as GO annotation is more expressive as you can say "A phosphorylates B during pathway C". But if you want to capture this in interaction databases exclusively we have tools for generating GO annotations from these (just as we have tools for capturing GO annotations from pathway databases).
 
-Using examples (from above) to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "wikilink") using the relationship has\_direct\_input
+Using examples (from above) to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship has\_direct\_input
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 #### Specifying the DNA sequence that was bound by a gene product
@@ -132,7 +132,7 @@ Statement from paper:
 
 | Folded/unfolded | Gene Name (col 2)                                     | GO ID (col 5)                                                                                 | Reference (col 6) | Evidence (col 7) | Annotation Extension (col 16)                                                                                                                                                                                                             | Parent terms of new folded GO term                    |
 |-----------------|-------------------------------------------------------|-----------------------------------------------------------------------------------------------|-------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
-| Unfolded        | WBGene00000220 <span style="color:green">atf-2</span> | <GO:0001012> <span style="color:green">RNA polymerase II regulatory region DNA binding</span> | <PMID:21502138>   | IDA              | has\_direct\_input(WB:WBGene00000247 <span style="color:green">bec-1</span>)| has\_direct\_input(WB:WBGene00002980 <span style="color:green">lgg-1</span>)| has\_direct\_input(WB:WBGene00003033 <span style="color:green">lin-48</span>) |                                                       |
+| Unfolded        | WBGene00000220 <span style="color:green">atf-2</span> | <GO:0001012> <span style="color:green">RNA polymerase II regulatory region DNA binding</span> | <PMID:21502138>   | IDA              | has\_direct\_input(WB:WBGene00000247)\| has\_direct\_input(WB:WBGene00002980)\| has\_direct\_input(WB:WBGene00003033) bec-1, lgg-1, lin-48 |                                                       |
 | Folded          | WBGene00000220 <span style="color:green">atf-2</span> | <GO:0001012> <span style="color:green">RNA polymerase II regulatory region DNA binding</span> | <PMID:21502138>   | IDA              |                                                                                                                                                                                                                                           | <span style="color:red">No new GO term created</span> |
 
 **OWL class expression:** is\_a <GO:0001012> <span style="color:red">RNA polymerase II regulatory region DNA binding</span> AND has\_direct\_input SOME WBGene00000220 <span style="color:red">atf-2</span>
