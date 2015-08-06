@@ -48,7 +48,7 @@ Comment
 
 **If you know that the target is bound by the annotated gene product then consider using this child relationship**
 
--   [has\_direct\_input](Annotation_Extension_Relation:has_direct_input "wikilink")
+-   [has\_direct\_input](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_direct_input.md)
 
 For *Molecular Function* GO terms such as [endopeptidase activity](http://www.ebi.ac.uk/QuickGO/GTerm?id=GO:0004175) use the relationship ['has\_direct\_input'](http://wiki.geneontology.org/index.php/Annotation_Extension_Relation:has_direct_input) <span style="color:red">substrate</span> (possibly has\_substrate if this relationship is made available). The substrate included in the annotation extension should be known to bind the protein annotated.
 
