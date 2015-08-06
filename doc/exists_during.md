@@ -74,10 +74,10 @@ Using examples to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology
 
 **OWL class expression:** <GO:0005816> <span style="color:red">spindle pole body</span> AND exists\_during SOME <GO:0051329> <span style="color:red">interphase of mitotic cell cycle</span>
 
-| (Un)folded | DB (Col 2)   | Object (Col 3) | GO ID (Col 5)                                                                                  | Reference (Col 6) | Extension (Col 16)                                                                           | Parent terms for new folded GO term                         |
-|-----------------|--------------|----------------|------------------------------------------------------------------------------------------------|-------------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------|
-| Unfolded        | SPAC1782.09c | Clp1           | <GO:0005730> <span style="color:green">nucleolus</span>                                        | <PMID:16085490>   | exists\_during(GO:0051329 <span style="color:green">interphase of mitotic cell cycle</span>) |                                                             |
-| Folded          | SPAC1782.09c | Clp1           | New GO term <span style="color:green">nucleolus during interphase of mitotic cell cycle</span> | <PMID:16085490>   |                                                                                              | is\_a <GO:0005730> <span style="color:red">nucleolus</span> |
+| (Un)folded | DB (Col 2)   | Object (Col 3) | GO ID (Col 5)                                                                                  | Extension (Col 16)| Parent terms for new folded GO term                         |
+|-----------------|--------------|----------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| Unfolded        | SPAC1782.09c | Clp1           | <GO:0005730> <span style="color:green">nucleolus</span>                                        | exists\_during(GO:0051329 <span style="color:green">interphase of mitotic cell cycle</span>) |                                                             |
+| Folded          | SPAC1782.09c | Clp1           | New GO term <span style="color:green">nucleolus during interphase of mitotic cell cycle</span> |                                                                                               | is\_a <GO:0005730> <span style="color:red">nucleolus</span> |
 ||
 
 **OWL class expression:** <GO:0005730> <span style="color:red">nucleolus</span> AND exists\_during SOME <GO:0051329> <span style="color:red">interphase of mitotic cell cycle</span>
