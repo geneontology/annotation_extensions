@@ -44,7 +44,7 @@ Previous definition "p has_input c if and only c participates_in p at the start 
 Comment
 -------
 
-[**More details on the limited use of has\_input with biological process annotations**](http://wiki.geneontology.org/index.php/Annotation_Extension_Relation:has_participant#Comment)
+[**More details on the limited use of has\_input with biological process annotations**](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_participant.md)
 
 **If you know that the target is bound by the annotated gene product then consider using this child relationship**
 
