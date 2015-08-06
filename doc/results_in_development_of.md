@@ -1,6 +1,6 @@
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
 ## results_in_development_of
@@ -56,21 +56,21 @@ Statement from paper:
 
 | Gene Name (col 2)                                 | GO ID (col 5)                                                    | Reference (col 6) | Evidence (col 7) | Annotation Extension (col 16)                                                                  |
 |---------------------------------------------------|------------------------------------------------------------------|-------------------|------------------|------------------------------------------------------------------------------------------------|
-| MGI:1926321<span style="color:green">Postn</span> | <GO:0009888> <span style="color:green">tissue development</span> | <PMID:16314533>   | IMP              | results\_in\_development\_of(MA:0002467 <span style="color:green">periodontal ligament</span>) |
+| MGI:1926321 Postn | <GO:0009888> <span style="color:green">tissue development</span> | <PMID:16314533>   | IMP              | results\_in\_development\_of(MA:0002467 <span style="color:green">periodontal ligament</span>) |
 
-Using examples (from above) to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "wikilink") using the relationship results\_in\_development\_of
+Using examples (from above) to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship results\_in\_development\_of
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **1. Differentiation of a particular cell type:**
 
 | Folded/unfolded | Gene Name (col 2)                                  | GO ID (col 5)                                                                | Reference (col 6) | Evidence (col 7) | Annotation Extension (col 16)                                                    | Parent terms of new folded GO term                       |
 |-----------------|----------------------------------------------------|------------------------------------------------------------------------------|-------------------|------------------|----------------------------------------------------------------------------------|----------------------------------------------------------|
-| Unfolded        | MGI:1926321 <span style="color:green">Postn</span> | <GO:0009888> <span style="color:green">tissue development</span>             | <PMID:16314533>   | IMP              | results\_in\_development\_of(CL:0000540 <span style="color:green">neuron</span>) |                                                          |
-| Folded          | MGI:1926321 <span style="color:green">Postn</span> | New GO ID <span style="color:green"> periodontal ligament development</span> | <PMID:16314533>   | IMP              |                                                                                  | is\_a <span style="color:red"> tissue development</span> |
+| Unfolded        | MGI:1926321 <span style="color:green">Postn</span> | <GO:0009888> <span style="color:green">tissue development</span>             | <PMID:16314533>   | IMP              | results\_in\_development\_of(CL:0000540) neuron |                                                          |
+| Folded          | MGI:1926321 <span style="color:green">Postn</span> | New GO ID: periodontal ligament development | <PMID:16314533>   | IMP              |                                                                                  | is\_a  GO:0009888 tissue development |
 
 ------------------------------------------------------------------------
 
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 <Category:relations> [Category:annotation extension](Category:annotation extension "wikilink")
