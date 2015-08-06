@@ -46,7 +46,7 @@ Statement from paper:
 
 | Gene Name (col 2)                                | GO ID (col 5)                                                      | Reference (col 6) | Evidence (col 7) | Annotation Extension (col 16)                                                              |
 |--------------------------------------------------|--------------------------------------------------------------------|-------------------|------------------|--------------------------------------------------------------------------------------------|
-| MGI:2448712 <span style="color:green">Ren</span> | <GO:0030154> <span style="color:green">cell differentiation</span> | <PMID:12186855>   | IDA              | results in acquisition of features of (CL:0000540 <span style="color:green">neuron</span>) |
+| MGI:2448712 <span style="color:green">Ren</span> | <GO:0030154> <span style="color:green">cell differentiation</span> | <PMID:12186855>   | IDA              | results in acquisition of features of (CL:0000540) neuron |
 
 **2. A protein's involvement in changing a particular cell's shape:**
 
