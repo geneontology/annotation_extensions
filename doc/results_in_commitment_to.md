@@ -1,6 +1,7 @@
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
 ## results_in_commitment_to
@@ -51,7 +52,7 @@ Annotation Extension Usage Examples
 |-------------------|---------------|-------------------|------------------|--------------|-------------------------------|
 |                   |               |                   |                  |              |                               |
 
-Using examples to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "wikilink") using the relationship results\_in\_commitment\_to
+Using examples to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship results\_in\_commitment\_to
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 | Folded/unfolded | DB (Col 2) | Object (Col 3) | GO ID (Col 5) | Reference (Col 6) | Extension (Col 16) | Parent terms for new folded GO term |
@@ -68,5 +69,5 @@ Using examples to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "w
 
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 <Category:relations> [Category:annotation extension](Category:annotation extension "wikilink")
