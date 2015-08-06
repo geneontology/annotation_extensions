@@ -1,7 +1,7 @@
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
 [QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
-Back to [Annotation usage examples for has input](http://wiki.geneontology.org/index.php/Annotation_Extension_Relation:has_input)
+Back to [Annotation usage examples for has input](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_input.md)
 
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
