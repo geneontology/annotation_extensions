@@ -21,10 +21,8 @@ Child terms
 -----------
 
 -   [has\_input](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_input.md)
-<!-- -->
--   -   [has\_direct\_input](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_direct_input.md)
-<!-- -->
--   -   [stabilizes](https://github.com/geneontology/annotation_extensions/blob/master/doc/stabilizes.md)
+**   [has\_direct\_input](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_direct_input.md)
+**   [stabilizes](https://github.com/geneontology/annotation_extensions/blob/master/doc/stabilizes.md)
 
 <!-- -->
 
