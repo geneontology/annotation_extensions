@@ -111,4 +111,3 @@ Back to [index of relations docs](https://github.com/geneontology/annotation_ext
 
 [QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 
-<Category:relations> [Category:annotation extension](Category:annotation extension "wikilink")
