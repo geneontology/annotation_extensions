@@ -21,13 +21,12 @@ Child terms
 -----------
 
 -   [has\_input](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_input.md)
--   [has\_direct\_input](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_direct_input.md)
--   * [stabilizes](https://github.com/geneontology/annotation_extensions/blob/master/doc/stabilizes.md)
+-   - [has\_direct\_input](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_direct_input.md)
+-   - [stabilizes](https://github.com/geneontology/annotation_extensions/blob/master/doc/stabilizes.md)
 
 <!-- -->
 
 -   [has\_output](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_ouput.md)
-<!-- -->
 -   -   [results\_in\_formation\_of](https://github.com/geneontology/annotation_extensions/blob/master/doc/results_in_formation_of.md)
 
 <!-- -->
@@ -43,13 +42,13 @@ Child terms
 -   [results\_in_acquisition\_of\_features\_of](https://github.com/geneontology/annotation_extensions/blob/master/doc/results_in_acquisition_of_features_of.md)
 
 <!-- -->
--   [results\_in_acquisition\_of\_features\_of](https://github.com/geneontology/annotation_extensions/blob/master/doc/results_in_acquisition_of_features_of.md)
+-   [results\_in\_development\_of](https://github.com/geneontology/annotation_extensions/blob/master/doc/results_in_development_of.md)
 
 <!-- -->
--   [results\_in_acquisition\_of\_features\_of](https://github.com/geneontology/annotation_extensions/blob/master/doc/results_in_acquisition_of_features_of.md)
+-   [results\_in\_division\_of](https://github.com/geneontology/annotation_extensions/blob/master/doc/results_in_division_of.md)
 
 <!-- -->
--   [results\_in_acquisition\_of\_features\_of](https://github.com/geneontology/annotation_extensions/blob/master/doc/results_in_acquisition_of_features_of.md)
+-   [results\_in\_maturation\_of](https://github.com/geneontology/annotation_extensions/blob/master/doc/results_in_maturation_of.md)
 
 <!-- -->
 -   [results\_in\_morphogenesis\_of](https://github.com/geneontology/annotation_extensions/blob/master/doc/results_in_morphogenesis_of.md)
