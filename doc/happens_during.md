@@ -1,6 +1,6 @@
-Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
+Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
@@ -88,7 +88,7 @@ Using examples to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology
 | Folded/unfolded | DB (Col 2) | Object (Col 3) | GO ID (Col 5)                                                                                                  | Reference (Col 6) | Extension (Col 16)                                                            | Parent terms for new folded GO term                                                                                                                                                         |
 |-----------------|------------|----------------|----------------------------------------------------------------------------------------------------------------|-------------------|-------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Unfolded        | Q00684     | cdc14          | <GO:0034504> <span style="color:green">protein localization to nucleus</span>                                  | <PMID:24626187>   | happens\_during(GO:0000090 <span style="color:green">mitotic anaphase</span>) |                                                                                                                                                                                             |
-| Folded          | Q00684     | cdc14          | New potential GO term <span style="color:green">protein localisation to nucleus during mitotic anaphase</span> | <PMID:24626187>   |                                                                               | is a <GO:0034504> <span style="color:red">protein localization to nucleus</span> AND part\_of<span style="color:red">??</span> <GO:0048471> <span style="color:red">mitotic anaphase</span> |
+| Folded          | Q00684     | cdc14          | New GO term: <span style="color:green">protein localization to nucleus during mitotic anaphase</span> | <PMID:24626187>   |                                                                               | is a <GO:0034504> <span style="color:red">protein localization to nucleus</span> AND part\_of<span style="color:red"></span> <GO:0000090> <span style="color:red">mitotic anaphase</span> |
 ||
 
 **OWL class expression:** <GO:0034504> <span style="color:red">protein localization to nucleus</span> AND happens\_during SOME <GO:0000090> <span style="color:red">mitotic anaphase</span>
@@ -98,17 +98,17 @@ Using examples to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology
 | Folded/unfolded | DB (Col 2) | Object (Col 3) | GO ID (Col 5)                                                                                           | Reference (Col 6) | Extension (Col 16)                                                               | Parent terms of new folded GO term                                                                                                                                                              |
 |-----------------|------------|----------------|---------------------------------------------------------------------------------------------------------|-------------------|----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Unfolded        | ID         | Protein A      | <GO:0060070> <span style="color:green">canonical Wnt signaling pathway</span>                           | PMID: ID          | happens\_during (GO:0035108 <span style="color:green">limb morphogenesis</span>) |                                                                                                                                                                                                 |
-| Folded          | ID         | Protein A      | New GO term <span style="color:green">canonical Wnt signaling pathway during limb morphogenesis </span> | PMID: ID          |                                                                                  | is\_a <GO:0060070> <span style="color:red">canonical Wnt signaling pathway</span> AND part\_of<span style="color:red">?? </span> <GO:0035108> <span style="color:red">limb morphogenesis</span> |
+| Folded          | ID         | Protein A      | New GO term: <span style="color:green">canonical Wnt signaling pathway during limb morphogenesis </span> | PMID: ID          |                                                                                  | is\_a <GO:0060070> <span style="color:red">canonical Wnt signaling pathway</span> AND part\_of<span style="color:red"> </span> <GO:0035108> <span style="color:red">limb morphogenesis</span> |
 ||
 
 **OWL class expression:** <GO:0060070> <span style="color:red">canonical Wnt signaling pathway</span> AND happens\_during SOME <GO:0035108> <span style="color:red">limb morphogenesis</span>
 
-Note that in this example the GO term <GO:0035108> <span style="color:green">limb morphogenesis</span> is not directly associated with Protein A, whereas in the part\_of [1](https://github.com/geneontology/annotation_extensions/blob/master/doc/part_of.md) example it is known that Protein A plays a role in limb morphogenesis and therefore the additional annotation <GO:0035108> <span style="color:green">limb morphogenesis</span> is directly associated with Protein A.
+Note that in this example the GO term <GO:0035108> <span style="color:green">limb morphogenesis</span> is not directly associated with Protein A, whereas in the [part\_of](https://github.com/geneontology/annotation_extensions/blob/master/doc/part_of.md) example it is known that Protein A plays a role in limb morphogenesis and therefore the additional annotation <GO:0035108> <span style="color:green">limb morphogenesis</span> is directly associated with Protein A.
 
 ------------------------------------------------------------------------
 
-Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
+Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 
 <Category:relations> [Category:annotation extension](Category:annotation extension "wikilink")
