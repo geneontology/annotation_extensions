@@ -1,4 +1,5 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
+[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
@@ -46,7 +47,7 @@ Comment
 This relationship can be used in two ways:
 
 -   To add a **PHASE** to the annotation extension field of a biological processes the **ONLY** relationship to use is happens\_during (not part\_of)
--   To add a *biological process* to the annotation extension field when the role of the gene product in the process is unclear, but occurs during this specific *biological process*. Consider the use of the relationship [part\_of](http://wiki.geneontology.org/index.php/Annotation_Extension_Relation:part_of) if it is known that the process is definitely part of the biological process.
+-   To add a *biological process* to the annotation extension field when the role of the gene product in the process is unclear, but occurs during this specific *biological process*. Consider the use of the relationship [part\_of](https://github.com/geneontology/annotation_extensions/blob/master/doc/part_of.md) if it is known that the process is definitely part of the biological process.
 
 To link a **physical entity** (*cellular component*) to a process by duration, use the relationship **exists\_during.**
 
@@ -101,10 +102,11 @@ Using examples to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology
 
 **OWL class expression:** <GO:0060070> <span style="color:red">canonical Wnt signaling pathway</span> AND happens\_during SOME <GO:0035108> <span style="color:red">limb morphogenesis</span>
 
-Note that in this example the GO term <GO:0035108> <span style="color:green">limb morphogenesis</span> is not directly associated with Protein A, whereas in the part\_of [1](http://wiki.geneontology.org/index.php/Annotation_Extension_Relation:part_of#Using_examples_.28from_above.29_to_demonstrate_Folding_and_Unfolding_using_the_relationship_part_of) example it is known that Protein A plays a role in limb morphogenesis and therefore the additional annotation <GO:0035108> <span style="color:green">limb morphogenesis</span> is directly associated with Protein A.
+Note that in this example the GO term <GO:0035108> <span style="color:green">limb morphogenesis</span> is not directly associated with Protein A, whereas in the part\_of [1](https://github.com/geneontology/annotation_extensions/blob/master/doc/part_of.md) example it is known that Protein A plays a role in limb morphogenesis and therefore the additional annotation <GO:0035108> <span style="color:green">limb morphogenesis</span> is directly associated with Protein A.
 
 ------------------------------------------------------------------------
 
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
+[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 
 <Category:relations> [Category:annotation extension](Category:annotation extension "wikilink")
