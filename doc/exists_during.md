@@ -47,7 +47,7 @@ The annotation would be;
 | SPAC17A5.07c     | Ulp2           | <GO:0034399> nuclear periphery | <PMID:11884512>   | exists\_during(GO:0000084)\| exists\_during(GO:0000085)\| exists\_during(GO:0007067)  S phase of mitotic cell cycle, G2 phase of mitotic cell cycle, mitotic nuclear division |
 ||
 
-2. S. pombe Clp1 is localized to the spindle pole body (SPB) and nucleolus in interphase and to the actin contractile ring, the mitotic spindle, and kinetochores during mitosis.
+2. S. pombe Clp1 is localized to the spindle pole body (SPB) and nucleolus in interphase and to the actin contractile ring and kinetochores during mitosis.
 
 The annotations would be;
 
@@ -60,8 +60,6 @@ The annotations would be;
 ||
 
 Note that an experiment that supports 'CC exists\_during BP' may also support an annotation of the ['BP occurs\_in CC'](https://github.com/geneontology/annotation_extensions/blob/master/doc/occurs_in.md#specifying-the-subcellular-location-in-which-a-process-happens) pattern.
-
-Also see the [go-discuss mailing list](http://fafner.stanford.edu/pipermail/go-discuss/2011-March/005560.html) for more information.
 
 Using examples to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship exists\_during
 -------------------------------------------------------------------------------------------------------------------------------
