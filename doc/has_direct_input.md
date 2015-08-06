@@ -1,6 +1,7 @@
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
 [QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+
 Back to [Annotation usage examples for has input](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_input.md)
 
 ---------------Text extracted from ontology: DO NOT EDIT---------------
@@ -144,4 +145,4 @@ Back to [Annotation Extension: Capturing participants](http://wiki.geneontology.
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
 [QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
-<Category:relations> [Category:annotation extension](Category:annotation extension "wikilink") [Category:LEGO examples](Category:LEGO examples "wikilink")
+
