@@ -71,4 +71,4 @@ Statement from paper: *"...knockdown of Pax6b expression inhibited the subsequen
 
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-<Category:relations> [Category:annotation extension](Category:annotation extension "wikilink")
+
