@@ -93,7 +93,7 @@ Using examples to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology
 
 **OWL class expression:** <GO:0034504> <span style="color:red">protein localization to nucleus</span> AND happens\_during SOME <GO:0000090> <span style="color:red">mitotic anaphase</span>
 
-'''3. Specifying the developmental process during which another biological process is occurs, but where the role of the biological process in the developmental processes is unknown. ''' No usage examples for this currently exist
+**3. Specifying the developmental process during which another biological process is occurs, but where the role of the biological process in the developmental processes is unknown.**  No usage examples for this currently exist
 
 | Folded/unfolded | DB (Col 2) | Object (Col 3) | GO ID (Col 5)                                                                                           | Reference (Col 6) | Extension (Col 16)                                                               | Parent terms of new folded GO term                                                                                                                                                              |
 |-----------------|------------|----------------|---------------------------------------------------------------------------------------------------------|-------------------|----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
