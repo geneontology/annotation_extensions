@@ -60,7 +60,7 @@ So the annotation would be:
 | Q401N2     | ZACN           | <GO:0048471>  | <PMID:12381728>   | activated\_by (ChEBI:29105, zinc ions) |
 ||
 
-Using examples to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "http://wiki.geneontology.org/index.php/Folding_and_Unfolding") using the relationship activated\_by
+Using examples to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship activated\_by
 ------------------------------------------------------------------------------------------------------------------------------
 
 1. zinc activated ligand-gated ion channel (ZACN) is activated by Zn2+, <PMID:12381728>
