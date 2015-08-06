@@ -1,4 +1,5 @@
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
+
 [QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 
 ---------------Text extracted from ontology: DO NOT EDIT---------------
@@ -107,6 +108,7 @@ Note that in this example the GO term <GO:0035108> <span style="color:green">lim
 ------------------------------------------------------------------------
 
 Back to [Annotation usage examples for each annotation extension relation](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation)
+
 [QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 
 <Category:relations> [Category:annotation extension](Category:annotation extension "wikilink")
