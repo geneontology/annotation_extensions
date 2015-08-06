@@ -66,4 +66,4 @@ Child terms
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
 [QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
-<Category:relations> [Category:annotation extension](Category:annotation extension "wikilink")
+
