@@ -1,6 +1,6 @@
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
 ## has_output
@@ -44,7 +44,7 @@ Previous definition "p has_output c if c participates_in p at  the end of p and 
 Comment
 -------
 
-[**More details on the limited use of has\_output with biological process annotations**](http://wiki.geneontology.org/index.php/Annotation_Extension_Relation:has_participant#Comment)
+[**More details on the limited use of has\_output with biological process annotations**](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_participant.md)
 
 Annotation Extension Usage Examples
 -----------------------------------
@@ -74,5 +74,5 @@ Using examples to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology
 
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 <Category:relations> [Category:annotation extension](Category:annotation extension "wikilink") [Category:LEGO examples](Category:LEGO examples "wikilink")
