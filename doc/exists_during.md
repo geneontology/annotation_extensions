@@ -44,7 +44,9 @@ So the annotation would be;
 
 | DB ID (Col 2) | Object (Col 3) | GO ID (Col 5) | Reference (Col 6) | Extension (Col 16)   |
 |------------|----------------|---------------|-------------------|----------------------|
-| SPAC17A5.07c     | Ulp2           | <GO:0034399> nuclear periphery | <PMID:11884512>   | exists\_during(GO:0000084)\|exists\_during(GO:0000085)\|exists\_during(GO:0007067) |
+| SPAC17A5.07c     | Ulp2           | <GO:0034399> nuclear periphery | <PMID:11884512>   | exists\_during(GO:0000084)\|
+exists\_during(GO:0000085)\|
+exists\_during(GO:0007067) |
 ||
 
 `col 5:`[`GO:0034399`](GO:0034399)` nuclear periphery`
