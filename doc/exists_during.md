@@ -39,6 +39,13 @@ Annotation Extension Usage Examples
 Cellular component annotations can be enhanced by specifying that localization is observed during a cell cycle or developmental stage, or in the context of a specific biological process.
 
 1. If a gene product is localized to the nuclear periphery in S phase, G2, and mitosis (S. pombe Ulp1; <PMID:11884512>):
+ 
+So the annotation would be;
+
+| DB ID (Col 2) | Object (Col 3) | GO ID (Col 5) | Reference (Col 6) | Extension (Col 16)   |
+|------------|----------------|---------------|-------------------|----------------------|
+| SPAC17A5.07c     | Ulp2           | <GO:0034399> nuclear periphery | <PMID:11884512>   | exists\_during(GO:0000084)\|exists\_during(GO:0000085)\|exists\_during(GO:0007067) |
+||
 
 `col 5:`[`GO:0034399`](GO:0034399)` nuclear periphery`
 `col 16:exists_during(GO:0000084)|exists_during(GO:0000085)|exists_during(GO:0007067)S phase of mitotic cell cycle,`
