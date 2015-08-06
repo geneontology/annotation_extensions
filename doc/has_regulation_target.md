@@ -44,7 +44,7 @@ probably want to add one or two new subtypes that capture something about direct
 Comment
 -------
 
-[**More details on the limited use of has\_regulation\_target with regulation of biological process annotations**](https://github.com/geneontology/annotation_extensions/edit/master/doc/has_participant.md)
+[**More details on the limited use of has\_regulation\_target with regulation of biological process annotations**](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_participant.md)
 
 Annotation Extension Usage Examples
 -----------------------------------
