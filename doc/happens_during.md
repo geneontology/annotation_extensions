@@ -78,7 +78,7 @@ We here show that the mitotic master phosphatase Cdc14 targets Yen1 to the nucle
 |-----------------------------------------------|-------------------------------------------------------------------------------|-------------------|------------------|-------------------------------------------------------------------------------|
 | Q00684 <span style="color:green">cdc14</span> | <GO:0034504> <span style="color:green">protein localization to nucleus</span> | <PMID:24626187>   |                  | happens\_during(GO:0000090 <span style="color:green">mitotic anaphase</span>) |
 
-Using examples to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "wikilink") using the relationship happens\_during
+Using examples to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship happens\_during
 --------------------------------------------------------------------------------------------------------------------------------
 
 **2. A process occurring during a cell cycle phase** Cdc14 targets Yen1 to the nucleus in early anaphase, <PMID:24626187>
