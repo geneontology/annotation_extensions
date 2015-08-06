@@ -81,7 +81,7 @@ Example 1 Statement from paper:
 
 | Gene Name (col 2)                                     | GO ID (col 5)                                                         | Reference (col 6) | Evidence (col 7) | Annotation Extension (col 16)                                                                                                                             |
 |-------------------------------------------------------|-----------------------------------------------------------------------|-------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| WBGene00017895 <span style="color:green">Vrk-1</span> | <GO:0004672> <span style="color:green">protein kinase activity</span> | <PMID:17170708>   | IDA              | has\_direct\_input(WB:WBGene00000235)\|has\_direct\_input(WB:WBGene00017895) baf-1, vrk-1|
+| WBGene00017895 <span style="color:green">Vrk-1</span> | <GO:0004672> <span style="color:green">protein kinase activity</span> | <PMID:17170708>   | IDA              | has\_direct\_input(WB:WBGene00000235)\| has\_direct\_input(WB:WBGene00017895) baf-1, vrk-1|
 
 Example 2:
 
@@ -89,7 +89,7 @@ Example 2:
 
 | Gene Name (col 2)                        | GO ID (col 5)                                                         | Reference (col 6) | Evidence (col 7) | Annotation Extension (col 16)                                |
 |------------------------------------------|-----------------------------------------------------------------------|-------------------|------------------|--------------------------------------------------------------|
-| SGD:A <span style="color:green">A</span> | <GO:0004672> <span style="color:green">protein kinase activity</span> | <PMID:17170708>   | IDA              | has\_direct\_input(SGD:B <span style="color:green">B</span>) |
+| SGD:A <span style="color:green">A</span> | <GO:0004672> <span style="color:green">protein kinase activity</span> | <PMID:17170708>   | IDA              | has\_direct\_input(SGD:B) |
 
 NOTE we would not include a separate annotation line for B, because we only have annotation lines for active participants
 
@@ -99,13 +99,13 @@ Strictly speaking, the input is SGD:B in the unphosphorylated state and the outp
 
 | Gene Name (col 2)                        | GO ID (col 5)                                                         | Reference (col 6) | Evidence (col 7) | Annotation Extension (col 16)                                                                                                     |
 |------------------------------------------|-----------------------------------------------------------------------|-------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| SGD:A <span style="color:green">A</span> | <GO:0004672> <span style="color:green">protein kinase activity</span> | <PMID:17170708>   | IDA              | has\_direct\_input(SGD:B <span style="color:green">B</span>)|has\_direct\_input(CHEBI:15422 <span style="color:green">ATP</span>) |
+| SGD:A <span style="color:green">A</span> | <GO:0004672> <span style="color:green">protein kinase activity</span> | <PMID:17170708>   | IDA              | has\_direct\_input(SGD:B)\| has\_direct\_input(CHEBI:15422) ATP |
 
 **Or even:**
 
 | Gene Name (col 2)                        | GO ID (col 5)                                                         | Reference (col 6) | Evidence (col 7) | Annotation Extension (col 16)                                                                                                                                                                                                                         |
 |------------------------------------------|-----------------------------------------------------------------------|-------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SGD:A <span style="color:green">A</span> | <GO:0004672> <span style="color:green">protein kinase activity</span> | <PMID:17170708>   | IDA              | has\_direct\_input(SGD:B <span style="color:green">B</span>)|has\_direct\_input(CHEBI:15422 <span style="color:green">ATP</span>)|has\_output(SGD:B <span style="color:green">B</span>)|has\_output(CHEBI:16761 <span style="color:green">ADP</span>) |
+| SGD:A <span style="color:green">A</span> | <GO:0004672> <span style="color:green">protein kinase activity</span> | <PMID:17170708>   | IDA              | has\_direct\_input(SGD:B)\| has\_direct\_input(CHEBI:15422) ATP\| has\_output(SGD:B \| has\_output(CHEBI:16761) ADP |
 
 These are correct but this is pointless because the additional info is redundant with what we already know about kinase activity (this is actually made computable in MF x CHEBI)
 
