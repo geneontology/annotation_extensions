@@ -56,7 +56,7 @@ Statement from paper:
 
 | Gene Name (col 2)                                 | GO ID (col 5)                                                    | Reference (col 6) | Evidence (col 7) | Annotation Extension (col 16)                                                                  |
 |---------------------------------------------------|------------------------------------------------------------------|-------------------|------------------|------------------------------------------------------------------------------------------------|
-| MGI:1926321 Postn | <GO:0009888> <span style="color:green">tissue development</span> | <PMID:16314533>   | IMP              | results\_in\_development\_of(MA:0002467 <span style="color:green">periodontal ligament</span>) |
+| MGI:1926321 Postn | <GO:0009888> <span style="color:green">tissue development</span> | <PMID:16314533>   | IMP              | results\_in\_development\_of(MA:0002467) periodontal ligament |
 
 Using examples (from above) to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship results\_in\_development\_of
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
