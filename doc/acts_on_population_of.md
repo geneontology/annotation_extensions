@@ -54,7 +54,7 @@ Statement from paper:
 |------------------------------------------------|--------------------------------------------------------------------------|-------------------|------------------|------------------------------------------------------------------------------------------|
 | O08665 <span style="color:green">Sema3a</span> | <GO:0008045> <span style="color:green">motor neuron axon guidance</span> | <PMID:18804103>   | IMP              | acts\_on\_population of(CL:0005025 <span style="color:green">visceromotor neuron</span>) |
 
-Using example (from above) to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding)
+Using example (above) to demonstrate [Folding\_and\_Unfolding] (http://wiki.geneontology.org/index.php/Folding_and_Unfolding)
 using the relationship acts\_on\_population\_of
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
