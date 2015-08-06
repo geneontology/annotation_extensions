@@ -1,6 +1,6 @@
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
 ## has_regulation_target
@@ -44,7 +44,7 @@ probably want to add one or two new subtypes that capture something about direct
 Comment
 -------
 
-[**More details on the limited use of has\_regulation\_target with regulation of biological process annotations**](http://wiki.geneontology.org/index.php/Annotation_Extension_Relation:has_participant#Comment)
+[**More details on the limited use of has\_regulation\_target with regulation of biological process annotations**](https://github.com/geneontology/annotation_extensions/edit/master/doc/has_participant.md)
 
 Annotation Extension Usage Examples
 -----------------------------------
@@ -86,5 +86,5 @@ Back to [Annotation Extension: Capturing participants](http://wiki.geneontology.
 
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 <Category:relations> [Category:annotation extension](Category:annotation extension "wikilink")
