@@ -19,15 +19,16 @@ The relationship linking a cell and its participation in a process that results 
 Example of use: an annotation of gene X to cell commitment with results_in_commitment_to CL:0000540 (neuron) means that at the end of the process an unspecified cell has been specified and determined to develop into a neuron.
 
 ### Subsets
-[display_for_curators, AE_cell_or_anatomical]
+[AE_cell_or_anatomical, display_for_curators]
 
 ##local domain
 {u'BFO:0000015': u'process'}
 
 ## local range
-{u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
+{u'CL:0000000': u'cell', u'WBbt:0004017': u'Cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

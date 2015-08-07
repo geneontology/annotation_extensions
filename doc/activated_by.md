@@ -19,7 +19,7 @@ Identifies a chemical substance that increases the activity of the gene product.
 This relation should not be used to annotate one gene product regulating another's activity; a regulator MF or regulation BP should be used in such cases.
 
 ### Subsets
-[display_for_curators, AE_chemical]
+[AE_chemical, display_for_curators]
 
 ##local domain
 {u'GO:0003674': u'molecular_function'}
@@ -28,6 +28,7 @@ This relation should not be used to annotate one gene product regulating another
 {u'CHEBI:24431': u'chemical entity'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

@@ -19,15 +19,16 @@ Identifies specific gene product stabilized in a protein stabilization process (
 
 
 ### Subsets
-[display_for_curators, AE_sequence_or_complex]
+[AE_sequence_or_complex, display_for_curators]
 
 ##local domain
 {u'GO:0031647': u'regulation of protein stability'}
 
 ## local range
-{u'SO:0000704': u'gene', u'PR:000000001': u'protein', u'GO:0032991': u'macromolecular complex', u'CHEBI:33697': u'ribonucleic acid', u'MI:0315': u'protein complex', u'SO:0000673': u'transcript'}
+{u'CHEBI:33697': u'ribonucleic acid', u'SO:0000673': u'transcript', u'GO:0032991': u'macromolecular complex', u'MI:0315': u'protein complex', u'PR:000000001': u'protein', u'SO:0000704': u'gene'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

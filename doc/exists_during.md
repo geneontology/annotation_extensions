@@ -20,15 +20,16 @@ Identifies a process or life stage during which a cellular component is present
 Previous definition "c exists_during p if and only if the temporal extent bounded by the start and end of c is part_of the temporal extent of p." [BFO:cjm]
 
 ### Subsets
-[display_for_curators, AE_biological_process, AE_developmental_stages]
+[AE_biological_process, AE_developmental_stages, display_for_curators]
 
 ##local domain
 {u'BFO:0000004': u'independent continuant'}
 
 ## local range
-{u'WBls:0000075': u'Nematoda Life Stage', u'ZFS:0100000': u'ZFS:0100000', u'GO:0008150': u'biological_process'}
+{u'GO:0008150': u'biological_process', u'WBls:0000075': u'Nematoda Life Stage', u'ZFS:0100000': u'ZFS:0100000'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 Annotation Extension Usage Examples
@@ -40,9 +41,9 @@ Cellular component annotations can be enhanced by specifying that localization i
 
 1. If a gene product is localized to the nuclear periphery in S phase, G2, and mitosis (S. pombe Ulp1; <PMID:11884512>):
 
-`col 5:`[`GO:0034399`](GO:0034399)` nuclear periphery`
+`col 5:`[`GO:0034399`](GO:0034399)`Â nuclear periphery`
 `col 16:exists_during(GO:0000084)|exists_during(GO:0000085)|exists_during(GO:0007067)S phase of mitotic cell cycle,`
- G2 phase ofmitoticcellcycle,andmitosisrespectively`
+Â G2Â phaseÂ ofmitoticcellcycle,andmitosisrespectively`
 
 2. If a gene product is localized to the spindle pole body (SPB) and nucleolus in interphase and to the actin contractile ring, the mitotic spindle, and kinetochores during mitosis (S. pombe Clp1; <PMID:16085490>):
 

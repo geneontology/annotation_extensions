@@ -19,15 +19,16 @@ Use this relation to link either a molecular function, or a biological process t
 
 
 ### Subsets
-[display_for_curators, AE_sequence_or_complex]
+[AE_sequence_or_complex, display_for_curators]
 
 ##local domain
-{u'GO:0098772': u'molecular function regulator', u'GO:0065009': u'regulation of molecular function'}
+{u'GO:0065009': u'regulation of molecular function', u'GO:0098772': u'molecular function regulator'}
 
 ## local range
-{u'GO:0043234': u'protein complex', u'PR:000000001': u'protein', u'SO:0000374': u'ribozyme'}
+{u'GO:0043234': u'protein complex', u'SO:0000374': u'ribozyme', u'PR:000000001': u'protein'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

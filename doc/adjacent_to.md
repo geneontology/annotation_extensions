@@ -19,7 +19,7 @@ x adjacent to y if and only if x and y share a boundary
 
 
 ### Subsets
-[display_for_curators, AE_cellular_component, AE_cell_or_anatomical]
+[AE_cell_or_anatomical, AE_cellular_component, display_for_curators]
 
 ##local domain
 {}
@@ -28,6 +28,7 @@ x adjacent to y if and only if x and y share a boundary
 {}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

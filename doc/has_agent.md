@@ -19,15 +19,16 @@ The relationship that links an entity with a Molecular Function or Biological Pr
 Example of use: an annotation of gene X to cytokine production with has_agent of CL:0000057 (fibroblast) means that the fibroblast is producing the cytokine.
 
 ### Subsets
-[display_for_curators, AE_cellular_component, AE_cell_or_anatomical, ro-eco]
+[ro-eco, AE_cell_or_anatomical, AE_cellular_component, display_for_curators]
 
 ##local domain
 {u'BFO:0000015': u'process'}
 
 ## local range
-{u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'CL:0000000': u'cell'}
+{u'CL:0000000': u'cell', u'GO:0005575': u'cellular_component', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

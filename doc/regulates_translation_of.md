@@ -19,7 +19,7 @@ Relates a regulatory process or function to the gene whose translation it regula
 Regulation of translation includes processes that regulate the levels of mature mRNA available for translation, as well as direct regulation of the rate of translation.
 
 ### Subsets
-[display_for_curators, AE_sequence_feature]
+[AE_sequence_feature, display_for_curators]
 
 ##local domain
 {u'BFO:0000015': u'process'}
@@ -28,6 +28,7 @@ Regulation of translation includes processes that regulate the levels of mature 
 {u'SO:0000704': u'gene'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

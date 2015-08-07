@@ -19,7 +19,7 @@ Identifies the Cellular Component or sequence feature adjacent to or in the vici
 Previous definition "P occurs_at C : the execution of P is located at C." [GOC:cjm, GOC:mah] This relation is not constrained with respect to whether C completely surrounds, or is adjacent to, the location where P is executed. Example: chromatin silencing at centromere unfolds_around centromere : Repression of transcription of centromeric DNA by the formation of heterochromatin.
 
 ### Subsets
-[display_for_curators, AE_cellular_component, AE_sequence_feature]
+[AE_sequence_feature, AE_cellular_component, display_for_curators]
 
 ##local domain
 {u'BFO:0000015': u'process'}
@@ -28,6 +28,7 @@ Previous definition "P occurs_at C : the execution of P is located at C." [GOC:c
 {u'GO:0005575': u'cellular_component', u'SO:0000110': u'sequence_feature'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

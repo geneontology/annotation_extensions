@@ -22,12 +22,13 @@ A relationship between the regulation of a process and the agent that executes t
 [display_for_curators]
 
 ##local domain
-{u'GO:0098772': u'molecular function regulator', u'GO:0065009': u'regulation of molecular function'}
+{u'GO:0065009': u'regulation of molecular function', u'GO:0098772': u'molecular function regulator'}
 
 ## local range
-{u'UBERON:0000465': u'material anatomical entity', u'GO:0043234': u'protein complex', u'PR:000000001': u'protein', u'PO:0025131': u'plant anatomical entity', u'SO:0000374': u'ribozyme'}
+{u'GO:0043234': u'protein complex', u'SO:0000374': u'ribozyme', u'PO:0025131': u'plant anatomical entity', u'UBERON:0000465': u'material anatomical entity', u'PR:000000001': u'protein'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

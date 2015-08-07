@@ -20,15 +20,16 @@ Identifies a requirement under which the ontology term is observed to apply to t
 PomBase uses the more specific child relations, and avoids using dependent_on directly.
 
 ### Subsets
-[display_for_curators, AE_molecular_function, AE_chemical, AE_sequence_or_complex, AE_sequence_feature, AE_biological_process]
+[AE_molecular_function, AE_biological_process, AE_sequence_or_complex, AE_sequence_feature, AE_chemical, display_for_curators]
 
 ##local domain
 {u'BFO:0000001': u'entity'}
 
 ## local range
-{u'SO:0000704': u'gene', u'MOD:00000': u'protein modification', u'PR:000000001': u'protein', u'GO:0032991': u'macromolecular complex', u'CHEBI:24431': u'chemical entity', u'SO:0000110': u'sequence_feature', u'GO:0008150': u'biological_process', u'SO:0000673': u'transcript', u'CHEBI:33697': u'ribonucleic acid', u'MI:0315': u'protein complex', u'GO:0003674': u'molecular_function'}
+{u'GO:0008150': u'biological_process', u'CHEBI:24431': u'chemical entity', u'CHEBI:33697': u'ribonucleic acid', u'GO:0003674': u'molecular_function', u'SO:0000110': u'sequence_feature', u'SO:0000673': u'transcript', u'MOD:00000': u'protein modification', u'GO:0032991': u'macromolecular complex', u'MI:0315': u'protein complex', u'PR:000000001': u'protein', u'SO:0000704': u'gene'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

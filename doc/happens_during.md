@@ -15,18 +15,19 @@ Back to [Annotation usage examples for each annotation extension relation](http:
 Identifies a process or life stage during which a molecular function or biological process occurs.  This is weaker than parthood.  So, for example, some various processes occur during gastrulation without being part of that process.
 
 ### Comment
-X happens_during Y iff: (start(Y) before_or_simultaneous_with start(X)) AND (end(X) before_or_simultaneous_with end(Y))
+Previous definition "p happens_during q if and only if the temporal extent of p is part_of the temporal extent of q." Note that part_of between processes implies happens_during (we must use OWL to express this), but happens_during does not imply part_of. Note also that this relation holds between two processes. To link a physical entity to a process by duration, use exists_during. [BFO:cjm] Note that in order to express that part_of between processes implies during, we must use OWL.
 
 ### Subsets
-[display_for_curators, AE_biological_process, AE_developmental_stages, ro-eco]
+[AE_biological_process, ro-eco, AE_developmental_stages, display_for_curators]
 
 ##local domain
 {u'BFO:0000015': u'process'}
 
 ## local range
-{u'WBls:0000075': u'Nematoda Life Stage', u'ZFS:0100000': u'ZFS:0100000', u'GO:0008150': u'biological_process'}
+{u'GO:0008150': u'biological_process', u'WBls:0000075': u'Nematoda Life Stage', u'ZFS:0100000': u'ZFS:0100000'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

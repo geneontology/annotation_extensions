@@ -19,15 +19,16 @@ Use this relation to link a process that regulates the specification of some cel
 
 
 ### Subsets
-[display_for_curators, AE_cell_or_anatomical]
+[AE_cell_or_anatomical, display_for_curators]
 
 ##local domain
 {u'BFO:0000015': u'process'}
 
 ## local range
-{u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
+{u'CL:0000000': u'cell', u'WBbt:0004017': u'Cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

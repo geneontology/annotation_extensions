@@ -25,9 +25,10 @@ Use this relationship to link a regulatory process or function to an entity that
 {u'BFO:0000015': u'process'}
 
 ## local range
-{u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy', u'PO:0009012': u'plant structure development stage', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'GO:0008150': u'biological_process', u'CL:0000000': u'cell'}
+{u'GO:0008150': u'biological_process', u'CL:0000000': u'cell', u'PO:0009012': u'plant structure development stage', u'GO:0005575': u'cellular_component', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

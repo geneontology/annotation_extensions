@@ -19,7 +19,7 @@ A relationship that holds between a  process that regulates a transport process 
 
 
 ### Subsets
-[display_for_curators, AE_chemical, ro-eco]
+[ro-eco, AE_chemical, display_for_curators]
 
 ##local domain
 {}
@@ -28,6 +28,7 @@ A relationship that holds between a  process that regulates a transport process 
 {}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

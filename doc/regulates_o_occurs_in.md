@@ -19,15 +19,16 @@ Use this relation to link a regulatory process or function to the structure that
 
 
 ### Subsets
-[display_for_curators, AE_cellular_component, AE_cell_or_anatomical]
+[AE_cell_or_anatomical, AE_cellular_component, display_for_curators]
 
 ##local domain
 {u'GO:0050789': u'regulation of biological process'}
 
 ## local range
-{u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'CL:0000000': u'cell'}
+{u'CL:0000000': u'cell', u'GO:0005575': u'cellular_component', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

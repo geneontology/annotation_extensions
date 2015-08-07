@@ -19,15 +19,16 @@ Use this relation to relate a biological process or molecular function to an ent
 Previous definition "p has_input c if and only c participates_in p at the start of p and c is in some way bound, transported, modified, consumed or destroyed by p." If it is known whether the entity is directly or indirectly bound/acted upon by the gene product that is the subject of the annotation, then the relations has_direct_input or has_indirect_input should be alternatively considered.
 
 ### Subsets
-[display_for_curators, AE_chemical, AE_sequence_or_complex, ro-eco]
+[AE_sequence_or_complex, ro-eco, AE_chemical, display_for_curators]
 
 ##local domain
 {u'BFO:0000015': u'process'}
 
 ## local range
-{u'SO:0000704': u'gene', u'PR:000000001': u'protein', u'GO:0032991': u'macromolecular complex', u'CHEBI:33697': u'ribonucleic acid', u'CHEBI:24431': u'chemical entity', u'MI:0315': u'protein complex', u'SO:0000839': u'polypeptide_region', u'SO:0000673': u'transcript'}
+{u'SO:0000839': u'polypeptide_region', u'CHEBI:24431': u'chemical entity', u'CHEBI:33697': u'ribonucleic acid', u'SO:0000673': u'transcript', u'GO:0032991': u'macromolecular complex', u'MI:0315': u'protein complex', u'PR:000000001': u'protein', u'SO:0000704': u'gene'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

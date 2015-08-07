@@ -19,15 +19,16 @@ The relationship that links an entity with a process in which the process has mo
 Example of use: an annotation of gene X to cell proliferation with acts_on_population_of CL:0000057 means that gene X is involved in the proliferation of fibroblasts.
 
 ### Subsets
-[display_for_curators, AE_cell_or_anatomical]
+[AE_cell_or_anatomical, display_for_curators]
 
 ##local domain
 {u'BFO:0000015': u'process'}
 
 ## local range
-{u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell', u'CL:0000000': u'cell'}
+{u'CL:0000000': u'cell', u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 
