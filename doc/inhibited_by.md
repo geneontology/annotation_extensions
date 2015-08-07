@@ -1,6 +1,6 @@
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
 ## inhibited_by
@@ -47,6 +47,12 @@ Comment
 
 This relation should not be used to annotate one gene product regulating another's activity; a regulator Molecular Function or regulation Biological Process should be used in such cases.
 
+Synonyms
+-------
+activity_decreased_by (EXACT)
+inhibited_by_chemical (EXACT)
+inhibited_by_substance (EXACT)
+
 Annotation Extension Usage Examples
 -----------------------------------
 
@@ -56,7 +62,7 @@ Annotation Extension Usage Examples
 | P32783, <font color = "green">ABD1</font> | <GO:0004482>, <font color = "green">mRNA (guanine-N7-)-methyltransferase activity</font> | PMID: 7623811     | IDA              |              | inhibited\_by: CHEBI:16680 <font color = "green">S-adenosyl-L-homocysteine</font> |
 ||
 
-Using examples to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "wikilink") using the relationship inhibited\_by
+Using examples to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship inhibited\_by
 ------------------------------------------------------------------------------------------------------------------------------
 
 | Folded/unfolded | Object (Col 2)                            | GO ID (Col 5)                                                       | Reference (Col 6) | Evidence | Extension (Col 16)                                                  | Parent terms for new folded GO term                   |
@@ -79,5 +85,5 @@ Using examples to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "w
 
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
-<Category:relations> [Category:annotation extension](Category:annotation extension "wikilink")
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+

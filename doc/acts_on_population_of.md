@@ -1,6 +1,6 @@
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
 ## acts_on_population_of
@@ -55,7 +55,7 @@ Statement from paper:
 |------------------------------------------------|--------------------------------------------------------------------------|-------------------|------------------|------------------------------------------------------------------------------------------|
 | O08665 <span style="color:green">Sema3a</span> | <GO:0008045> <span style="color:green">motor neuron axon guidance</span> | <PMID:18804103>   | IMP              | acts\_on\_population of(CL:0005025 <span style="color:green">visceromotor neuron</span>) |
 
-Using example (from above) to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "wikilink") using the relationship acts\_on\_population\_of
+Using examples to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship acts\_on\_population\_of
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 **1. SEMA3A signals through NRP1 and PLXNA4 to guide the axons of facial visceromotor neurons:**
@@ -69,5 +69,5 @@ Using example (from above) to demonstrate [Folding\_and\_Unfolding](Folding_and_
 
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
-<Category:relations> [Category:annotation extension](Category:annotation extension "wikilink")
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+

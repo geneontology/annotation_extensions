@@ -1,6 +1,7 @@
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
 ## occurs_at
@@ -65,7 +66,7 @@ Statement from paper:
 |--------------------------------------------------|-----------------------------------------------------------|-------------------|------------------|----------------------------------------------------------------------------|
 | SPCC970.09 <span style="color:green">sec8</span> | <GO:0006897> <span style="color:green">endocytosis</span> | <PMID:16141239>   | IMP              | occurs\_at(GO:0032153 <span style="color:green">cell division site</span>) |
 
-Using examples to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "wikilink") using the relationship occurs\_at
+Using examples to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship occurs\_at
 ---------------------------------------------------------------------------------------------------------------------------
 
 **Endocytosis in S. pombe occurs at the cell division site:**
@@ -88,10 +89,6 @@ Statement from paper:
 
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
-------------------------------------------------------------------------
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 
-Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
-<Category:relations> [Category:annotation extension](Category:annotation extension "wikilink") <Category:relations> [Category:annotation extension](Category:annotation extension "wikilink")

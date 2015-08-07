@@ -1,6 +1,7 @@
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html )
+
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
 ## occurs_in
@@ -81,7 +82,7 @@ Statement from paper:
 
 Note the use of the comma to create a compound annotation extension. The interpretation of this annotation is CASQ2 is involved in sequestering calcium ions in the sarcoplasmic reticulum of cardiac muscle cell.
 
-Using examples (from above) to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "wikilink") using the relationship occurs\_in
+Using examples (from above) to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship occurs\_in
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 **2. A protein's involvement in changing a particular cell's shape:**
@@ -124,5 +125,4 @@ Statement from paper:
 
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
-<Category:relations> [Category:annotation extension](Category:annotation extension "wikilink")
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)

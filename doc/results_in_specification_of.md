@@ -1,6 +1,7 @@
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
 ## results_in_specification_of
@@ -62,7 +63,7 @@ Note that in the above sentence, M refers to the M mesoblast and CCs refers to c
 | O17670 <span style="color:green">eya-1</span>  | <GO:0007501> <span style="color:green">mesodermal cell fate specification</span> | <PMID:19427847>   | IMP              | WB:WBVar00091938  | results\_in\_specification\_of(WBbt:0005751 <span style="color:green">coelomocyte</span>) |
 ||
 
-Using examples to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "wikilink") using the relationship results\_in\_specification\_of
+Using examples to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship results\_in\_specification\_of
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 **Indicating the cell or cell type specified by the activity of a gene product**
@@ -89,5 +90,4 @@ Statement from paper:
 
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
-<Category:relations> [Category:annotation extension](Category:annotation extension "wikilink")
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)

@@ -1,6 +1,7 @@
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
 ## has_input
@@ -45,35 +46,35 @@ Previous definition "p has_input c if and only c participates_in p at the start 
 Comment
 -------
 
-[**More details on the limited use of has\_input with biological process annotations**](http://wiki.geneontology.org/index.php/Annotation_Extension_Relation:has_participant#Comment)
+[**More details on the limited use of has\_input with biological process annotations**](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_participant.md)
 
 **If you know that the target is bound by the annotated gene product then consider using this child relationship**
 
--   [has\_direct\_input](Annotation_Extension_Relation:has_direct_input "wikilink")
+-   [has\_direct\_input](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_direct_input.md)
 
-For *Molecular Function* GO terms such as [endopeptidase activity](http://www.ebi.ac.uk/QuickGO/GTerm?id=GO:0004175) use the relationship ['has\_direct\_input'](http://wiki.geneontology.org/index.php/Annotation_Extension_Relation:has_direct_input) <span style="color:red">substrate</span> (possibly has\_substrate if this relationship is made available). The substrate included in the annotation extension should be known to bind the protein annotated.
+For *Molecular Function* GO terms such as [endopeptidase activity](http://www.ebi.ac.uk/QuickGO/GTerm?id=GO:0004175) use the relationship ['has\_direct\_input'](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_direct_input.md) <span style="color:red">substrate</span> (possibly has\_substrate if this relationship is made available). The substrate included in the annotation extension should be known to bind the protein annotated.
 
 The endopeptidase, in the example above, would also have the *Biological Process* GO term annotation (eg [proteolysis](http://www.ebi.ac.uk/QuickGO/GTerm?id=GO:0006508) with the annotation extension relationship 'has\_input' <span style="color:red">substrate</span>.
 
-For *Molecular Function* GO terms such as endopeptidase inhibitor activity use the relationship ['has\_direct\_input'](http://wiki.geneontology.org/index.php/Annotation_Extension_Relation:has_direct_input) <span style="color:red">endopeptidase</span>, the protein included in the annotation extension should be known to bind the annotated inhibitor.
+For *Molecular Function* GO terms such as endopeptidase inhibitor activity use the relationship ['has\_direct\_input'](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_direct_input.md) <span style="color:red">endopeptidase</span>, the protein included in the annotation extension should be known to bind the annotated inhibitor.
 
 **If the annotation associated with the gene product is a regulation of *Biological Process* then consider using the child relationship**
 
--   ['has\_regulation\_target'](http://wiki.geneontology.org/index.php/Annotation_Extension_Relation:has_regulation_target)<span style="color:red">target of biological process</span>
+-   ['has\_regulation\_target'](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_regulation_target.md)<span style="color:red">target of biological process</span>
 
-eg: [negative regulation of proteolysis](http://www.ebi.ac.uk/QuickGO/GTerm?id=GO:0045861) with the annotation extension relationship ['has\_regulation\_target'](http://wiki.geneontology.org/index.php/Annotation_Extension_Relation:has_regulation_target) <span style="color:red">target of proteolysis</span>, with the substrate of the endopeptidase that is regulated by the inhibitor included in the annotation extension field
+eg: [negative regulation of proteolysis](http://www.ebi.ac.uk/QuickGO/GTerm?id=GO:0045861) with the annotation extension relationship ['has\_regulation\_target'](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_regulation_target.md) <span style="color:red">target of proteolysis</span>, with the substrate of the endopeptidase that is regulated by the inhibitor included in the annotation extension field
 
 **If the annotation associated with the gene product is a regulation of *Molecular Function* (eg if the gene product is an enzyme regulator) then consider using the child relationship**
 
--   ['has\_input'](http://wiki.geneontology.org/index.php/Annotation_Extension_Relation:has_input) <span style="color:red">endopeptidase</span>
+-   'has\_input'<span style="color:red">endopeptidase</span>
 
-eg: [negative regulation of endopeptidase activity](http://www.ebi.ac.uk/QuickGO/GTerm?id=GO:0010951), with the annotation relationship ['has\_input'](http://wiki.geneontology.org/index.php/Annotation_Extension_Relation:has_input) <span style="color:red">endopeptidase</span>, the endopeptidase that is inhibited by (in this case) the endopeptidase inhibitor is included in the annotation extension field
+eg: [negative regulation of endopeptidase activity](http://www.ebi.ac.uk/QuickGO/GTerm?id=GO:0010951), with the annotation relationship 'has\_input' <span style="color:red">endopeptidase</span>, the endopeptidase that is inhibited by (in this case) the endopeptidase inhibitor is included in the annotation extension field
 
 <span style="color:blue">Therefore the endopeptidase inhibitor would have two *Biological Process* GO term annotations and one *Molecular Function* annotation eg:</span>
 
--   [negative regulation of proteolysis](http://www.ebi.ac.uk/QuickGO/GTerm?id=GO:0045861) with the annotation extension relationship ['has\_regulation\_target'](http://wiki.geneontology.org/index.php/Annotation_Extension_Relation:has_regulation_target) <span style="color:red">substrate</span>, with the substrate of the inhibited endopeptidase included in the annotation extension field
--   [negative regulation of endopeptidase activity](http://www.ebi.ac.uk/QuickGO/GTerm?id=GO:0010951), with the annotation relationship ['has\_input'](http://wiki.geneontology.org/index.php/Annotation_Extension_Relation:has_input) <span style="color:red">endopeptidase</span>, with the endopeptidase that is inhibited in the annotation extension field
--   [endopeptidase inhibitor activity](http://www.ebi.ac.uk/QuickGO/GTerm?id=GO:0004866), with the annotation relationship ['has\_direct\_input'](http://wiki.geneontology.org/index.php/Annotation_Extension_Relation:has_direct_input) <span style="color:red">endopeptidase</span>, with the endopeptidase included in the annotation extension known to bind the annotated inhibitor.
+-   [negative regulation of proteolysis](http://www.ebi.ac.uk/QuickGO/GTerm?id=GO:0045861) with the annotation extension relationship ['has\_regulation\_target'](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_regulation_target.md) <span style="color:red">substrate</span>, with the substrate of the inhibited endopeptidase included in the annotation extension field
+-   [negative regulation of endopeptidase activity](http://www.ebi.ac.uk/QuickGO/GTerm?id=GO:0010951), with the annotation relationship 'has\_input' <span style="color:red">endopeptidase</span>, with the endopeptidase that is inhibited in the annotation extension field
+-   [endopeptidase inhibitor activity](http://www.ebi.ac.uk/QuickGO/GTerm?id=GO:0004866), with the annotation relationship ['has\_direct\_input'](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_direct_input.md) <span style="color:red">endopeptidase</span>, with the endopeptidase included in the annotation extension known to bind the annotated inhibitor.
 
 | Folded/unfolded | Gene Name (col 2)                                | GO ID (col 5)                                                        | Reference (col 6) | Evidence (col 7) | Annotation Extension (col 16)                                                     | Parent terms of new folded GO term                    |
 |-----------------|--------------------------------------------------|----------------------------------------------------------------------|-------------------|------------------|-----------------------------------------------------------------------------------|-------------------------------------------------------|
@@ -115,7 +116,7 @@ So one of the annotations would be:
 | O14672     | ADAM10         | <GO:0006509> <span style="color:green">membrane protein ectodomain proteolysis</span> | <PMID:18676862>   | IMP              | has\_input(UNIPROT:Q29983 <span style="color:green">MICA</span>) |
 ||
 
-Using examples (from above) to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "wikilink") using the relationship has\_input
+Using examples (from above) to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship has\_input
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 #### Specifying the protein which is a target of a Biological Process
@@ -166,5 +167,4 @@ No new term will be created in this example because this is outside of the scope
 
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
-<Category:relations> [Category:annotation extension](Category:annotation extension "wikilink") [Category:LEGO examples](Category:LEGO examples "wikilink")
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)

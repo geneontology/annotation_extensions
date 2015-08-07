@@ -20,23 +20,50 @@ Or another option is to create the annotation protein ubiquitination (has_input 
 Child terms
 -----------
 
--   [has\_input](Annotation_Extension_Relation:has_input "wikilink")
+-   [has\_input](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_input.md)
+-   - [has\_direct\_input](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_direct_input.md)
+-   - [stabilizes](https://github.com/geneontology/annotation_extensions/blob/master/doc/stabilizes.md)
 
 <!-- -->
 
--   [has\_output](Annotation_Extension_Relation:has_output "wikilink")
+-   [has\_output](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_ouput.md)
+-   -   [results\_in\_formation\_of](https://github.com/geneontology/annotation_extensions/blob/master/doc/results_in_formation_of.md)
 
 <!-- -->
 
--   [has\_regulation\_target](Annotation_Extension_Relation:has_regulation_target "wikilink")
+-   [has\_regulation\_target](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_regulation_target.md)
 
 <!-- -->
 
--   [stabilizes](Annotation_Extension_Relation:stabilizes "wikilink")
+-   [acts\_on\_population\_of](https://github.com/geneontology/annotation_extensions/blob/master/doc/acts_on_population_of.md)
+-   [has\_agent](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_agent.md)
+
+<!-- -->
+-   [results\_in_acquisition\_of\_features\_of](https://github.com/geneontology/annotation_extensions/blob/master/doc/results_in_acquisition_of_features_of.md)
+
+<!-- -->
+-   [results\_in\_development\_of](https://github.com/geneontology/annotation_extensions/blob/master/doc/results_in_development_of.md)
+
+<!-- -->
+-   [results\_in\_division\_of](https://github.com/geneontology/annotation_extensions/blob/master/doc/results_in_division_of.md)
+
+<!-- -->
+-   [results\_in\_maturation\_of](https://github.com/geneontology/annotation_extensions/blob/master/doc/results_in_maturation_of.md)
+
+<!-- -->
+-   [results\_in\_morphogenesis\_of](https://github.com/geneontology/annotation_extensions/blob/master/doc/results_in_morphogenesis_of.md)
+
+<!-- -->
+-   [results\_in\_movement\_of](https://github.com/geneontology/annotation_extensions/blob/master/doc/results_in_movement_of.md)
+
+<!-- -->
+-   [transports\_or\_maintains\_localization\_of](https://github.com/geneontology/annotation_extensions/blob/master/doc/transports_or_maintains_localization_of.md)
+
+<!-- -->
 
 ------------------------------------------------------------------------
 
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
-<Category:relations> [Category:annotation extension](Category:annotation extension "wikilink")
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+

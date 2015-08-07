@@ -1,6 +1,6 @@
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
 ## activated_by
@@ -58,25 +58,25 @@ So the annotation would be:
 
 | DB (Col 2) | Object (Col 3) | GO ID (Col 5) | Reference (Col 6) | Extension (Col 16)                     |
 |------------|----------------|---------------|-------------------|----------------------------------------|
-| Q401N2     | ZACN           | <GO:0048471>  | <PMID:12381728>   | activated\_by (ChEBI:29105, zinc ions) |
+| Q401N2     | ZACN           | <GO:0015276> ligand-gated ion channel activity | <PMID:12381728>   | activated\_by (ChEBI:29105, zinc ions) |
 ||
 
-Using examples to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "wikilink") using the relationship activated\_by
+Using examples to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship activated\_by
 ------------------------------------------------------------------------------------------------------------------------------
 
 1. zinc activated ligand-gated ion channel (ZACN) is activated by Zn2+, <PMID:12381728>
 
 | Folded/unfolded | DB (Col 2) | Object (Col 3) | GO ID (Col 5)                                                                   | Reference (Col 6) | Extension (Col 16)                                                      | Parent terms for new folded GO term                                                 |
 |-----------------|------------|----------------|---------------------------------------------------------------------------------|-------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| Unfolded        | Q401N2     | ZACN           | <GO:0048471> <span style="color:green">ligand-gated ion channel activity</span> | <PMID:12381728>   | activated\_by (ChEBI:29105, <span style="color:green">zinc ions</span>) |                                                                                     |
+| Unfolded        | Q401N2     | ZACN           | <GO:0015276> <span style="color:green">ligand-gated ion channel activity</span> | <PMID:12381728>   | activated\_by (ChEBI:29105, <span style="color:green">zinc ions</span>) |                                                                                     |
 | Folded          | Q401N2     | ZACN           | New GO term <span style="color:green">zinc-gated ion channel activity</span>    | <PMID:12381728>   |                                                                         | is\_a <GO:0048471> <span style="color:red">ligand-gated ion channel activity</span> |
 ||
 
-**OWL class expression:** <GO:0006509> <span style="color:red">ligand-gated ion channel activity</span> AND activated\_by SOME ChEBI:29105 <span style="color:red">zinc ions</span>
+**OWL class expression:** <GO:0015276> <span style="color:red">ligand-gated ion channel activity</span> AND activated\_by SOME ChEBI:29105 <span style="color:red">zinc ions</span>
 
 ------------------------------------------------------------------------
 
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
-<Category:relations> [Category:annotation extension](Category:annotation extension "wikilink") [Category:LEGO examples](Category:LEGO examples "wikilink")
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+

@@ -1,6 +1,7 @@
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
 ## results_in_movement_of
@@ -45,7 +46,10 @@ For movement of chemicals or cell parts, please use transports_or_maintains_loca
 Comment
 -------
 
-Consider instead using transports\_or\_maintains\_localization\_of
+Consider instead using [transports\_or\_maintains\_localization\_of](https://github.com/geneontology/annotation_extensions/blob/master/doc/transports_or_maintains_localization_of.md)
+
+* Use results_in_movement_of for transport/movement of a cell or component
+* Use the transports term for transport/movement of proteins and small molecules 
 
 Annotation Extension Usage Examples
 -----------------------------------
@@ -64,7 +68,7 @@ Statement from paper:
 |----------------------------------------------|--------------------------------------------------------------------------------------------|-------------------|------------------|------------------------------------------------------------------------------------|
 | Q9ES83 <span style="color:green">Bves</span> | <GO:0060973> <span style="color:green">cell migration involved in heart development</span> | <PMID:24048452>   | IMP              | results\_in\_movement\_of (CL:0002494 <span style="color:green">cardiocyte</span>) |
 
-Using examples to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "wikilink") using the relationship results\_in\_movement\_of
+Using examples to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship results\_in\_movement\_of
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 **Specifying that a gene product regulates the location of cardiocytes as part of heart development .** <PMID:24048452>
@@ -83,5 +87,4 @@ Statement from paper: blood vessel epicardial substance (Bves) is critical for r
 
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
-<Category:relations> [Category:annotation extension](Category:annotation extension "wikilink")
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)

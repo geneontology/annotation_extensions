@@ -11,7 +11,7 @@ A site for
 
 ## Dynamically generated documentation of annotation extension relations
 
-In an ideal world, everyone would be using a single system for editing and viewing all AE extension relation content. Protege is ideal for this, but annotators have traditionally relied on a manually maintained [wiki](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation).  This inevitably goes stale, and so we have moved these pages to this repository ([doc](doc/)), where generation of their ontology-derived content is automated -  pulling information from the OWL file.  These pages retain a manual component consisting of examples of usage & how extended annotations are ['folded'](http://wiki.geneontology.org/index.php/Folding_and_Unfolding)) into the ontology.
+In an ideal world, everyone would be using a single system for editing and viewing all AE extension relation content. Protege is ideal for this, but annotators have traditionally relied on a manually maintained [wiki](http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation).  This inevitably goes stale, and so we have moved these pages to this repository ([doc](doc/)), where generation of their ontology-derived content is automated -  pulling information from the OWL file.  These pages retain a manual component consisting of examples of usage & how extended annotations are ['folded'](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) into the ontology.
 
 
 

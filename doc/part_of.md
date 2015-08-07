@@ -1,6 +1,6 @@
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
@@ -46,7 +46,7 @@ This relation has two uses in annotation extension.  It may be used to relate a 
 Comment
 -------
 
-Consider using TermGenie to create a new biological process GO term. Only use this term when the role of the gene product in the process is clearly known to be involved, not just occurring during the process. Consider the use of the relationship [happens\_during](http://wiki.geneontology.org/index.php/Annotation_Extension_Relation:happens_during) if the process is not definitely part of the biological process
+Consider using TermGenie to create a new biological process GO term. Only use this term when the role of the gene product in the process is clearly known to be involved, not just occurring during the process. Consider the use of the relationship [happens\_during](https://github.com/geneontology/annotation_extensions/blob/master/doc/happens_during.md) if the process is not definitely part of the biological process
 
 Annotation Extension Usage Examples
 -----------------------------------
@@ -75,7 +75,7 @@ So the annotation would be;
 | O00206     | TLR4           | <GO:0009986>  | <PMID:15027902>   | part\_of(CL:0000576) |
 ||
 
-Further examples of these usages of part\_of can be found on the documentation page for [Column\_16:\_Cell\_Type](Column_16:_Cell_Type "wikilink")
+Further examples of these usages of part\_of can be found on the documentation page for [Column\_16:\_Cell\_Type](http://wiki.geneontology.org/index.php/Column_16:_Cell_Type)
 
 ### Enhancing Molecular Function and Biological Process Annotations
 
@@ -118,7 +118,7 @@ This is harmless but pointless, because we know that kinase activity is part\_of
 
 Also include 2 redundant annotation lines
 
-Using examples (from above) to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "wikilink") using the relationship part\_of
+Using examples (from above) to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship part\_of
 --------------------------------------------------------------------------------------------------------------------------------------
 
 **1. Specifying that a gene product is located in a cellular component of a specific cell or tissue type**
@@ -157,5 +157,4 @@ Using examples (from above) to demonstrate [Folding\_and\_Unfolding](Folding_and
 
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
-<Category:relations> [Category:annotation extension](Category:annotation extension "wikilink")
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)

@@ -1,6 +1,6 @@
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
 ## has_regulation_target
@@ -45,7 +45,7 @@ probably want to add one or two new subtypes that capture something about direct
 Comment
 -------
 
-[**More details on the limited use of has\_regulation\_target with regulation of biological process annotations**](http://wiki.geneontology.org/index.php/Annotation_Extension_Relation:has_participant#Comment)
+[**More details on the limited use of has\_regulation\_target with regulation of biological process annotations**](https://github.com/geneontology/annotation_extensions/blob/master/doc/has_participant.md)
 
 Annotation Extension Usage Examples
 -----------------------------------
@@ -62,7 +62,7 @@ Expressed in LEGO: <http://go-genkisugi.rhcloud.com/seed/model/gomodel:taxon_623
 |-----------------------------|--------------------------------------------------------------------------------------------------------------------|-------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | WBGene00000220 atf-2(tm467) | <GO:0000122> <span style="color:green">negative regulation of transcription from RNA polymerase II promoter</span> | <PMID:21502138>   | IMP              | has\_regulation\_target(WB:WBGene00000247 <span style="color:green">bec-1</span>) 'pipe' has\_regulation\_target(WB:WBGene00002980 <span style="color:green">lgg-1</span> |
 
-Using examples (from above) to demonstrate [Folding\_and\_Unfolding](Folding_and_Unfolding "wikilink") using the relationship has\_regulation\_target
+Using examples (from above) to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology.org/index.php/Folding_and_Unfolding) using the relationship has\_regulation\_target
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 #### Specifying the gene which is a target of a transcription factor
@@ -87,5 +87,4 @@ Back to [Annotation Extension: Capturing participants](http://wiki.geneontology.
 
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
-<Category:relations> [Category:annotation extension](Category:annotation extension "wikilink")
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
