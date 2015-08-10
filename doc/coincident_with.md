@@ -22,12 +22,17 @@ Example: if we define region of chromosome as any subdivision of a chromosome al
 [ro-eco, AE_cellular_component, display_for_curators]
 
 ##local domain
-{u'GO:0005575': u'cellular_component'}
+GO:0005575 : cellular_component
 
 ## local range
-{u'CHEBI:24431': u'chemical entity', u'SO:0000001': u'region'}
+CHEBI:24431 : chemical entity; SO:0000001 : region
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

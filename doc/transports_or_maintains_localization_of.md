@@ -22,12 +22,17 @@ Use to relate a process or molecular function to a substance that is transported
 [AE_chemical, AE_cellular_component, display_for_curators]
 
 ##local domain
-{u'BFO:0000015': u'process'}
+BFO:0000015 : process
 
 ## local range
-{u'CHEBI:24431': u'chemical entity', u'GO:0005575': u'cellular_component', u'PR:000000001': u'protein'}
+CHEBI:24431 : chemical entity; GO:0005575 : cellular_component; PR:000000001 : protein
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

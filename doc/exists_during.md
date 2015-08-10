@@ -23,12 +23,17 @@ Previous definition "c exists_during p if and only if the temporal extent bounde
 [AE_biological_process, AE_developmental_stages, display_for_curators]
 
 ##local domain
-{u'BFO:0000004': u'independent continuant'}
+BFO:0000004 : independent continuant
 
 ## local range
-{u'GO:0008150': u'biological_process', u'WBls:0000075': u'Nematoda Life Stage', u'ZFS:0100000': u'ZFS:0100000'}
+GO:0008150 : biological_process; WBls:0000075 : Nematoda Life Stage; ZFS:0100000 : ZFS:0100000
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

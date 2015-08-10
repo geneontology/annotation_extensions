@@ -23,12 +23,17 @@ DEPRECATION WARNING: The GO editors have agreed that this relation should be dep
 [AE_sequence_or_complex, AE_chemical, display_for_curators]
 
 ##local domain
-{u'BFO:0000001': u'entity'}
+BFO:0000001 : entity
 
 ## local range
-{u'CHEBI:24431': u'chemical entity', u'SO:0000673': u'transcript', u'GO:0032991': u'macromolecular complex', u'MI:0315': u'protein complex', u'PR:000000001': u'protein', u'SO:0000704': u'gene'}
+CHEBI:24431 : chemical entity; GO:0032991 : macromolecular complex; MI:0315 : protein complex; PR:000000001 : protein; SO:0000673 : transcript; SO:0000704 : gene
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

@@ -22,12 +22,17 @@ This is the combination of the regulates relation with the has_input relation
 [display_for_curators]
 
 ##local domain
-{}
+
 
 ## local range
-{}
+
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

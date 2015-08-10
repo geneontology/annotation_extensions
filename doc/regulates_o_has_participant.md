@@ -22,12 +22,17 @@ Use this relationship to link a regulatory process or function to an entity that
 [display_for_curators]
 
 ##local domain
-{u'BFO:0000015': u'process'}
+BFO:0000015 : process
 
 ## local range
-{u'GO:0008150': u'biological_process', u'CL:0000000': u'cell', u'PO:0009012': u'plant structure development stage', u'GO:0005575': u'cellular_component', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy'}
+CL:0000000 : cell; GO:0005575 : cellular_component; GO:0008150 : biological_process; PO:0009012 : plant structure development stage; PO:0025131 : plant anatomical entity; UBERON:0001062 : anatomical entity; WBbt:0004017 : Cell; WBbt:0005766 : Anatomy
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

@@ -22,12 +22,17 @@ Use this relation to link a process that regulates the specification of some cel
 [AE_cell_or_anatomical, display_for_curators]
 
 ##local domain
-{u'BFO:0000015': u'process'}
+BFO:0000015 : process
 
 ## local range
-{u'CL:0000000': u'cell', u'WBbt:0004017': u'Cell'}
+CL:0000000 : cell; WBbt:0004017 : Cell
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

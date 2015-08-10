@@ -22,12 +22,17 @@ x adjacent to y if and only if x and y share a boundary
 [AE_cell_or_anatomical, AE_cellular_component, display_for_curators]
 
 ##local domain
-{}
+GO:0005575 : cellular_component
 
 ## local range
-{}
+CL:0000000 : cell; GO:0005575 : cellular_component
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

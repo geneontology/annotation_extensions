@@ -11,7 +11,7 @@ Back to [index of relations docs](https://github.com/geneontology/annotation_ext
 [u'has_target', u'localizes']
 
 ### Definition
-p has input c if either: p has direct input c or p has indirect input c. See subrelations for definitions.
+p has direct input c iff c is a participant in p, c is present at the start of p, and the state of c is modified during p.
 
 ### Usage
 Use this relation to relate a biological process or molecular function to an entity that participates in the process/function, is present at the start of the process/function and whose state is affected by that process/function.  Change of state includes being transported, modified, consumed or destroyed.  An input may be any continuant: chemical; gene product; cell component;  cells type; organism.  For inputs to MFs that are bound by the gene product that executes the MF, the more specific relation 'has_direct_input' may be used.
@@ -23,12 +23,17 @@ Previous definition "p has_input c if and only c participates_in p at the start 
 [AE_sequence_or_complex, ro-eco, AE_chemical, display_for_curators]
 
 ##local domain
-{u'BFO:0000015': u'process'}
+BFO:0000015 : process
 
 ## local range
-{u'SO:0000839': u'polypeptide_region', u'CHEBI:24431': u'chemical entity', u'CHEBI:33697': u'ribonucleic acid', u'SO:0000673': u'transcript', u'GO:0032991': u'macromolecular complex', u'MI:0315': u'protein complex', u'PR:000000001': u'protein', u'SO:0000704': u'gene'}
+CHEBI:24431 : chemical entity; CHEBI:33697 : ribonucleic acid; GO:0032991 : macromolecular complex; MI:0315 : protein complex; PR:000000001 : protein; SO:0000673 : transcript; SO:0000704 : gene; SO:0000839 : polypeptide_region
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

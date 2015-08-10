@@ -23,12 +23,17 @@ This is the combination of the regulates relation with the results_in_movement_o
 [AE_cell_or_anatomical, display_for_curators]
 
 ##local domain
-{u'BFO:0000015': u'process'}
+BFO:0000015 : process
 
 ## local range
-{u'CL:0000000': u'cell', u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell'}
+CL:0000000 : cell; GO:0005575 : cellular_component; WBbt:0004017 : Cell
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

@@ -23,12 +23,17 @@ Example of use: an annotation of gene X to cell determination with results_in_de
 [AE_cell_or_anatomical, display_for_curators]
 
 ##local domain
-{u'GO:0008150': u'biological_process'}
+GO:0008150 : biological_process
 
 ## local range
-{u'CL:0000000': u'cell', u'WBbt:0004017': u'Cell'}
+CL:0000000 : cell; WBbt:0004017 : Cell
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

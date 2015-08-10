@@ -23,12 +23,17 @@ Previous definition "P occurs_at C : the execution of P is located at C." [GOC:c
 [AE_sequence_feature, AE_cellular_component, display_for_curators]
 
 ##local domain
-{u'BFO:0000015': u'process'}
+BFO:0000015 : process
 
 ## local range
-{u'GO:0005575': u'cellular_component', u'SO:0000110': u'sequence_feature'}
+GO:0005575 : cellular_component; SO:0000110 : sequence_feature
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

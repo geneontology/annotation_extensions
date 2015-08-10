@@ -23,12 +23,17 @@ PomBase uses the more specific child relations, and avoids using dependent_on di
 [AE_molecular_function, AE_biological_process, AE_sequence_or_complex, AE_sequence_feature, AE_chemical, display_for_curators]
 
 ##local domain
-{u'BFO:0000001': u'entity'}
+BFO:0000001 : entity
 
 ## local range
-{u'GO:0008150': u'biological_process', u'CHEBI:24431': u'chemical entity', u'CHEBI:33697': u'ribonucleic acid', u'GO:0003674': u'molecular_function', u'SO:0000110': u'sequence_feature', u'SO:0000673': u'transcript', u'MOD:00000': u'protein modification', u'GO:0032991': u'macromolecular complex', u'MI:0315': u'protein complex', u'PR:000000001': u'protein', u'SO:0000704': u'gene'}
+CHEBI:24431 : chemical entity; CHEBI:33697 : ribonucleic acid; GO:0003674 : molecular_function; GO:0008150 : biological_process; GO:0032991 : macromolecular complex; MI:0315 : protein complex; MOD:00000 : protein modification; PR:000000001 : protein; SO:0000110 : sequence_feature; SO:0000673 : transcript; SO:0000704 : gene
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

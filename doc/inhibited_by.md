@@ -22,12 +22,17 @@ This relation should not be used to annotate one gene product regulating another
 [AE_chemical, display_for_curators]
 
 ##local domain
-{u'GO:0003674': u'molecular_function'}
+GO:0003674 : molecular_function
 
 ## local range
-{u'CHEBI:24431': u'chemical entity'}
+CHEBI:24431 : chemical entity
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 

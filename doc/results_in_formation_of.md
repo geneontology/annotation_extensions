@@ -23,12 +23,17 @@ Example of use: an annotation of gene X to anatomical structure formation with r
 [AE_cell_or_anatomical, display_for_curators]
 
 ##local domain
-{}
+
 
 ## local range
-{u'GO:0008150': u'biological_process'}
+GO:0008150 : biological_process
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
+
 
 
 
