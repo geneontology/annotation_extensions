@@ -236,7 +236,7 @@ G5ECU1	UniProt	GO:0010826	negative regulation of centrosome duplication	dependen
 G5ECV4	WormBase	GO:0004930	G-protein coupled receptor activity	dependent_on	UniProtKB:O61938	
 G5ECV4	WormBase	GO:0007186	G-protein coupled receptor signaling pathway	dependent_on	UniProtKB:O61938	
 G5EDD8	UniProt	GO:0010826	negative regulation of centrosome duplication	dependent_on	GO:0031647	regulation of protein stability
-G5EDK8	WormBase	GO:0042826	histone deacetylase binding	dependent_on	SO:0000170	
+G5EDK8	WormBase	GO:0042826	histone deacetylase binding	dependent_on	SO:0000170	RNApol_II_promoter
 G5EDK8	WormBase	GO:0042826	histone deacetylase binding	dependent_on	WB:WBGene00018725	
 G7N7U0	UniProt	GO:0044030	regulation of DNA methylation	dependent_on	GO:0016584	nucleosome positioning
 G7NHX6	AgBase	GO:0050750	low-density lipoprotein particle receptor binding	dependent_on	GO:0001595	angiotensin receptor activity
@@ -376,7 +376,7 @@ O14929	UniProt	GO:0043234	protein complex	dependent_on	UniProtKB:Q9Y294
 O14966	ParkinsonsUK-UCL	GO:0005794	Golgi apparatus	dependent_on	GO:0005525	GTP binding
 O15455	UniProt	GO:0097527	necroptotic signaling pathway	dependent_on	GO:0097340	inhibition of cysteine-type endopeptidase activity
 O17583	UniProt	GO:0017137	Rab GTPase binding	dependent_on	GO:0005525	GTP binding
-O17695	WormBase	GO:0001103	RNA polymerase II repressing transcription factor binding	dependent_on	SO:0000170	
+O17695	WormBase	GO:0001103	RNA polymerase II repressing transcription factor binding	dependent_on	SO:0000170	RNApol_II_promoter
 O17695	WormBase	GO:0001103	RNA polymerase II repressing transcription factor binding	dependent_on	WB:WBGene00018725	
 O35129	UniProt	GO:0009986	cell surface	dependent_on	GO:0035710	CD4-positive, alpha-beta T cell activation
 O35129	UniProt	GO:0009986	cell surface	dependent_on	GO:0036037	CD8-positive, alpha-beta T cell activation
@@ -397,7 +397,7 @@ O43521	UniProt	GO:0090200	positive regulation of release of cytochrome c from mi
 O43521	UniProt	GO:0090200	positive regulation of release of cytochrome c from mitochondria	dependent_on	UniProtKB:Q92843	
 O43657	UniProt	GO:1901223	negative regulation of NIK/NF-kappaB signaling	dependent_on	UniProtKB:Q7Z434	
 O43707	UniProt	GO:1901224	positive regulation of NIK/NF-kappaB signaling	dependent_on	GO:0061481	response to TNF agonist
-O44408	WormBase	GO:0001103	RNA polymerase II repressing transcription factor binding	dependent_on	SO:0000170	
+O44408	WormBase	GO:0001103	RNA polymerase II repressing transcription factor binding	dependent_on	SO:0000170	RNApol_II_promoter
 O44408	WormBase	GO:0001103	RNA polymerase II repressing transcription factor binding	dependent_on	WB:WBGene00018725	
 O44857	UniProt	GO:0008355	olfactory learning	dependent_on	GO:0008237	metallopeptidase activity
 O44857	UniProt	GO:0008355	olfactory learning	dependent_on	GO:0008270	zinc ion binding
@@ -1108,8 +1108,8 @@ P62805	UniProt	GO:0043234	protein complex	dependent_on	UniProtKB:Q9NVP2
 P62805	UniProt	GO:0043234	protein complex	dependent_on	UniProtKB:Q9NVP2	
 P62805	UniProt	GO:0043234	protein complex	dependent_on	UniProtKB:Q9Y294	
 P62805	UniProt	GO:0043234	protein complex	dependent_on	UniProtKB:Q9Y294	
-P62805	Withheld Manual Annotation	GO:0005515	protein binding	dependent_on	SO:0001729	
-P62805	Withheld Manual Annotation	GO:0005515	protein binding	dependent_on	SO:0001939	
+P62805	Withheld Manual Annotation	GO:0005515	protein binding	dependent_on	SO:0001729	H4K16_acylation_site
+P62805	Withheld Manual Annotation	GO:0005515	protein binding	dependent_on	SO:0001939	H4K12_acetylation_site
 P62826	UniProt	GO:0005730	nucleolus	dependent_on	GO:0005525	GTP binding
 P62826	UniProt	GO:1902570	protein localization to nucleolus	dependent_on	GO:0005525	GTP binding
 P62909	UniProt	GO:0005634	nucleus	dependent_on	GO:1990090	cellular response to nerve growth factor stimulus
@@ -1265,7 +1265,7 @@ Q10156	PomBase	GO:0005634	nucleus	dependent_on	PomBase:SPAC1D4.11c
 Q10570	UniProt	GO:0005515	protein binding	dependent_on	GO:0035925	mRNA 3'-UTR AU-rich region binding
 Q108U6	UniProt	GO:0050918	positive chemotaxis	dependent_on	GO:0071526	semaphorin-plexin signaling pathway
 Q11099	UniProt	GO:0005622	intracellular	dependent_on	UniProtKB:P23678	
-Q11099	UniProt	GO:0090328	regulation of olfactory learning	dependent_on	SO:0001064	
+Q11099	UniProt	GO:0090328	regulation of olfactory learning	dependent_on	SO:0001064	active_peptide
 Q12072	SGD	GO:0016887	ATPase activity	dependent_on	GO:0000786	nucleosome
 Q12406	SGD	GO:0015616	DNA translocase activity	dependent_on	CHEBI:15422	ATP
 Q12406	SGD	GO:0015616	DNA translocase activity	dependent_on	CHEBI:15422	ATP
@@ -1770,7 +1770,7 @@ Q969G3	UniProt	GO:0043234	protein complex	dependent_on	UniProtKB:Q92922
 Q969G3	UniProt	GO:0043234	protein complex	dependent_on	UniProtKB:Q92925	
 Q969G3	UniProt	GO:0043234	protein complex	dependent_on	UniProtKB:Q9UBB5	
 Q969G9	BHF-UCL	GO:0090090	negative regulation of canonical Wnt signaling pathway	dependent_on	UniProtKB:Q06190-2	
-Q969V3	UniProt	GO:0005515	protein binding	dependent_on	SO:0001077	
+Q969V3	UniProt	GO:0005515	protein binding	dependent_on	SO:0001077	transmembrane_polypeptide_region
 Q96EE3	SGD	GO:0032008	positive regulation of TOR signaling	dependent_on	UniProtKB:O75140	
 Q96EE3	UniProt	GO:0034629	cellular protein complex localization	dependent_on	GO:0071230	cellular response to amino acid stimulus
 Q96EY5	UniProt	GO:0005515	protein binding	dependent_on	GO:0005515	protein binding
@@ -1825,7 +1825,7 @@ Q9BUL8	UniProt	GO:0008284	positive regulation of cell proliferation	dependent_on
 Q9BUL8	UniProt	GO:0030335	positive regulation of cell migration	dependent_on	UniProtKB:Q9P289	
 Q9BVG3	UniProt	GO:0043123	positive regulation of I-kappaB kinase/NF-kappaB signaling	dependent_on	UniProtKB:P49116	
 Q9BVG3	UniProt	GO:0051091	positive regulation of sequence-specific DNA binding transcription factor activity	dependent_on	UniProtKB:P49116	
-Q9BVK8	UniProt	GO:0005515	protein binding	dependent_on	SO:0001077	
+Q9BVK8	UniProt	GO:0005515	protein binding	dependent_on	SO:0001077	transmembrane_polypeptide_region
 Q9BX97	UniProt	GO:0000165	MAPK cascade	dependent_on	UniProtKB:Q02750	
 Q9BZR9	UniProt	GO:0043123	positive regulation of I-kappaB kinase/NF-kappaB signaling	dependent_on	UniProtKB:P49116	
 Q9BZR9	UniProt	GO:0051091	positive regulation of sequence-specific DNA binding transcription factor activity	dependent_on	UniProtKB:P49116	
@@ -1901,8 +1901,8 @@ Q9NWK9	Withheld Manual Annotation	GO:0051117	ATPase binding	dependent_on	GO:0005
 Q9NWK9	Withheld Manual Annotation	GO:0051117	ATPase binding	dependent_on	GO:0005524	ATP binding
 Q9NWK9	Withheld Manual Annotation	GO:0051117	ATPase binding	dependent_on	GO:0043531	ADP binding
 Q9NWS0	Withheld Manual Annotation	GO:0001046	core promoter sequence-specific DNA binding	dependent_on	GO:0042393	histone binding
-Q9NWS0	Withheld Manual Annotation	GO:0042393	histone binding	dependent_on	SO:0001729	
-Q9NWS0	Withheld Manual Annotation	GO:0042393	histone binding	dependent_on	SO:0001939	
+Q9NWS0	Withheld Manual Annotation	GO:0042393	histone binding	dependent_on	SO:0001729	H4K16_acylation_site
+Q9NWS0	Withheld Manual Annotation	GO:0042393	histone binding	dependent_on	SO:0001939	H4K12_acetylation_site
 Q9NWS0	Withheld Manual Annotation	GO:1900110	negative regulation of histone H3-K9 dimethylation	dependent_on	GO:1902661	positive regulation of glucose mediated signaling pathway
 Q9NWS0	Withheld Manual Annotation	GO:1900113	negative regulation of histone H3-K9 trimethylation	dependent_on	GO:1902661	positive regulation of glucose mediated signaling pathway
 Q9NWS0	Withheld Manual Annotation	GO:2000617	positive regulation of histone H3-K9 acetylation	dependent_on	GO:1902661	positive regulation of glucose mediated signaling pathway
@@ -1963,8 +1963,8 @@ Q9UEW8	ParkinsonsUK-UCL	GO:1901017	negative regulation of potassium ion transmem
 Q9UEW8	ParkinsonsUK-UCL	GO:1901380	negative regulation of potassium ion transmembrane transport	dependent_on	UniProtKB:Q9Y376	
 Q9UEW8	ParkinsonsUK-UCL	GO:2000681	negative regulation of rubidium ion transport	dependent_on	UniProtKB:Q9Y376	
 Q9UEW8	ParkinsonsUK-UCL	GO:2000687	negative regulation of rubidium ion transmembrane transporter activity	dependent_on	UniProtKB:Q9Y376	
-Q9UIF9	Withheld Manual Annotation	GO:0042393	histone binding	dependent_on	SO:0001729	
-Q9UIF9	Withheld Manual Annotation	GO:0042393	histone binding	dependent_on	SO:0001939	
+Q9UIF9	Withheld Manual Annotation	GO:0042393	histone binding	dependent_on	SO:0001729	H4K16_acylation_site
+Q9UIF9	Withheld Manual Annotation	GO:0042393	histone binding	dependent_on	SO:0001939	H4K12_acetylation_site
 Q9UJ41	UniProt	GO:0006612	protein targeting to membrane	dependent_on	GO:0017112	Rab guanyl-nucleotide exchange factor activity
 Q9UJV3	UniProt	GO:0043123	positive regulation of I-kappaB kinase/NF-kappaB signaling	dependent_on	UniProtKB:P49116	
 Q9UJV3	UniProt	GO:0051091	positive regulation of sequence-specific DNA binding transcription factor activity	dependent_on	UniProtKB:P49116	
@@ -6289,9 +6289,9 @@ Q9UK41	UniProt	GO:0005886	plasma membrane	localization_dependent_on	GO:0098586	c
 Q9UN37	UniProt	GO:0005886	plasma membrane	localization_dependent_on	GO:0098586	cellular response to virus
 Q9Y6K9	UniProt	GO:0000922	spindle pole	localization_dependent_on	GO:0000087	mitotic M phase
 Q9Y6K9	UniProt	GO:0072686	mitotic spindle	localization_dependent_on	GO:0000087	mitotic M phase
-P29692-2	UniProt	GO:0003677	DNA binding	requires_sequence_feature	SO:0001850	
-Q99816	UniProt	GO:0005515	protein binding	requires_sequence_feature	SO:0100014	
-Q9UK41	UniProt	GO:0005515	protein binding	requires_sequence_feature	SO:0100015	
+P29692-2	UniProt	GO:0003677	DNA binding	requires_sequence_feature	SO:0001850	HSE
+Q99816	UniProt	GO:0005515	protein binding	requires_sequence_feature	SO:0100014	n_terminal_region
+Q9UK41	UniProt	GO:0005515	protein binding	requires_sequence_feature	SO:0100015	c_terminal_region
 O00571	AgBase	GO:0003924	GTPase activity	requires_substance	CHEBI:15996	GTP
 O00571	AgBase	GO:0003924	GTPase activity	requires_substance	CHEBI:16497	dGTP
 O00571	AgBase	GO:0016887	ATPase activity	requires_substance	CHEBI:15422	ATP
