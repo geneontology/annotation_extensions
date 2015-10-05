@@ -48,6 +48,10 @@ GO:0005575 : cellular_component; SO:0000110 : sequence_feature
 
 
 
+
+
+
+
 Annotation Extension Usage Examples
 -----------------------------------
 

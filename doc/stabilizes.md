@@ -48,6 +48,10 @@ CHEBI:33697 : ribonucleic acid; GO:0032991 : macromolecular complex; MI:0315 : p
 
 
 
+
+
+
+
 Annotation Extension Usage Examples
 -----------------------------------
 

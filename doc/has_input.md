@@ -26,9 +26,13 @@ Previous definition "p has_input c if and only c participates_in p at the start 
 BFO:0000015 : process
 
 ## local range
-CHEBI:24431 : chemical entity; CHEBI:33697 : ribonucleic acid; GO:0032991 : macromolecular complex; MI:0315 : protein complex; PR:000000001 : protein; SO:0000673 : transcript; SO:0000704 : gene; SO:0000839 : polypeptide_region
+CHEBI:24431 : chemical entity; CHEBI:33697 : ribonucleic acid; GO:0032991 : macromolecular complex; MI:0315 : protein complex; NCBITaxon:1 : ; PR:000000001 : protein; SO:0000673 : transcript; SO:0000704 : gene; SO:0000839 : polypeptide_region
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
 
 
 

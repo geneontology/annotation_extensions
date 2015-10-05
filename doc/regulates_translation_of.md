@@ -47,6 +47,10 @@ SO:0000704 : gene
 
 
 
+
+
+
+
 Text extracted from ontlogy: DO NOT EDIT
 ----------------------------------------
 

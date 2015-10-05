@@ -47,6 +47,10 @@ CHEBI:24431 : chemical entity; SO:0000001 : region
 
 
 
+
+
+
+
 Annotation Extension Usage Example
 ----------------------------------
 

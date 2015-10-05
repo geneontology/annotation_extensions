@@ -48,6 +48,10 @@ CHEBI:24431 : chemical entity; CHEBI:33697 : ribonucleic acid; GO:0003674 : mole
 
 
 
+
+
+
+
 ### DEPRECATION WARNING
 
 The GO editors have agreed that this relation should be deprecated. The relation does not extend the meaning of the GO term, as annotation relations are meant to, but instead specifies conditions under which the annotation is true. This can not be expressed in OWL. Annotation extensions using this relation will not fold.

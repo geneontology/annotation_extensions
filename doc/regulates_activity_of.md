@@ -47,6 +47,10 @@ GO:0043234 : protein complex; PR:000000001 : protein; SO:0000374 : ribozyme
 
 
 
+
+
+
+
 Annotation Extension Usage Example
 ----------------------------------
 

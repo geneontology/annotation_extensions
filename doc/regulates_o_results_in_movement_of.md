@@ -47,4 +47,8 @@ CL:0000000 : cell; GO:0005575 : cellular_component; WBbt:0004017 : Cell
 
 
 
+
+
+
+
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)

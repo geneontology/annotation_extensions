@@ -37,4 +37,8 @@ CHEBI:24431 : chemical entity; GO:0032991 : macromolecular complex; MI:0315 : pr
 
 
 
+
+
+
+
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)

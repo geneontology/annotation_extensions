@@ -35,4 +35,8 @@ GO:0005575 : cellular_component
 
 
 
+
+
+
+
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)

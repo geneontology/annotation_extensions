@@ -47,6 +47,10 @@ CL:0000000 : cell; GO:0005575 : cellular_component; GO:0008150 : biological_proc
 
 
 
+
+
+
+
 Annotation Extension Usage Example
 ----------------------------------
 

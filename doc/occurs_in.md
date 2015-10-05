@@ -26,9 +26,13 @@ Paraphrase of definition: a relation between a process and an independent contin
 BFO:0000015 : process
 
 ## local range
-CL:0000000 : cell; GO:0005575 : cellular_component; PO:0025131 : plant anatomical entity; UBERON:0001062 : anatomical entity; WBbt:0004017 : Cell; WBbt:0005766 : Anatomy
+CL:0000000 : cell; GO:0005575 : cellular_component; NCBITaxon:1 : ; PO:0025131 : plant anatomical entity; UBERON:0001062 : anatomical entity; WBbt:0004017 : Cell; WBbt:0005766 : Anatomy
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
 
 
 

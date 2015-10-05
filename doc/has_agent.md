@@ -34,6 +34,10 @@ CL:0000000 : cell; GO:0005575 : cellular_component; PO:0025131 : plant anatomica
 
 
 
+
+
+
+
 Annotation Extension Usage Examples
 -----------------------------------
 

@@ -26,9 +26,13 @@ This relation has two uses in annotation extension.  It may be used to relate a 
 BFO:0000001 : entity
 
 ## local range
-CL:0000000 : cell; GO:0005575 : cellular_component; GO:0008150 : biological_process; PO:0009012 : plant structure development stage; PO:0025131 : plant anatomical entity; UBERON:0001062 : anatomical entity; WBbt:0004017 : Cell; WBbt:0005766 : Anatomy; WBls:0000075 : Nematoda Life Stage; ZFS:0100000 : ZFS:0100000
+CL:0000000 : cell; GO:0005575 : cellular_component; GO:0008150 : biological_process; NCBITaxon:1 : ; PO:0009012 : plant structure development stage; PO:0025131 : plant anatomical entity; UBERON:0001062 : anatomical entity; WBbt:0004017 : Cell; WBbt:0005766 : Anatomy; WBls:0000075 : Nematoda Life Stage; ZFS:0100000 : ZFS:0100000
 
 ---------------END AUTO GENERATED SECTION---------------
+
+
+
+
 
 
 

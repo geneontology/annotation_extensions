@@ -47,6 +47,10 @@ GO:0043234 : protein complex; PO:0025131 : plant anatomical entity; PR:000000001
 
 
 
+
+
+
+
 Annotation Extension Usage Example
 ----------------------------------
 

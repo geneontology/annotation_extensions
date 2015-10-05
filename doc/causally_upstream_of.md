@@ -4,6 +4,7 @@ Back to [index of relations docs](https://github.com/geneontology/annotation_ext
 
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
+..
 
 ---------------END AUTO GENERATED SECTION---------------
 
