@@ -1,27 +1,9 @@
-Back to [Annotation usage examples for each annotation extension relation]
+Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
-Definition
-----------
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+---------------Text extracted from ontology: DO NOT EDIT---------------
 
-Process A is causally\_upstream of process B if process A occurs first, and process A causes process B to happen. Processes A and B do not overlap.
 
-Child terms
------------
-
--   None
-
-Scope of use
-------------
-
-### Domain
-
-BFO:0000007 ! process (Biological Process or Molecular Function)
-
-### Range
-
-<GO:0008150> ! <GO:Biological> Process
-
-<GO:0003674> ! <GO:Molecular> Function
 
 Annotation Extension Usage Examples
 -----------------------------------
@@ -46,6 +28,10 @@ Summary of paper, [<PMID:24553947>]:
 
 Expressed in LEGO: <http://go-genkisugi.rhclou>
 
-  [Annotation usage examples for each annotation extension relation]: http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation
+
+Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
+
+[QuickGO graph](http://www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+
   [<PMID:11875061>]: http://www.ncbi.nlm.nih.gov/pubmed/11875061
   [<PMID:24553947>]: http://www.ncbi.nlm.nih.gov/pubmed/24553947
