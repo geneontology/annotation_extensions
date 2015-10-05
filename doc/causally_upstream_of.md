@@ -4,6 +4,29 @@ Back to [index of relations docs](https://github.com/geneontology/annotation_ext
 
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
+## causally_upstream_of
+* OWL ID: RO_0002411
+* label: causally upstream of
+* synonyms
+[]
+
+### Definition
+p is causally upstream of q if and only if p precedes q and p and q are linked in a causal chain
+
+### Usage
+Process A is causally_upstream of process B if process A occurs first, and process A causes process B to happen. Processes A and B do not overlap.
+
+### Comment
+
+
+### Subsets
+[AE_molecular_function, AE_biological_process, display_for_curators]
+
+##local domain
+BFO:0000015 : process
+
+## local range
+GO:0003674 : molecular_function; GO:0008150 : biological_process
 
 ---------------END AUTO GENERATED SECTION---------------
 
