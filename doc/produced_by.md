@@ -37,7 +37,7 @@ Annotation Extension Usage Examples
 
 | Gene Name (col 2) | GO ID (col 5)                           | Reference (col 6) | Evidence (col 7) | With (col 8) | Annotation Extension (col 16)              |
 |-------------------|-----------------------------------------|-------------------|------------------|--------------|--------------------------------------------|
-| URS000015930E\_10116            | <GO:0070062> extracellular exosome |                   | ECO:0000314      |              | produced\_by(CL:0002548) cardiac fibroblast |
+| URS000015930E\_10116            | <GO:0070062> extracellular exosome |     PMID:24743145              | ECO:0000314      |              | produced\_by(CL:0002548) cardiac fibroblast |
 
 
 
@@ -46,8 +46,8 @@ Using examples to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology
 
 | Folded/unfolded | DB (Col 2) | Object (Col 3) | GO ID (Col 5)                           | Reference (Col 6) | Extension (Col 16) | Parent terms for new folded GO term                        |
 |-----------------|------------|----------------|-----------------------------------------|-------------------|--------------------|------------------------------------------------------------|
-| Unfolded        |            | URS000015930E\_10116         | <GO:0070062> extracellular exosome |                   |                    | produced\_by(CL:0002548) cardiac fibroblast                 |
-| Folded          |            | URS000015930E\_10116         | New GO term: extracellular exosome of cardiac fibroblast                                     |                   |                    | is\_a <GO:0070062> extracellular exosome |
+| Unfolded        |     RNAcentral       | URS000015930E\_10116         | <GO:0070062> extracellular exosome |       PMID:24743145            |        produced\_by(CL:0002548) cardiac fibroblast             |                 |
+| Folded          |      RNAcentral      | URS000015930E\_10116         | New GO term: extracellular exosome of cardiac fibroblast                                     |         PMID:24743145          |                    | is\_a <GO:0070062> extracellular exosome |
 ||
 
 **OWL class expression:**
