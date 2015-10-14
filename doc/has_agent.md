@@ -59,7 +59,7 @@ Using examples to demonstrate [Folding\_and\_Unfolding](http://wiki.geneontology
 
 | Folded/unfolded | DB (Col 2) | Object (Col 3) | GO ID (Col 5)                           | Reference (Col 6) | Extension (Col 16) | Parent terms for new folded GO term                        |
 |-----------------|------------|----------------|-----------------------------------------|-------------------|--------------------|------------------------------------------------------------|
-| Unfolded        |            | A2A7Q8         | <GO:0072643> interferon-gamma secretion |                   |                    | has\_agent(CL:0000623 natural killer cell)                 |
+| Unfolded        |            | A2A7Q8         | <GO:0072643> interferon-gamma secretion |                   |    has\_agent(CL:0000623 natural killer cell)                |                  |
 | Folded          |            | A2A7Q8         | New GO term: interferon-gamma secretion via natural killer cell                                      |                   |                    | is\_a <GO:0002370> natural killer cell cytokine production |
 ||
 
