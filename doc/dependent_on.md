@@ -65,7 +65,7 @@ Statement from paper:
 
 *To test whether RIP3 and RIP4 have to be ubiquitinated by cIAP1/2 in order to mediate NF-kB activation, we compared RIP-mediated NF-kB luciferase reporter activity when ectopically expressed in HEK293T cells in the presence or absence of the IAP inhibitor BV6, a treatment that induces rapid auto-ubiquitination and degradation of endogenous cIAP1/2[41]. As shown in Figure 4A, BV6 treatment greatly impaired TNF and RIP1 RIP4-induced NF-kB activation but had no impact on TAK1-mediated NF-kB induction (Figure 4A). Those results, which indicate that cIAP1/2 act upstream of TAK1, are consistent with a role for cIAP1/2 as E3 ligases regulating RIP14-mediated activation of NF-kB.*
 
-Expressed in LEGO: <http://go-genkisugi.rhcloud.com/seed/model/gomodel:taxon_9606-5408ded30000003>
+Expressed in LEGO: <http://model.geneontology.org/5408ded300000003>
 
 | Gene Name (col 2)                            | GO ID (col 5)                                                                                                | Reference (col 6) | Evidence (col 7) | Annotation Extension (col 16)                                         |
 |----------------------------------------------|--------------------------------------------------------------------------------------------------------------|-------------------|------------------|-----------------------------------------------------------------------|
@@ -77,7 +77,7 @@ Statement from paper:
 
 *As the mutant 79H/A expression level in 79H/A-transfected cells was lower than that of clone A106 that exhibited lipid droplet formation, we could not conclude if the reduction in enzyme activity affected the ability of ACTEIII/PTE-1 to induce lipid droplet formation. However, as the expression levels of the mutant 79H/A in these cell lines were much higher than those in clone A26, it became clear that the enzymatic activity of ACTEIII/PTE-1 was indispensable for peroxisome proliferation.*
 
-Expressed in LEGO: <http://go-genkisugi.rhcloud.com/seed/model/gomodel:taxon_9606-5437882f0000021>
+Expressed in LEGO: <http://model.geneontology.org/5437882f00000021>
 
 | Gene Name (col 2)                             | GO ID (col 5)                                                    | Reference (col 6) | Evidence (col 7) | Annotation Extension (col 16)                                                          |
 |-----------------------------------------------|------------------------------------------------------------------|-------------------|------------------|----------------------------------------------------------------------------------------|

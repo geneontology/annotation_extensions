@@ -65,7 +65,7 @@ Statements from paper:
 
 *Indeed, LGG-1 was massively upregulated in atf-2(tm467) mutant embryos, as compared with the wild type (Fig. 6A). We observed a similar extent of BEC-1 upregulation in the atf-2-deficient background (data not shown).*
 
-Expressed in LEGO: <http://go-genkisugi.rhcloud.com/seed/model/gomodel:taxon_6239-548253760000031>
+Expressed in LEGO: <http://model.geneontology.org/5482537600000031>
 
 | Gene Name (col 2)           | GO ID (col 5)                                                                                                      | Reference (col 6) | Evidence (col 7) | Annotation Extension (col 16)                                                                                                                                             |
 |-----------------------------|--------------------------------------------------------------------------------------------------------------------|-------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
