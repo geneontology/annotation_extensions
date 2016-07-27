@@ -20,15 +20,16 @@ Relates a regulatory process or function to the gene whose transcription it regu
 
 
 ### Subsets
-[AE_sequence_feature, display_for_curators]
+[valid_for_annotation_extension, AE_sequence_feature, display_for_curators]
 
 ##local domain
-BFO:0000015 : process
+{u'BFO:0000015': u'process'}
 
 ## local range
-SO:0000704 : gene
+{u'SO:0000704': u'gene'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

@@ -19,15 +19,16 @@ A relation that holds between two linear structures that are approximately paral
 Example: if we define region of chromosome as any subdivision of a chromosome along its long axis, then we can define a region of chromosome that contains only gene x as 'chromosome region' that coincident_with some 'gene x', where the term gene X corresponds to a genomic sequence.
 
 ### Subsets
-[ro-eco, AE_cellular_component, display_for_curators]
+[valid_for_annotation_extension, ro-eco, AE_cellular_component, display_for_curators]
 
 ##local domain
-GO:0005575 : cellular_component
+{u'GO:0005575': u'cellular_component'}
 
 ## local range
-CHEBI:24431 : chemical entity; SO:0000001 : region
+{u'CHEBI:24431': u'chemical entity', u'SO:0000001': u'region', u'SO:0000704': u'gene'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

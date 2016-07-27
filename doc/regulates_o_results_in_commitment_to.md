@@ -19,15 +19,16 @@ This is the combination of the regulates relation with the results_in_commitment
 
 
 ### Subsets
-[AE_cell_or_anatomical, display_for_curators]
+[valid_for_annotation_extension, AE_cell_or_anatomical, display_for_curators]
 
 ##local domain
-BFO:0000015 : process
+{u'BFO:0000015': u'process'}
 
 ## local range
-CL:0000000 : cell; WBbt:0004017 : Cell
+{u'CL:0000000': u'cell', u'WBbt:0004017': u'Cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

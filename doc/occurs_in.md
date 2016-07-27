@@ -20,15 +20,16 @@ Identifies the cell, tissue, cellular component or anatomical entity within whic
 Paraphrase of definition: a relation between a process and an independent continuant, in which the process takes place entirely within the independent continuant
 
 ### Subsets
-[AE_cell_or_anatomical, AE_cellular_component, display_for_curators]
+[valid_for_annotation_extension, AE_cell_or_anatomical, AE_cellular_component, display_for_curators]
 
 ##local domain
-BFO:0000015 : process
+{u'BFO:0000015': u'process'}
 
 ## local range
-CL:0000000 : cell; GO:0005575 : cellular_component; NCBITaxon:1 : ; PO:0025131 : plant anatomical entity; UBERON:0001062 : anatomical entity; WBbt:0004017 : Cell; WBbt:0005766 : Anatomy
+{u'CL:0000000': u'cell', u'NCBITaxon:1': u'', u'GO:0005575': u'cellular_component', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

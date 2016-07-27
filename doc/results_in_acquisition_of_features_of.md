@@ -20,15 +20,16 @@ Use this relation to link a process to the cell or anatomical structure that the
 Example of use: an annotation of gene X to cell differentiation with results_in_acquisition_of_features_of CL:0000057 (fibroblast) means that at the end of the process the input cell that did not have features of a fibroblast, now has the features of a fibroblast.
 
 ### Subsets
-[AE_cell_or_anatomical, display_for_curators]
+[valid_for_annotation_extension, AE_cell_or_anatomical, display_for_curators]
 
 ##local domain
-BFO:0000015 : process
+{u'BFO:0000015': u'process'}
 
 ## local range
-CL:0000000 : cell; GO:0005575 : cellular_component; PO:0009012 : plant structure development stage; PO:0025131 : plant anatomical entity; UBERON:0001062 : anatomical entity; WBbt:0004017 : Cell; WBbt:0005766 : Anatomy
+{u'CL:0000000': u'cell', u'PO:0009012': u'plant structure development stage', u'GO:0005575': u'cellular_component', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

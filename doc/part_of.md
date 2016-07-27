@@ -20,15 +20,16 @@ This relation has two uses in annotation extension.  It may be used to relate a 
 
 
 ### Subsets
-[AE_biological_process, AE_cell_or_anatomical, AE_developmental_stages, AE_cellular_component, display_for_curators]
+[AE_biological_process, valid_for_annotation_extension, AE_cell_or_anatomical, AE_developmental_stages, AE_cellular_component, display_for_curators]
 
 ##local domain
-BFO:0000001 : entity
+{u'BFO:0000001': u'entity'}
 
 ## local range
-CL:0000000 : cell; GO:0005575 : cellular_component; GO:0008150 : biological_process; NCBITaxon:1 : ; PO:0009012 : plant structure development stage; PO:0025131 : plant anatomical entity; UBERON:0001062 : anatomical entity; WBbt:0004017 : Cell; WBbt:0005766 : Anatomy; WBls:0000075 : Nematoda Life Stage; ZFS:0100000 : ZFS:0100000
+{u'GO:0008150': u'biological_process', u'CL:0000000': u'cell', u'PO:0009012': u'plant structure development stage', u'WBls:0000075': u'Nematoda Life Stage', u'NCBITaxon:1': u'', u'GO:0005575': u'cellular_component', u'UBERON:0001062': u'anatomical entity', u'ZFS:0100000': u'ZFS:0100000', u'PO:0025131': u'plant anatomical entity', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

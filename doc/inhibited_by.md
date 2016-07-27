@@ -19,15 +19,16 @@ Identifies a chemical substance that decreases the activity of the gene product.
 This relation should not be used to annotate one gene product regulating another's activity; a regulator MF or regulation BP should be used in such cases.
 
 ### Subsets
-[AE_chemical, display_for_curators]
+[valid_for_annotation_extension, AE_chemical, display_for_curators]
 
 ##local domain
-GO:0003674 : molecular_function
+{u'GO:0003674': u'molecular_function'}
 
 ## local range
-CHEBI:24431 : chemical entity
+{u'CHEBI:24431': u'chemical entity'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

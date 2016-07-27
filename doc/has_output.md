@@ -19,15 +19,16 @@ Identifies an entity that is changed or created after participation in a molecul
 Previous definition "p has_output c if c participates_in p at  the end of p and c is in some way changed by p or created by p." []
 
 ### Subsets
-[AE_sequence_or_complex, ro-eco, AE_chemical, display_for_curators]
+[valid_for_annotation_extension, AE_sequence_or_complex, ro-eco, AE_chemical, display_for_curators]
 
 ##local domain
-BFO:0000015 : process
+{u'BFO:0000015': u'process'}
 
 ## local range
-CHEBI:24431 : chemical entity; CHEBI:33697 : ribonucleic acid; GO:0032991 : macromolecular complex; MI:0315 : protein complex; PR:000000001 : protein; SO:0000673 : transcript; SO:0000704 : gene
+{u'CHEBI:24431': u'chemical entity', u'CHEBI:33697': u'ribonucleic acid', u'SO:0000673': u'transcript', u'GO:0032991': u'macromolecular complex', u'MI:0315': u'protein complex', u'PR:000000001': u'protein', u'SO:0000704': u'gene'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

@@ -20,15 +20,16 @@ The relationship linking a cell and its participation in a process that results 
 Example of use: an annotation of gene X to cell determination with results_in_determination_of CL:0000540 (neuron) means that at the end of the process an unspecified cell will develop into a neuron if left in its environment. If the cell is moved, it may develop into a cell type other than a neuron.
 
 ### Subsets
-[AE_cell_or_anatomical, display_for_curators]
+[valid_for_annotation_extension, AE_cell_or_anatomical, display_for_curators]
 
 ##local domain
-GO:0008150 : biological_process
+{u'GO:0008150': u'biological_process'}
 
 ## local range
-CL:0000000 : cell; WBbt:0004017 : Cell
+{u'CL:0000000': u'cell', u'WBbt:0004017': u'Cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

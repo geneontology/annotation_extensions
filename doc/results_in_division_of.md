@@ -20,15 +20,16 @@ The relationship linking a entity and its participation in a process that result
 Example of use: an annotation of gene X to cell division with results_in_division_of CL:0000057 (fibroblast) means that at the end of the process a single fibroblast has divided into two fibroblasts.
 
 ### Subsets
-[AE_cell_or_anatomical, display_for_curators]
+[valid_for_annotation_extension, AE_cell_or_anatomical, display_for_curators]
 
 ##local domain
-BFO:0000015 : process
+{u'BFO:0000015': u'process'}
 
 ## local range
-CL:0000000 : cell; WBbt:0004017 : Cell
+{u'CL:0000000': u'cell', u'WBbt:0004017': u'Cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

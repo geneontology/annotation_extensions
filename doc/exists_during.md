@@ -20,15 +20,16 @@ Identifies a process or life stage during which a cellular component is present
 Previous definition "c exists_during p if and only if the temporal extent bounded by the start and end of c is part_of the temporal extent of p." [BFO:cjm]
 
 ### Subsets
-[AE_biological_process, AE_developmental_stages, display_for_curators]
+[AE_biological_process, valid_for_annotation_extension, AE_developmental_stages, display_for_curators]
 
 ##local domain
-BFO:0000004 : independent continuant
+{u'BFO:0000004': u'independent continuant'}
 
 ## local range
-GO:0008150 : biological_process; WBls:0000075 : Nematoda Life Stage; ZFS:0100000 : ZFS:0100000
+{u'GO:0008150': u'biological_process', u'WBls:0000075': u'Nematoda Life Stage', u'ZFS:0100000': u'ZFS:0100000'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

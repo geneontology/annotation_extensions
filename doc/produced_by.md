@@ -11,24 +11,25 @@ Back to [index of relations docs](https://github.com/geneontology/annotation_ext
 []
 
 ### Definition
-
+a produced_by b iff some process that occurs_in b has_output a.
 
 ### Usage
-Use this relation to link an extracellular cellular_component that is a product of a cell, to a cell that produced it. Examples include exosomes, LDLs, secreted ECM components.
+Use this relation to link a product of a cell, to a cell that produced it. Examples include exosomes, LDLs, secreted ECM components.
 
 ### Comment
 
 
 ### Subsets
-[ro-eco, AE_cellular_component, display_for_curators]
+[valid_for_annotation_extension, ro-eco, AE_cell_or_anatomical, display_for_curators]
 
 ##local domain
-CL:0000000 : cell
+{u'GO:0005575': u'cellular_component'}
 
 ## local range
-GO:0005575 : cellular_component
+{u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 Annotation Extension Usage Examples
 -----------------------------------

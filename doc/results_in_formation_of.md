@@ -20,15 +20,16 @@ The relationship linking a entity and its participation in a process whereby at 
 Example of use: an annotation of gene X to anatomical structure formation with results_in_formation_of UBERON:0000007 (pituitary gland) means that at the beginning of the process a pituitary gland does not exist and at the end of the process a pituitary gland exists.
 
 ### Subsets
-[AE_cell_or_anatomical, display_for_curators]
+[valid_for_annotation_extension, AE_cell_or_anatomical, display_for_curators]
 
 ##local domain
-
+{u'GO:0008150': u'biological_process'}
 
 ## local range
-GO:0008150 : biological_process
+{u'CL:0000000': u'cell', u'GO:0005575': u'cellular_component', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

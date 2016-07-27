@@ -20,15 +20,16 @@ Identifies a process or life stage during which a molecular function or biologic
 Previous definition "p happens_during q if and only if the temporal extent of p is part_of the temporal extent of q." Note that part_of between processes implies happens_during (we must use OWL to express this), but happens_during does not imply part_of. Note also that this relation holds between two processes. To link a physical entity to a process by duration, use exists_during. [BFO:cjm] Note that in order to express that part_of between processes implies during, we must use OWL.
 
 ### Subsets
-[AE_biological_process, ro-eco, AE_developmental_stages, display_for_curators]
+[AE_biological_process, valid_for_annotation_extension, ro-eco, AE_developmental_stages, display_for_curators]
 
 ##local domain
-BFO:0000015 : process
+{u'BFO:0000015': u'process'}
 
 ## local range
-GO:0008150 : biological_process; WBls:0000075 : Nematoda Life Stage; ZFS:0100000 : ZFS:0100000
+{u'GO:0008150': u'biological_process', u'WBls:0000075': u'Nematoda Life Stage', u'ZFS:0100000': u'ZFS:0100000'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

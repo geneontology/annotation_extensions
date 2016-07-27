@@ -7,27 +7,28 @@ Back to [index of relations docs](https://github.com/geneontology/annotation_ext
 * OWL ID: GOREL_0001010
 * label: regulates acquisition of features of
 * synonyms
-[u'regulates_o_results_in_acquisition_of_features_of']
+[u'regulates differentiation of', u'regulates_o_results_in_acquisition_of_features_of']
 
 ### Definition
 This is the combination of the regulates relation with the results_in_acquisition_of_features_of relation.
 
 ### Usage
-Use this relation to relate 'regulation of cell differentiation' or one of its subclasses to the cell type whose differentiation is regulated.
+Use this relation to relate a process that regulates the differentiation of a cell type or anatomical structure to the specific cell type or anatomical structure in question.
 
 ### Comment
 
 
 ### Subsets
-[display_for_curators]
+[valid_for_annotation_extension, AE_cell_or_anatomical, display_for_curators]
 
 ##local domain
-BFO:0000015 : process
+{u'GO:0048869': ''}
 
 ## local range
-CL:0000000 : cell; GO:0005575 : cellular_component; PO:0009012 : plant structure development stage; PO:0025131 : plant anatomical entity; UBERON:0001062 : anatomical entity; WBbt:0004017 : Cell; WBbt:0005766 : Anatomy
+{u'CL:0000000': u'cell', u'PO:0009012': u'plant structure development stage', u'GO:0005575': u'cellular_component', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

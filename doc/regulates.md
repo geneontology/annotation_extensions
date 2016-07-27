@@ -1,60 +1,34 @@
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
 
 [QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)
+
 ---------------Text extracted from ontology: DO NOT EDIT---------------
 
-## regulates_o_has_input
-* OWL ID: GOREL_0001030
-* label: regulates_o_has_input
+## regulates
+* OWL ID: RO_0002211
+* label: regulates
 * synonyms
 []
 
 ### Definition
-This is the combination of the regulates relation with the has_input relation
+x regulates y if and only if the x is the realization of a function to exert an effect on the frequency, rate or extent of y
 
 ### Usage
-This is the combination of the regulates relation with the has_input relation
+
 
 ### Comment
 
 
 ### Subsets
-[valid_for_annotation_extension, display_for_curators]
+[AE_molecular_function, AE_biological_process, valid_for_annotation_extension, display_for_curators]
 
 ##local domain
-{}
+{u'BFO:0000015': u'process'}
 
 ## local range
-{}
+{u'BFO:0000015': u'process'}
 
 ---------------END AUTO GENERATED SECTION---------------
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Annotation Extension Usage Example
-----------------------------------
-
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)
-
-[QuickGO graph](www.ebi.ac.uk/QuickGO/AnnotationExtensionRelations.html)

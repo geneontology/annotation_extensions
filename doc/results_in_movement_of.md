@@ -20,15 +20,16 @@ Use this relation to link a locomotion process to the type of cell or anatomical
 For movement of chemicals or cell parts, please use transports_or_maintains_localization_of
 
 ### Subsets
-[AE_cell_or_anatomical, display_for_curators]
+[valid_for_annotation_extension, AE_cell_or_anatomical, display_for_curators]
 
 ##local domain
-GO:0008150 : biological_process
+{u'GO:0008150': u'biological_process'}
 
 ## local range
-CL:0000000 : cell; WBbt:0004017 : Cell
+{u'CL:0000000': u'cell', u'WBbt:0004017': u'Cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

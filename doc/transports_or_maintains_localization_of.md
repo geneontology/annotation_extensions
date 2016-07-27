@@ -19,15 +19,16 @@ Use to relate a process or molecular function to a substance that is transported
 
 
 ### Subsets
-[AE_chemical, AE_cellular_component, display_for_curators]
+[valid_for_annotation_extension, AE_chemical, AE_cellular_component, display_for_curators]
 
 ##local domain
-BFO:0000015 : process
+{u'BFO:0000015': u'process'}
 
 ## local range
-CHEBI:24431 : chemical entity; GO:0005575 : cellular_component; PR:000000001 : protein
+{u'CHEBI:24431': u'chemical entity', u'CHEBI:33697': u'ribonucleic acid', u'GO:0005575': u'cellular_component', u'SO:0000673': u'transcript', u'PR:000000001': u'protein'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 
