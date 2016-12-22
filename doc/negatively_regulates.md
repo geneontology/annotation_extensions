@@ -31,4 +31,5 @@ x negatively regulates y if and only if the progression of x reduces the frequen
 ---------------END AUTO GENERATED SECTION---------------
 
 
+
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)

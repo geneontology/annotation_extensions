@@ -14,7 +14,7 @@ Back to [index of relations docs](https://github.com/geneontology/annotation_ext
 x 'has starts location' y if and only if there exists some process z such that x 'starts with' z and z 'occurs in' y
 
 ### Usage
-Use this relation to relate a biological process to its start location.  Note, if the entire process occurs in a particular location, use 'occurs in' instead.
+Use this relation to relate a biological process to its start location.   Examples include recording the cell-type in which a cell-cell signaling process starts and recording a cellular compartment (such as post-synapse, presynapse or cilium) in which a signal transduction process starts.  Note, if the entire process occurs in a particular location, use 'occurs in' instead.
 
 ### Comment
 
@@ -29,6 +29,7 @@ Use this relation to relate a biological process to its start location.  Note, i
 {u'CL:0000000': u'cell', u'NCBITaxon:1': u'', u'GO:0005575': u'cellular_component', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)

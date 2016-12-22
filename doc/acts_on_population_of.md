@@ -14,7 +14,7 @@ Back to [index of relations docs](https://github.com/geneontology/annotation_ext
 The relationship that links an entity with a process in which the process has more than one participant that is of the same entity type.
 
 ### Usage
-The relationship that links an entity with a process in which the process has more than one participant that is of the same entity type.
+Use this relation to relate a process to a population of cells that it acts on.  The main usage of this relations is to relate GO: cell proliferation to the proliferating cells type. (Individual cells divide, populations of cells proliferate.)
 
 ### Comment
 Example of use: an annotation of gene X to cell proliferation with acts_on_population_of CL:0000057 means that gene X is involved in the proliferation of fibroblasts.
@@ -23,12 +23,13 @@ Example of use: an annotation of gene X to cell proliferation with acts_on_popul
 [valid_for_annotation_extension, AE_cell_or_anatomical, display_for_curators]
 
 ##local domain
-{u'BFO:0000015': u'process'}
+{u'GO:0008283': ''}
 
 ## local range
-{u'CL:0000000': u'cell', u'GO:0005575': u'cellular_component', u'WBbt:0004017': u'Cell'}
+{u'CL:0000000': u'cell', u'WBbt:0004017': u'Cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

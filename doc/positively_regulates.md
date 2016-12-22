@@ -31,4 +31,5 @@ x positively regulates y if and only if the progression of x increases the frequ
 ---------------END AUTO GENERATED SECTION---------------
 
 
+
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)

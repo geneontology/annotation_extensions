@@ -52,4 +52,5 @@ This is the combination of the regulates relation with the results_in_movement_o
 
 
 
+
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)

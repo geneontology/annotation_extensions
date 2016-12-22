@@ -31,4 +31,5 @@ x regulates y if and only if the x is the realization of a function to exert an 
 ---------------END AUTO GENERATED SECTION---------------
 
 
+
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)

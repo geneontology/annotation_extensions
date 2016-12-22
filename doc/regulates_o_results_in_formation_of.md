@@ -22,12 +22,13 @@ This is the combination of the regulates relation with the results_in_formation_
 [valid_for_annotation_extension, display_for_curators]
 
 ##local domain
-{u'BFO:0000015': u'process'}
+{u'GO:0008150': u'biological_process'}
 
 ## local range
 {u'CL:0000000': u'cell', u'GO:0005575': u'cellular_component', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

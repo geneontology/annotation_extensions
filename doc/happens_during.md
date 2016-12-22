@@ -14,7 +14,7 @@ Back to [index of relations docs](https://github.com/geneontology/annotation_ext
 
 
 ### Usage
-Identifies a process or life stage during which a molecular function or biological process occurs.  This is weaker than parthood.  So, for example, some various processes occur during gastrulation without being part of that process.
+Identifies a process or life stage during which a molecular function or biological process occurs. This is weaker than parthood. So, for example, various processes occur during gastrulation without being part of it.
 
 ### Comment
 Previous definition "p happens_during q if and only if the temporal extent of p is part_of the temporal extent of q." Note that part_of between processes implies happens_during (we must use OWL to express this), but happens_during does not imply part_of. Note also that this relation holds between two processes. To link a physical entity to a process by duration, use exists_during. [BFO:cjm] Note that in order to express that part_of between processes implies during, we must use OWL.
@@ -26,9 +26,10 @@ Previous definition "p happens_during q if and only if the temporal extent of p 
 {u'BFO:0000015': u'process'}
 
 ## local range
-{u'GO:0008150': u'biological_process', u'WBls:0000075': u'Nematoda Life Stage', u'ZFS:0100000': u'ZFS:0100000'}
+{u'GO:0008150': u'biological_process', u'WBls:0000075': u'Nematoda Life Stage', u'ZFS:0100000': u'ZFS:0100000', u'UBERON:0000105': ''}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

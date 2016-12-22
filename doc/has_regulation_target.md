@@ -13,7 +13,7 @@ Back to [index of relations docs](https://github.com/geneontology/annotation_ext
 
 
 ### Usage
-Use this relationship to link a regulatory process or function to an entity that (such as a gene, gene product, or complex) participates in the regulated process.
+Use this relationship to link a regulatory process or function to an entity that (such as a gene, gene product, or complex) participates in the regulated process.  This is a very general relation.  Use something more specific wherever possible, e.g. 'regulates expression of' or 'regulates transport of'.
 
 ### Comment
 probably want to add one or two new subtypes that capture something about directness
@@ -28,6 +28,7 @@ probably want to add one or two new subtypes that capture something about direct
 {u'CHEBI:33697': u'ribonucleic acid', u'SO:0000673': u'transcript', u'GO:0032991': u'macromolecular complex', u'MI:0315': u'protein complex', u'PR:000000001': u'protein', u'SO:0000704': u'gene'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

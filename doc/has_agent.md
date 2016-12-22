@@ -13,7 +13,7 @@ Back to [index of relations docs](https://github.com/geneontology/annotation_ext
 x has participant y if and only if x realizes some active role that inheres in y
 
 ### Usage
-The relationship that links an entity with a Molecular Function or Biological Process in which the entity participates in the Function or Process by serving as the continuant that is responsible for the execution of the Function or Process
+Use this relation to link a process to an entity that carries out that process. The entity may be a cellular component, a cell type or an anatomical structure. Examples include recording a vesicle type that mediates a transport process, a cell type that is the agent of a secretion process or a cell adhesion process.  Do not use this to extend a molecular function: The agents of molecular functions are gene products and complexes.  Use of this relation with a molecular function therefore consistutes reverse annotation.
 
 ### Comment
 Example of use: an annotation of gene X to cytokine production with has_agent of CL:0000057 (fibroblast) means that the fibroblast is producing the cytokine.
@@ -22,12 +22,13 @@ Example of use: an annotation of gene X to cytokine production with has_agent of
 [valid_for_annotation_extension, ro-eco, AE_cell_or_anatomical, AE_cellular_component, display_for_curators]
 
 ##local domain
-{u'BFO:0000015': u'process'}
+{u'GO:0008150': u'biological_process'}
 
 ## local range
 {u'CL:0000000': u'cell', u'GO:0005575': u'cellular_component', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

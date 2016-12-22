@@ -31,4 +31,5 @@ Use to relate a transport or localization process to the end location of the tra
 ---------------END AUTO GENERATED SECTION---------------
 
 
+
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)

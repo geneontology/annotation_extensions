@@ -31,4 +31,5 @@ p 'directly regulates' q if and only if p and q are processes, and p regulates q
 ---------------END AUTO GENERATED SECTION---------------
 
 
+
 Back to [index of relations docs](https://github.com/geneontology/annotation_extensions/tree/master/doc)

@@ -22,12 +22,13 @@ This is the combination of the regulates relation with the results_in_division_o
 [valid_for_annotation_extension, display_for_curators]
 
 ##local domain
-{u'BFO:0000015': u'process'}
+{u'GO:0008150': u'biological_process'}
 
 ## local range
 {u'CL:0000000': u'cell', u'WBbt:0004017': u'Cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

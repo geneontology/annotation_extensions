@@ -22,12 +22,13 @@ Use this relation to relate a process that regulates the differentiation of a ce
 [valid_for_annotation_extension, AE_cell_or_anatomical, display_for_curators]
 
 ##local domain
-{u'GO:0048869': ''}
+{u'GO:0008150': u'biological_process'}
 
 ## local range
-{u'CL:0000000': u'cell', u'PO:0009012': u'plant structure development stage', u'GO:0005575': u'cellular_component', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy'}
+{u'CL:0000000': u'cell', u'PO:0009002': '', u'1': '', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

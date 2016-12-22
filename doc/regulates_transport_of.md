@@ -13,7 +13,7 @@ Back to [index of relations docs](https://github.com/geneontology/annotation_ext
 A relationship that holds between a  process that regulates a transport process and the entity transported by that process.
 
 ### Usage
-
+Use this relation to link a process that regulates transport to the the entity being transported.
 
 ### Comment
 
@@ -28,6 +28,7 @@ A relationship that holds between a  process that regulates a transport process 
 {u'CHEBI:24431': u'chemical entity', u'CHEBI:33697': u'ribonucleic acid', u'GO:0005575': u'cellular_component', u'SO:0000673': u'transcript', u'PR:000000001': u'protein'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 

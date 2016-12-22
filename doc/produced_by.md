@@ -14,7 +14,7 @@ Back to [index of relations docs](https://github.com/geneontology/annotation_ext
 a produced_by b iff some process that occurs_in b has_output a.
 
 ### Usage
-Use this relation to link a product of a cell, to a cell that produced it. Examples include exosomes, LDLs, secreted ECM components.
+Use this relation to link a cell component that is the product of a cell, to the cell-type that produced it. Examples include recording the cell type that produces an exosome, an LDL, or a secreted ECM component.
 
 ### Comment
 
@@ -29,6 +29,7 @@ Use this relation to link a product of a cell, to a cell that produced it. Examp
 {u'CL:0000000': u'cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 Annotation Extension Usage Examples

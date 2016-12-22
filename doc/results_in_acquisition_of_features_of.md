@@ -8,13 +8,13 @@ Back to [index of relations docs](https://github.com/geneontology/annotation_ext
 * OWL ID: RO_0002315
 * label: results in acquisition of features of
 * synonyms
-[]
+[u'results in differentiation of']
 
 ### Definition
 The relationship that links a specified entity with the process that results in an unspecified entity acquiring the features and characteristics of the specified entity
 
 ### Usage
-Use this relation to link a process to the cell or anatomical structure that the process results in the differentiation of.
+Use this relation to link a cell differentiation process to the cell type that the process results in the differentiation of.
 
 ### Comment
 Example of use: an annotation of gene X to cell differentiation with results_in_acquisition_of_features_of CL:0000057 (fibroblast) means that at the end of the process the input cell that did not have features of a fibroblast, now has the features of a fibroblast.
@@ -23,12 +23,13 @@ Example of use: an annotation of gene X to cell differentiation with results_in_
 [valid_for_annotation_extension, AE_cell_or_anatomical, display_for_curators]
 
 ##local domain
-{u'BFO:0000015': u'process'}
+{u'GO:0030154': ''}
 
 ## local range
-{u'CL:0000000': u'cell', u'PO:0009012': u'plant structure development stage', u'GO:0005575': u'cellular_component', u'UBERON:0001062': u'anatomical entity', u'PO:0025131': u'plant anatomical entity', u'WBbt:0004017': u'Cell', u'WBbt:0005766': u'Anatomy'}
+{u'CL:0000000': u'cell', u'PO:0009002': '', u'WBbt:0004017': u'Cell'}
 
 ---------------END AUTO GENERATED SECTION---------------
+
 
 
 
